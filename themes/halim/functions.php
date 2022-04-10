@@ -55,3 +55,30 @@ function halim_setup() {
 
 }
 add_action( 'after_setup_theme', 'halim_setup' );
+
+/**
+ * Load halim Style and javascript
+ */
+function halim_scripts() {
+	//Load css
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'magnific-popup', get_template_directory_uri() . '/assets/css/magnific-popup.css', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/assets/css/owl.carousel.css', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/style.css', array(), THEME_VERSION, 'all' );
+	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/assets/css/responsive.css', array(), THEME_VERSION, 'all' );
+
+	//Load js
+	wp_enqueue_script( 'popper', get_template_directory_uri() . '/assets/js/popper.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'bootstarp', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'one-page-nav', get_template_directory_uri() . '/assets/js/one-page-nav.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'isotop', get_template_directory_uri() . '/assets/js/isotope.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/imageloaded.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/jquery.counterup.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/waypoint.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), THEME_VERSION, 'true' );
+}
+add_action( 'wp_enqueue_scripts', 'halim_scripts' );
