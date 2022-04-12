@@ -77,8 +77,8 @@ function halim_scripts() {
 	wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array('jquery'), THEME_VERSION, 'true' );
 	wp_enqueue_script( 'isotop', get_template_directory_uri() . '/assets/js/isotope.min.js', array('jquery'), THEME_VERSION, 'true' );
 	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/imageloaded.min.js', array('jquery'), THEME_VERSION, 'true' );
-	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/jquery.counterup.min.js', array('jquery'), THEME_VERSION, 'true' );
-	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/waypoint.min.js', array('jquery'), THEME_VERSION, 'true' );
-	wp_enqueue_script( 'imageloaded', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'jquery-counter', get_template_directory_uri() . '/assets/js/jquery.counterup.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'waypoint', get_template_directory_uri() . '/assets/js/waypoint.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), THEME_VERSION, 'true' );
 }
 add_action( 'wp_enqueue_scripts', 'halim_scripts' );

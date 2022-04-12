@@ -201,6 +201,7 @@ final class Plugin {
 
 		add_action( 'elementor/widgets/register', [ $this, 'register_widgets' ] );
 		add_action( 'elementor/controls/register', [ $this, 'register_controls' ] );
+		add_action( 'elementor/elements/categories_registered', [$this, 'add_elementor_widget_categories'] );
 
 	}
 
@@ -215,11 +216,11 @@ final class Plugin {
 	 */
 	public function register_widgets( $widgets_manager ) {
 
-		require_once( __DIR__ . '/inc/widgets/widget-1.php' );
-		require_once( __DIR__ . '/inc/widgets/widget-2.php' );
+		require_once( __DIR__ . '/widgets/heading.php' );
+		// require_once( __DIR__ . '/inc/widgets/widget-2.php' );
 
-		$widgets_manager->register( new Widget_1() );
-		$widgets_manager->register( new Widget_2() );
+		$widgets_manager->register( new \Elementor_oEmbed_Widget() );
+		// $widgets_manager->register( new Widget_2() );
 
 	}
 
@@ -241,5 +242,19 @@ final class Plugin {
 		//$controls_manager->register( new Control_2() );
 
 	}
+
+	function add_elementor_widget_categories( $elements_manager ) {
+
+		$elements_manager->add_category(
+			'halim_theme',
+			[
+				'title' => esc_html__( 'Halim Theme', 'elementor-addon-halim' ),
+				'icon' => 'fa fa-plug',
+			],
+			2
+		);
+
+	}
+	
 
 }
