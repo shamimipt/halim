@@ -140,6 +140,128 @@ class Elementor_Heading_Widget extends \Elementor\Widget_Base {
 
 		$this->end_controls_section();
 
+        $this->start_controls_section(
+                'style_section',
+                [
+                    'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
+                    'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+                ]
+        );
+
+        // Heading Style
+		$this->add_control(
+			'heading_style',
+			[
+				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			]
+		);
+
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name' => 'heading_typography',
+				'selector' => '{{WRAPPER}} .section-title h3',
+			]
+		);
+
+		$this->add_control(
+			'heading_color',
+			[
+				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
+				],
+				'default' => '#333'
+			]
+		);
+
+        //Subheading Style
+		$this->add_control(
+			'subheading_style',
+			[
+				'label' => esc_html__( 'Sub Heading', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			]
+		);
+
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name' => 'subheading_typography',
+				'selector' => '{{WRAPPER}} .section-title h3 span',
+			]
+		);
+
+		$this->add_control(
+			'subheading_color',
+			[
+				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .section-title h3 span' => 'color: {{VALUE}}',
+				],
+				'default' => '#333'
+			]
+		);
+
+        //Description Style
+		$this->add_control(
+			'desc_style',
+			[
+				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			]
+		);
+
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			[
+				'name' => 'section_desc_typography',
+				'selector' => '{{WRAPPER}} .section-title p',
+			]
+		);
+
+		$this->add_control(
+			'section_desc_color',
+			[
+				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
+				],
+				'default' => '#333'
+			]
+		);
+
+        //Border Style
+		$this->add_control(
+			'border_style',
+			[
+				'label' => esc_html__( 'Border', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			]
+		);
+
+		$this->add_control(
+			'section_border_color',
+			[
+				'label' => esc_html__( 'Border Color', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .section-title::before, .section-title::after' => 'background-color: {{VALUE}}',
+				],
+				'default' => '#635cdb'
+			]
+		);
+
+        $this->end_controls_section();
+
 	}
 
 	/**
