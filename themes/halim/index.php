@@ -58,7 +58,7 @@
 <!-- Slider Area Start -->
 
 <!-- About Area Start -->
-<section class="about-area pt-100 pb-100" id="about">
+      <section class="about-area pt-100 pb-100" id="about">
          <div class="container">
             <div class="row section-title">
                <div class="col-md-6 text-right">

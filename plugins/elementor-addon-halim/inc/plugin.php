@@ -219,7 +219,7 @@ final class Plugin {
 		require_once( __DIR__ . '/widgets/heading.php' );
 		// require_once( __DIR__ . '/inc/widgets/widget-2.php' );
 
-		$widgets_manager->register( new \Elementor_oEmbed_Widget() );
+		$widgets_manager->register( new \Elementor_Heading_Widget() );
 		// $widgets_manager->register( new Widget_2() );
 
 	}
@@ -243,7 +243,8 @@ final class Plugin {
 
 	}
 
-	function add_elementor_widget_categories( $elements_manager ) {
+	/**Register Custom Categories*/
+	public function add_elementor_widget_categories( $elements_manager ) {
 
 		$elements_manager->add_category(
 			'halim_theme',
