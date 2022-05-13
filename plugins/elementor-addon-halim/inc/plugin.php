@@ -217,10 +217,10 @@ final class Plugin {
 	public function register_widgets( $widgets_manager ) {
 
 		require_once( __DIR__ . '/widgets/heading.php' );
-		// require_once( __DIR__ . '/inc/widgets/widget-2.php' );
+		require_once( __DIR__ . '/widgets/slider.php' );
 
 		$widgets_manager->register( new \Elementor_Heading_Widget() );
-		// $widgets_manager->register( new Widget_2() );
+		$widgets_manager->register( new \Elementor_Slider_Widget() );
 
 	}
 
@@ -250,7 +250,7 @@ final class Plugin {
 			'halim_theme',
 			[
 				'title' => esc_html__( 'Halim Theme', 'elementor-addon-halim' ),
-				'icon' => 'fa fa-plug',
+				'icon' => 'eicon-plug',
 			],
 			2
 		);
