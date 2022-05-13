@@ -71,7 +71,7 @@ function halim_scripts() {
 
 	//Load js
 	wp_enqueue_script( 'popper', get_template_directory_uri() . '/assets/js/popper.min.js', array('jquery'), THEME_VERSION, 'true' );
-	wp_enqueue_script( 'bootstarp', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), THEME_VERSION, 'true' );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), THEME_VERSION, 'true' );
 	wp_enqueue_script( 'one-page-nav', get_template_directory_uri() . '/assets/js/one-page-nav.js', array('jquery'), THEME_VERSION, 'true' );
 	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery'), THEME_VERSION, 'true' );
 	wp_enqueue_script( 'magnific-popup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array('jquery'), THEME_VERSION, 'true' );

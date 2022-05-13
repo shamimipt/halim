@@ -243,7 +243,7 @@ final class Plugin {
 
 	}
 
-	/**Register Custom Categories*/
+	/** Register Custom Categories */
 	public function add_elementor_widget_categories( $elements_manager ) {
 
 		$elements_manager->add_category(
