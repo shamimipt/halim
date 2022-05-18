@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Elementor Slider Widget.
  * @since 1.0.0
  */
-class Elementor_Slider_Widget extends \Elementor\Widget_Base {
+	class Elementor_Slider_Widget extends \Elementor\Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -105,41 +105,99 @@ class Elementor_Slider_Widget extends \Elementor\Widget_Base {
 			]
 		);
 
-		$this->add_control(
-			'heading',
+		$repeater = new \Elementor\Repeater();
+
+		$repeater->add_control(
+			'image',
 			[
-				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
+				'label' => esc_html__( 'Choose Image', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::MEDIA,
+				'default' => [
+					'url' => \Elementor\Utils::get_placeholder_image_src(),
+				],
+			]
+		);
+
+		$repeater->add_control(
+			'title',
+			[
+				'label' => esc_html__( 'Title', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => esc_html__( 'ABOUT US', 'elementor-addon-halim' ),
-				'description' => esc_html__( 'Add heading text', 'elementor-addon-halim' ),
+				'default' => esc_html__( 'Digital Agency', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add heading text here', 'elementor-addon-halim' ),
 			]
 		);
 
-		$this->add_control(
-			'subheading',
+		$repeater->add_control(
+			'subtitle',
 			[
-				'label' => esc_html__( 'who we are?', 'elementor-addon-halim' ),
+				'label' => esc_html__( 'Sub Title', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-                'default' => esc_html__( 'who we are?', 'elementor-addon-halim' ),
-                'description' => esc_html__( 'Add sub heading text here' , 'elementor-addon-halim' ),
+                'default' => esc_html__( 'We are advanced batch', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add sub heading text here', 'elementor-addon-halim' ),
 			]
 		);
 
-		$this->add_control(
+		$repeater->add_control(
 			'desc',
 			[
 				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXTAREA,
                 'default' => esc_html__( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry.d', 'elementor-addon-halim' ),
-                'description' => esc_html__( 'Add description text here', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add description text here', 'elementor-addon-halim' ),
+			]
+		);
+
+		$repeater->add_control(
+			'btn_text',
+			[
+				'label' => esc_html__( 'Button Text', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__( 'Our Projects' ),
+				'placeholder' => esc_html__( 'Add button text here', 'elementor-addon-halim' ),
+			]
+		);
+
+		$repeater->add_control(
+			'btn_text_link',
+			[
+				'label' => esc_html__( 'Button URL', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::URL,
+                'default' => esc_html__( '#' ),
+				'placeholder' => esc_html__( 'https://example.com', 'elementor-addon-halim' ),
+			]
+		);
+
+		$this->add_control(
+			'slides',
+			[
+				'label' => esc_html__( 'Slides', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::REPEATER,
+				'fields' => $repeater->get_controls(),
+				'default' => [
+					[
+						'list_title' => esc_html__( 'Title', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'elementor-addon-halim' ),
+					],
+					[
+						'list_title' => esc_html__( 'Sub Title', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'elementor-addon-halim' ),
+					],
+					[
+						'list_title' => esc_html__( 'Description', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'elementor-addon-halim' ),
+					],
+					[
+						'list_title' => esc_html__( 'Slider Button', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'elementor-addon-halim' ),
+					]
+				],
 			]
 		);
 
 		$this->end_controls_section();
 
+		// Slider Style
         $this->start_controls_section(
                 'style_section',
                 [
@@ -148,7 +206,7 @@ class Elementor_Slider_Widget extends \Elementor\Widget_Base {
                 ]
         );
 
-        // Slider Style
+        
 		$this->add_control(
 			'heading_style',
 			[
@@ -275,63 +333,32 @@ class Elementor_Slider_Widget extends \Elementor\Widget_Base {
 	protected function render() {
 
 		$settings = $this->get_settings_for_display();
-        $heading = $settings['heading'];
-        $subheading = $settings['subheading'];
-        $desc = $settings['desc'];
-
+		$slides = $settings['slides'];
 		?>
 
-<div class="slider owl-carousel">
-		<div class="single-slide" style="background-image:url('<?php echo get_template_directory_uri();?>/assets/img/slider/slide-1.jpg')">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="slide-table">
-							<div class="slide-tablecell">
-								<h4>We Are Advanced Batch 11</h4>
-								<h2>Digital Agency</h2>
-								<p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
-								<a href="#" class="box-btn">our projects <i class="fa fa-angle-double-right"></i></a>
+	<div class="slider owl-carousel">
+		<?php 
+			foreach($slides as $slide){
+				?>
+				<div class="single-slide" style="background-image:url('<?php echo $slide['image']['url']?>">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-12">
+								<div class="slide-table">
+									<div class="slide-tablecell">
+										<h4><?php echo $slide['subtitle'];?></h4>
+										<h2><?php echo $slide['title'];?></h2>
+										<p><?php echo $slide['desc'];?></p>
+										<a href="<?php echo $slide['btn_text_url'];?>" class="box-btn"><?php echo $slide['btn_text'];?> <i class="fa fa-angle-double-right"></i></a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="single-slide" style="background-image:url('<?php echo get_template_directory_uri();?>/assets/img/slider/slide-2.jpg')">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="slide-table">
-							<div class="slide-tablecell">
-								<h4>We Are Halim</h4>
-								<h2>Modern Agency</h2>
-								<p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
-								<a href="#" class="box-btn">contact us <i class="fa fa-angle-double-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="single-slide" style="background-image:url('<?php echo get_template_directory_uri();?>/assets/img/slider/slide-3.jpg')">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="slide-table">
-							<div class="slide-tablecell">
-								<h4>
-									We Are Halim
-								</h4>
-								<h2>Creative Agency</h2>
-								<p>We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.</p>
-								<a href="#" class="box-btn">crreative team <i class="fa fa-angle-double-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+				<?php
+			}
+		?>
 	</div>
 
 	<?php
