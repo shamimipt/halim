@@ -197,6 +197,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		$this->end_controls_section();
 
+		$this->start_controls_section(
+			'halim_settings',
+			[
+				'label' => esc_html__( 'Slider Settings', 'plugin-name' ),
+				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+			]
+		);
+		$this->add_control(
+			'silde_show',
+			[
+				'label' => esc_html__( 'Slide to show', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::NUMBER,
+				'min' => 1,
+				'max' => 3,
+				'step' => 1,
+				'default' => 1,
+			]
+		);
+		$this->end_controls_section();
+
 		// Slider Style
         $this->start_controls_section(
                 'style_section',
@@ -332,13 +352,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 	protected function render() {
 		$settings = $this->get_settings_for_display();
 		$slides = $settings['slides'];
-		?>
+		$silde_show = $settings['silde_show'];
 
+		?>
+        <script>
+            jQuery(document).ready(function ($) {
+                /* Slider Item Slide
+				============================*/
+                $(".slider").owlCarousel({
+                    items: <?php echo $silde_show; ?>,
+                    autoplay: true,
+                    loop: true,
+                    nav: false,
+                    dots: true,
+                    smartSpeed: 500
+                });
+            });
+        </script>
 	<div class="slider owl-carousel">
 		<?php 
 			foreach($slides as $slide){
 				?>
-				<div class="single-slide" style="background-image:url('<?php echo $slide['image']['url']?>">
+				<div class="single-slide" style="background-image:url("<?php echo $slide['image']['url']?>">
 					<div class="container">
 						<div class="row">
 							<div class="col-xl-12">

@@ -198,11 +198,27 @@ final class Plugin {
 	 * @access public
 	 */
 	public function init() {
-
+		add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'frontend_styles' ] );
+		add_action( 'elementor/frontend/after_register_scripts', [ $this, 'frontend_scripts' ] );
 		add_action( 'elementor/widgets/register', [ $this, 'register_widgets' ] );
 		add_action( 'elementor/controls/register', [ $this, 'register_controls' ] );
 		add_action( 'elementor/elements/categories_registered', [$this, 'add_elementor_widget_categories'] );
 
+	}
+	/**
+	 * Register Styles
+	 */
+	public function frontend_styles() {
+		wp_register_style('halim-owl-carousel-plugin', plugins_url('/assets/css/owl.carousel.css', dirname(__FILE__)));
+		wp_enqueue_style('halim-owl-carousel-plugin');
+	}
+
+	/**
+	 * Register Scripts
+	 */
+	public function frontend_scripts() {
+		wp_register_script('halim-owl-carousel', plugins_url('/assets/js/owl.carousel.min.js', dirname(__FILE__)), 'jQuery', '', true);
+		wp_enqueue_script('halim-owl-carousel');
 	}
 
 	/**
