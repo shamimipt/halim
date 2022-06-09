@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.0.13 - 2022-05-22 =
+ * **Update:** Removed elementor's deprecated namespaces, class methods & hooks as per elementor's requirements.
+ * **Fixed:** Pro Widget (Category) goes missing after activating pro version.
+
 = 1.0.12 - 2022-04-03 =
  * **Changed:** Added responsive option where it was missing with dimension related controllers.
 
@@ -76,30 +80,30 @@
 * **Fixed:** Blog page widget layout broken issue on theme change
 * **Fixed:** Blog page style 1 title hover issue
 * **Fixed:** Team carousel widget layout broken issue on theme change
-* **Fixed:** Logo carousel  widget layout broken issue on theme change
+* **Fixed:** Logo carousel widget layout broken issue on theme change
 * **Fixed:** Team style 13 layout broken issue
-* **Removed:** Counter widget unnecessary  controller
+* **Removed:** Counter widget unnecessary controller
 * **Fixed:** Team carousel dot over flowing issue
 * **Fixed:** Icon Box carousel dot overflowing issue
-* **Fixed:** Team carousel dot and nav controller  issue
+* **Fixed:** Team carousel dot and nav controller issue
 * **Fixed:** Team carousel button overflowing issue
-* **Fixed:** Icon Box carousel dot and nav controller  issue
-* **Fixed:** Image carousel dot and nav controller  issue
+* **Fixed:** Icon Box carousel dot and nav controller issue
+* **Fixed:** Image carousel dot and nav controller issue
 * **Fixed:** Image carousel dot over flowing issue
-* **Fixed:** Testimonial carousel dot and nav controller  issue
+* **Fixed:** Testimonial carousel dot and nav controller issue
 * **Fixed:** Testimonial carousel dot over flowing issue
-* **Fixed:** Product  carousel dot and nav controller  issue
+* **Fixed:** Product carousel dot and nav controller issue
 * **Fixed:** Product carousel dot overflowing issue
 * **Fixed:** Product Grid style 1 overflowing issue
-* **Added:** Button Widget New Widget & Feature Total  Style 14
+* **Added:** Button Widget New Widget & Feature Total Style 14
 * **Added:** Dual Button New Widget & Feature Total Style 18
 * **Added:** Demo and Template Ready Button & Dual Button
 * **Added:** 5 Free Landing Page Template
-* **Added:** Feature  Service Widget Icon border Controller
-* **Added:** Feature  Service Widget Item Margin controller
-* **Added:** Feature  Service Widget Image width, Height, border and Border Radius Controller
+* **Added:** Feature Service Widget Icon border Controller
+* **Added:** Feature Service Widget Item Margin controller
+* **Added:** Feature Service Widget Image width, Height, border and Border Radius Controller
 * **Added:** Feature Testimonial Widget Image shadow Controller
-* **Added:** Feature Testimonial Widget Item  Border Controller
+* **Added:** Feature Testimonial Widget Item Border Controller
 * **Added:** Service Widget 10 & 11 demo and template
 * **Added:** Blog Page Widget Style 10, 11, 12 & 13
 * **Fixed:** Portfolio Style 10 text overlap
@@ -116,8 +120,8 @@
 * **Added:** Service style 13,14
 * **Fixed:** Logo Grid style 9 css issue
 * **Added:** icon size controller advance-accordion
-* **Fixed:** Image Carousel  Arrow Controller
-* **Fixed:** Image Carousel  Dot Controller
+* **Fixed:** Image Carousel Arrow Controller
+* **Fixed:** Image Carousel Dot Controller
 * **Fixed:** Team Style 13 UI bug.
 * **Fixed:** counter down UI issues.
 * **Fixed:** Image Grid UI issues.

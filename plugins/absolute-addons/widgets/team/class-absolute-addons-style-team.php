@@ -111,7 +111,7 @@ class Absoluteaddons_Style_Team extends Absp_Widget {
 	 *
 	 * @access protected
 	 */
-	protected function _register_controls() {
+	protected function register_controls() {
 
 		/**
 		 * Fires after controllers are registered.

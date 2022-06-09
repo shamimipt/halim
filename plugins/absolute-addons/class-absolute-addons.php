@@ -2,20 +2,21 @@
 /**
  * Main Class.
  *
- * @package AbsoluteAqddons
+ * @package AbsoluteAddons
  * @since 1.0.0
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 namespace AbsoluteAddons;
 
-use AbsoluteAddons\AbsolutePluginsServices\Absolute_Addons_Services;
 use AbsoluteAddons\Settings\Dashboard;
 use Elementor\Elements_Manager;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+/** @define "ABSOLUTE_ADDONS_PATH" "./" */
 
 /**
  * Main Absolute_Addons Addons Class
@@ -165,13 +166,13 @@ final class Absolute_Addons {
 
 	private function include_files() {
 
-		require_once 'includes/class-absolute-addons-services.php';
-		require_once 'includes/helper.php';
-		require_once 'includes/default-filters.php';
-		require_once 'includes/class-absp-post-types.php';
-		require_once 'class-plugin.php';
-		require_once 'includes/ajax-handler.php';
-		require_once 'includes/icons-manager.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/class-absolute-addons-services.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/helper.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/default-filters.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/class-absp-post-types.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'class-plugin.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/ajax-handler.php';
+		require_once ABSOLUTE_ADDONS_PATH . 'includes/icons-manager.php';
 	}
 
 	/**
@@ -325,7 +326,7 @@ final class Absolute_Addons {
 		);
 		if ( absp_has_pro() ) {
 			$elements_manager->add_category(
-				'absp-widgets',
+				'absp-widgets-pro',
 				[
 					'title' => esc_html__( 'Absolute Addons Pro', 'absolute-addons' ),
 					'icon'  => 'fa fa-plug',

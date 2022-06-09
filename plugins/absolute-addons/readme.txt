@@ -3,8 +3,8 @@ Contributors: absoluteplugins, niamul, mhamudul_hk
 Tags: elementor, elementor addons, elementor widget, essential elementor widgets, elements
 Requires at least: 5.2
 Tested up to: 5.9
-Stable tag: 1.0.12
-Requires PHP: 5.6
+Stable tag: 1.0.13
+Requires PHP: 7.1
 License: GPL-3.0-or-later
 
 [Absolute Addons For Elementor page builder](https://absoluteplugins.com/wordpress-plugins/absolute-addons/) is the best free Elementor addons comes with 17+ free Elementor Widgets including Advance Tab, Call to Action, Content Card, Counter, FAQ, Fun Fact, Icon Box, Icon Box Carousel, Image Carousel, Info Box, List Group, Logo Grid, Multi Color Heading, Portfolio, Testimonial, Countdown, Product Grid, 500+ Elementor Icons, 238+ Template Blocks & a collection of professional and unique Page Templates to increase your Elementor page builder workflow.
@@ -141,7 +141,7 @@ Absolute Addons is the pioneer of adding exclusive layouts to solve your web des
 
 = AVAILABLE 24 FREE WIDGETS AND COUNTING =
 
-1. [Content Card](https://demo.absoluteplugins.com/absolute-addons/content-card-widget-for-elementor/):  Content Card Widget for elementor comes with 18 unique styles with advanced features which enable you to showcase your content section professionally.
+1. [Content Card](https://demo.absoluteplugins.com/absolute-addons/content-card-widget-for-elementor/): Content Card Widget for elementor comes with 18 unique styles with advanced features which enable you to showcase your content section professionally.
 2. [Testimonial Widget](https://demo.absoluteplugins.com/absolute-addons/testimonial-widget-for-elementor): Testimonial Widget for elementor Has 15 styles. Showcase your testimonial section more attractively with the Testimonial widget. It will enable you to add many features and styles to the section.
 3. [Advance Tab](https://demo.absoluteplugins.com/absolute-addons/advance-tab-widget-for-elementor/): Advance Tab Widget for elementor Comes with 20 different styles. Design your website pages in professional style using the Advanced Tab Widget. You can easily implement it in your web pages and edit it within a minute based on your website focus.
 4. [Counter](https://demo.absoluteplugins.com/absolute-addons/counter-widget-for-elementor/): Showcase your countdown section with 9 different eye-catchy designs using the Counter Widget for elementor. It will enable you to add many features and styles to your counter section.
@@ -235,7 +235,7 @@ Skill Bar widget offers two pro features
 Automatic installation is the easiest option -- WordPress handles the file transfer, and you won’t need to leave your web browser.
 1. Log in to your WordPress dashboard
 2. Navigate to the Plugins menu, and click “Add New.”
-3. In the search field type “Absolute Addons For Elementor” then click “Search Plugins.” Once you’ve found us,  you can view details about it such as the point release, rating, and description. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
+3. In the search field type “Absolute Addons For Elementor” then click “Search Plugins.” Once you’ve found us, you can view details about it such as the point release, rating, and description. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
 
 = Manual installation =
 
@@ -271,8 +271,12 @@ Absolute Addons For Elementor Fully compatible with the latest version of WooCom
 
 == Changelog ==
 
+= 1.0.13 - 2022-05-22 =
+ * **Update:** Removed elementor's deprecated namespaces, class methods & hooks as per elementor's requirements.
+ * **Fixed:** Pro Widget (Category) goes missing after activating pro version.
+
 = 1.0.12 - 2022-04-03 =
- * **Changed:** Added responsive option where it was missing with dimension related controllers.
+* **Changed:** Added responsive option where it was missing with dimension related controllers.
 
 = 1.0.11 - 2022-03-27 =
 * **Update:** Elementor Deprecated PHP Class Aliases
@@ -316,29 +320,5 @@ Absolute Addons For Elementor Fully compatible with the latest version of WooCom
 * **Fixed:** Dual Button issues
 * **Fixed:** Widget Team Style One
 * **Fixed:** Team Style One
-
-= 1.0.8 – 2022-02-17 =
-* **Fixed:** Slider center mode option
-* **Fixed:** Slider Arrow Controller
-* **Fixed:** Counter widget border controller issues
-* **Fixed:** Fixed dependency installation link.
-* **Fixed:** Fixed swiper slider issues fixed
-* **Added:** Service widget icon alignment controller
-* **Added:** Countdown widget separator size controller
-* **Added:** Icon box widget icon width and height controller
-* **Added:** Team carousel widget Social Icons Rotation Controller
-* **Added:** Team carousel widget contact field Controller
-* **Added:** Team carousel widget spacing Controller
-* **Added:** Team carousel widget hover CSS
-* **Added:** Countdown widget separator option
-* **Added:** Blog page widget typography controller
-* **Added:** Blog page widget category padding controller
-* **Added:** Blog page widget button icon color and gap controller
-* **Added:** Blog page widget comment controller
-* **Added:** Service widget border radius controller
-* **Added:** Service widget read more button and controller preset nine
-* **Removed:** Icon-box widget default border
-* **Removed:** Team carousel extra CSS
-* **Optimised:** Removed extra and optimised slider controllers
 
 [See changelog for all versions](https://plugins.trac.wordpress.org/browser/absolute-addons/trunk/changelog.txt).

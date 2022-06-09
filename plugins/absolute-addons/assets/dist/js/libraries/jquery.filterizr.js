@@ -25,4 +25,3 @@
    * @see {@link http://yiotis.net/filterizr}
    * @license MIT
    */r=window.jQuery,i.a.installAsJQueryPlugin(r),e.default=i.a}]).default;
-//# sourceMappingURL=jquery.filterizr.js.map

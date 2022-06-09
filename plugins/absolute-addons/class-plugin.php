@@ -115,16 +115,20 @@ class Plugin {
 		spl_autoload_register( [ __CLASS__, 'autoload' ] );
 
 		// Register controls.
-		add_action( 'elementor/controls/controls_registered', [ __CLASS__, 'register_controls' ] );
+		add_action( 'elementor/controls/register', [ __CLASS__, 'register_controls' ] );
 
 		// Register widgets.
-		add_action( 'elementor/widgets/widgets_registered', [ __CLASS__, 'register_active_widgets' ] );
+		add_action( 'elementor/widgets/register', [ __CLASS__, 'register_active_widgets' ] );
 
 		// add_filter( 'elementor/editor/localize_settings', [ $this, 'register_editor_config' ], -1 );
 	}
 
 	private static function autoload( $class_name ) {
 		if ( 0 !== strpos( $class_name, __NAMESPACE__ ) ) {
+			return;
+		}
+
+		if ( false !== strpos( $class_name, 'AbsolutePluginsServices' ) ) {
 			return;
 		}
 
@@ -658,17 +662,14 @@ class Plugin {
 	 */
 	public static function register_controls() {
 
-		$control_man = ElementorPlugin::instance()->controls_manager;
+		$controls_manager = ElementorPlugin::instance()->controls_manager;
 
-		$control_man->register_control(
-			Absp_Control_Styles::TYPE,
-			new Absp_Control_Styles()
-		);
-		$control_man->add_group_control(
+		$controls_manager->register( new Absp_Control_Styles() );
+		$controls_manager->add_group_control(
 			Group_Control_ABSP_Background::get_type(),
 			new Group_Control_ABSP_Background()
 		);
-		$control_man->add_group_control(
+		$controls_manager->add_group_control(
 			Group_Control_ABSP_Foreground::get_type(),
 			new Group_Control_ABSP_Foreground()
 		);
@@ -873,13 +874,13 @@ class Plugin {
 				'youtube_url' => 'https://www.youtube.com/watch?v=K76eWrXz6TM',
 			],
 			'countdown'             => [
-				'label'       => __( 'Count Down', 'absolute-addons' ),
+				'label'       => __( 'Countdown', 'absolute-addons' ),
 				'is_pro'      => false,
 				'is_new'      => false,
 				'is_active'   => true,
 				'is_upcoming' => false,
-				'demo_url'    => 'https://demo.absoluteplugins.com/absolute-addons/count-down-coming-soon-widget-for-elementor',
-				'doc_url'     => 'https://absoluteplugins.com/docs/docs/absolute-addons/widgets/countdown/',
+				'demo_url'    => 'https://demo.absoluteplugins.com/absolute-addons/counter-widget-for-elementor',
+				'doc_url'     => 'https://absoluteplugins.com/docs/docs/absolute-addons/widgets/countdown',
 				'youtube_url' => '',
 			],
 			'course'                => [
@@ -1422,16 +1423,6 @@ class Plugin {
 				'doc_url'     => '',
 				'youtube_url' => '',
 			],
-			'countdown'             => [
-				'label'       => __( 'Countdown', 'absolute-addons' ),
-				'is_pro'      => false,
-				'is_new'      => false,
-				'is_active'   => true,
-				'is_upcoming' => false,
-				'demo_url'    => 'https://demo.absoluteplugins.com/absolute-addons/counter-widget-for-elementor',
-				'doc_url'     => 'https://absoluteplugins.com/docs/docs/absolute-addons/widgets/countdown',
-				'youtube_url' => '',
-			],
 			'product-grid'          => [
 				'label'       => __( 'Product Grid', 'absolute-addons' ),
 				'is_pro'      => false,
@@ -1511,9 +1502,9 @@ class Plugin {
 
 				$class = explode( '-', $slug );
 				$class = array_map( 'ucfirst', $class );
-				$class = implode( '_', $class ) . '';
+				$class = implode( '_', $class );
 				$class = "AbsoluteAddons\\Widgets\\Absoluteaddons_Style_" . $class;
-				ElementorPlugin::instance()->widgets_manager->register_widget_type( new $class() );
+				ElementorPlugin::instance()->widgets_manager->register( new $class() );
 			}
 		}
 	}

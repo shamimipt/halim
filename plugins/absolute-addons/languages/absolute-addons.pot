@@ -2,23 +2,23 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Absolute Addons 1.0.11\n"
+"Project-Id-Version: Absolute Addons 1.0.13\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/absolute-addons\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-03T09:21:31+00:00\n"
+"POT-Creation-Date: 2022-05-22T16:48:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: absolute-addons\n"
 
 #. Plugin Name of the plugin
-#: class-absolute-addons.php:251
-#: class-absolute-addons.php:277
-#: class-absolute-addons.php:301
-#: class-absolute-addons.php:322
+#: class-absolute-addons.php:252
+#: class-absolute-addons.php:278
+#: class-absolute-addons.php:302
+#: class-absolute-addons.php:323
 #: includes/class-absolute-addons-services.php:85
 #: includes/settings/class-dashboard.php:210
 #: templates/admin/dashboard-tab-support.php:212
@@ -43,67 +43,67 @@ msgid "https://absoluteplugins.com"
 msgstr ""
 
 #. translators: 1: Plugin name 2: Elementor 3. Anchor Tag Opening 4. Link Label (Anchor text) 5. Anchor Tag Closing
-#: class-absolute-addons.php:250
+#: class-absolute-addons.php:251
 msgid "\"%1$s\" requires \"%2$s\" to be installed and activated. You can install and activate %2$s from %3$s%4$s%5$s."
 msgstr ""
 
-#: class-absolute-addons.php:252
-#: class-absolute-addons.php:278
+#: class-absolute-addons.php:253
+#: class-absolute-addons.php:279
 msgid "Elementor"
 msgstr ""
 
-#: class-absolute-addons.php:254
+#: class-absolute-addons.php:255
 msgid "here"
 msgstr ""
 
 #. translators: 1: Plugin name 2: Dependency Name 3: Required Dependency version
-#: class-absolute-addons.php:276
-#: class-absolute-addons.php:300
+#: class-absolute-addons.php:277
+#: class-absolute-addons.php:301
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: class-absolute-addons.php:302
+#: class-absolute-addons.php:303
 msgid "PHP"
 msgstr ""
 
-#: class-absolute-addons.php:330
-#: class-plugin.php:517
+#: class-absolute-addons.php:331
+#: class-plugin.php:521
 msgid "Absolute Addons Pro"
 msgstr ""
 
-#: class-plugin.php:300
+#: class-plugin.php:304
 msgid "Monthly"
 msgstr ""
 
-#: class-plugin.php:301
+#: class-plugin.php:305
 msgid "Annually"
 msgstr ""
 
-#: class-plugin.php:302
+#: class-plugin.php:306
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:405
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:1759
 msgid "Or"
 msgstr ""
 
-#: class-plugin.php:303
+#: class-plugin.php:307
 #: includes/settings/class-dashboard.php:326
 msgid "Okay"
 msgstr ""
 
-#: class-plugin.php:304
+#: class-plugin.php:308
 #: includes/absolute-plugins-services/class-insights.php:1148
 #: includes/absolute-plugins-services/class-insights.php:1185
 #: includes/settings/class-dashboard.php:327
 msgid "Cancel"
 msgstr ""
 
-#: class-plugin.php:305
+#: class-plugin.php:309
 #: includes/settings/class-dashboard.php:328
 #: widgets/countdown/class-absolute-addons-style-countdown.php:787
 msgid "Submit"
 msgstr ""
 
-#: class-plugin.php:306
+#: class-plugin.php:310
 #: includes/settings/class-dashboard.php:329
 #: widgets/button/class-absolute-addons-style-button.php:184
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:193
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-#: class-plugin.php:307
+#: class-plugin.php:311
 #: includes/settings/class-dashboard.php:330
 #: widgets/button/class-absolute-addons-style-button.php:185
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:194
@@ -119,151 +119,151 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-#: class-plugin.php:308
+#: class-plugin.php:312
 #: includes/settings/class-dashboard.php:331
 msgid "Error"
 msgstr ""
 
-#: class-plugin.php:309
+#: class-plugin.php:313
 #: includes/settings/class-dashboard.php:333
 msgid "Requested Resource Not Found!"
 msgstr ""
 
-#: class-plugin.php:310
+#: class-plugin.php:314
 #: includes/settings/class-dashboard.php:334
 msgid "Are You Sure?"
 msgstr ""
 
-#: class-plugin.php:483
+#: class-plugin.php:487
 msgid "Get Absolute Addons Pro"
 msgstr ""
 
-#: class-plugin.php:484
+#: class-plugin.php:488
 msgid "Browse Absolute Templates"
 msgstr ""
 
-#: class-plugin.php:485
+#: class-plugin.php:489
 msgid "Absolute Templates"
 msgstr ""
 
-#: class-plugin.php:486
+#: class-plugin.php:490
 msgid "Blocks"
 msgstr ""
 
-#: class-plugin.php:487
+#: class-plugin.php:491
 msgid "Filter"
 msgstr ""
 
-#: class-plugin.php:488
+#: class-plugin.php:492
 msgid "Something went wrong"
 msgstr ""
 
-#: class-plugin.php:489
+#: class-plugin.php:493
 msgid "Please click the sync template button above."
 msgstr ""
 
-#: class-plugin.php:490
+#: class-plugin.php:494
 msgid "No Results Found"
 msgstr ""
 
-#: class-plugin.php:491
+#: class-plugin.php:495
 msgid "Please make sure your search is spelled correctly or try a different words."
 msgstr ""
 
-#: class-plugin.php:492
+#: class-plugin.php:496
 msgid "No Favorite Templates"
 msgstr ""
 
-#: class-plugin.php:493
+#: class-plugin.php:497
 msgid "You can mark any pre-designed template as a favorite."
 msgstr ""
 
-#: class-plugin.php:494
+#: class-plugin.php:498
 msgid "An error occurred"
 msgstr ""
 
-#: class-plugin.php:495
+#: class-plugin.php:499
 msgid "Unknown Error"
 msgstr ""
 
 #. translators: 1. Error Details.
-#: class-plugin.php:497
+#: class-plugin.php:501
 msgid "The following error(s) occurred while processing your request: %s"
 msgstr ""
 
 #. translators: 1. Promo Widget Name
-#: class-plugin.php:519
+#: class-plugin.php:523
 msgid "%s Widget"
 msgstr ""
 
 #. translators: 1. Promo Widget Name
-#: class-plugin.php:521
+#: class-plugin.php:525
 msgid "Use %s widget and a lot more exciting features and widgets to make your sites faster and better."
 msgstr ""
 
-#: class-plugin.php:530
+#: class-plugin.php:534
 msgid "Custom Fonts"
 msgstr ""
 
-#: class-plugin.php:686
+#: class-plugin.php:687
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:56
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:139
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:237
 msgid "Accordion"
 msgstr ""
 
-#: class-plugin.php:696
+#: class-plugin.php:697
 #: templates/admin/dashboard-tab-support.php:30
 #: templates/admin/dashboard-tab-support.php:31
 msgid "Advance Accordion"
 msgstr ""
 
-#: class-plugin.php:706
+#: class-plugin.php:707
 msgid "Advance Google Maps"
 msgstr ""
 
-#: class-plugin.php:716
+#: class-plugin.php:717
 #: widgets/future-widgets/advance-heading/class-absolute-addons-style-advance-heading.php:44
 msgid "Advance Heading"
 msgstr ""
 
-#: class-plugin.php:726
+#: class-plugin.php:727
 #: templates/admin/dashboard-tab-support.php:36
 #: templates/admin/dashboard-tab-support.php:37
 #: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:50
 msgid "Advance Tab"
 msgstr ""
 
-#: class-plugin.php:736
+#: class-plugin.php:737
 #: widgets/future-widgets/advance-toggle/class-absolute-addons-style-advance-toggle.php:44
 msgid "Advance Toggle"
 msgstr ""
 
-#: class-plugin.php:746
+#: class-plugin.php:747
 #: widgets/future-widgets/alert/class-absolute-addons-style-alert.php:44
 msgid "Alert"
 msgstr ""
 
-#: class-plugin.php:756
-#: class-plugin.php:1529
+#: class-plugin.php:757
+#: class-plugin.php:1520
 msgid "Animated Text"
 msgstr ""
 
-#: class-plugin.php:766
+#: class-plugin.php:767
 msgid "Blog Post"
 msgstr ""
 
-#: class-plugin.php:776
+#: class-plugin.php:777
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:60
 msgid "Blog Page"
 msgstr ""
 
-#: class-plugin.php:786
-#: class-plugin.php:1539
+#: class-plugin.php:787
+#: class-plugin.php:1530
 msgid "Business Hours"
 msgstr ""
 
-#: class-plugin.php:796
+#: class-plugin.php:797
 #: widgets/advance-tab/controller/template-advance-tab-style.php:1067
 #: widgets/blog-page/controller/template-blog-page-style.php:1193
 #: widgets/button/class-absolute-addons-style-button.php:42
@@ -291,59 +291,60 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#: class-plugin.php:806
+#: class-plugin.php:807
 #: templates/admin/dashboard-tab-support.php:42
 #: templates/admin/dashboard-tab-support.php:43
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:43
 msgid "Call To Action"
 msgstr ""
 
-#: class-plugin.php:816
-#: class-plugin.php:1559
+#: class-plugin.php:817
+#: class-plugin.php:1550
 msgid "Chart"
 msgstr ""
 
-#: class-plugin.php:826
+#: class-plugin.php:827
 #: widgets/future-widgets/client/class-absolute-addons-style-client.php:39
 msgid "Client"
 msgstr ""
 
-#: class-plugin.php:836
+#: class-plugin.php:837
 msgid "Cf7"
 msgstr ""
 
-#: class-plugin.php:846
+#: class-plugin.php:847
 msgid "Contact Box"
 msgstr ""
 
-#: class-plugin.php:856
+#: class-plugin.php:857
 #: widgets/content-card/class-absolute-addons-style-content-card.php:41
 msgid "Content Card"
 msgstr ""
 
-#: class-plugin.php:866
+#: class-plugin.php:867
 #: templates/admin/dashboard-tab-support.php:48
 #: templates/admin/dashboard-tab-support.php:49
 #: widgets/counter/class-absolute-addons-style-counter.php:45
 msgid "Counter"
 msgstr ""
 
-#: class-plugin.php:876
-msgid "Count Down"
+#: class-plugin.php:877
+#: widgets/countdown/class-absolute-addons-style-countdown.php:66
+msgid "Countdown"
 msgstr ""
 
-#: class-plugin.php:886
+#: class-plugin.php:887
 #: widgets/future-widgets/course/class-absolute-addons-style-course.php:52
 msgid "Course"
 msgstr ""
 
-#: class-plugin.php:896
+#: class-plugin.php:897
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:53
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:123
 msgid "Custom Button"
 msgstr ""
 
-#: class-plugin.php:906
+#: class-plugin.php:907
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:40
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:151
 #: widgets/future-widgets/divider/controller/style-controller-divider.php:8
@@ -351,121 +352,121 @@ msgstr ""
 msgid "Divider"
 msgstr ""
 
-#: class-plugin.php:916
-#: class-plugin.php:1544
+#: class-plugin.php:917
+#: class-plugin.php:1535
 msgid "Drop Cap"
 msgstr ""
 
-#: class-plugin.php:926
+#: class-plugin.php:927
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:42
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:172
 msgid "Dual Button"
 msgstr ""
 
-#: class-plugin.php:936
+#: class-plugin.php:937
 #: widgets/future-widgets/event/class-absolute-addons-style-event.php:52
 msgid "Event"
 msgstr ""
 
-#: class-plugin.php:946
+#: class-plugin.php:947
 #: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:54
 #: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:256
 msgid "Fancy Text Box"
 msgstr ""
 
-#: class-plugin.php:956
+#: class-plugin.php:957
 #: templates/admin/dashboard-tab-support.php:54
 #: templates/admin/dashboard-tab-support.php:55
 #: templates/admin/dashboard-tab-support.php:86
 msgid "FAQ"
 msgstr ""
 
-#: class-plugin.php:966
+#: class-plugin.php:967
 msgid "Flip Box"
 msgstr ""
 
-#: class-plugin.php:976
+#: class-plugin.php:977
 #: templates/admin/dashboard-tab-support.php:60
 #: templates/admin/dashboard-tab-support.php:61
 #: widgets/fun-fact/class-absolute-addons-style-fun-fact.php:45
 msgid "Fun Fact"
 msgstr ""
 
-#: class-plugin.php:986
-#: class-plugin.php:1604
+#: class-plugin.php:987
+#: class-plugin.php:1595
 msgid "Gradient Background"
 msgstr ""
 
-#: class-plugin.php:996
-#: class-plugin.php:1594
+#: class-plugin.php:997
+#: class-plugin.php:1585
 msgid "Gradient Heading"
 msgstr ""
 
-#: class-plugin.php:1006
+#: class-plugin.php:1007
 #: widgets/future-widgets/highlight-box/class-absolute-addons-style-highlight-box.php:43
 msgid "Highlight Box"
 msgstr ""
 
-#: class-plugin.php:1016
+#: class-plugin.php:1017
 #: widgets/future-widgets/hotspot/class-absolute-addons-style-hotspot.php:44
 msgid "Hotspot"
 msgstr ""
 
-#: class-plugin.php:1026
+#: class-plugin.php:1027
 #: templates/admin/dashboard-tab-support.php:66
 #: templates/admin/dashboard-tab-support.php:67
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:42
 msgid "Icon Box"
 msgstr ""
 
-#: class-plugin.php:1036
+#: class-plugin.php:1037
 #: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:51
 msgid "Icon Box Carousel"
 msgstr ""
 
-#: class-plugin.php:1046
+#: class-plugin.php:1047
 #: templates/admin/dashboard-tab-support.php:72
 #: templates/admin/dashboard-tab-support.php:73
 #: widgets/image-carousel/class-absolute-addons-style-image-carousel.php:46
 msgid "Image Carousel"
 msgstr ""
 
-#: class-plugin.php:1056
+#: class-plugin.php:1057
 #: widgets/future-widgets/image-compare/class-absolute-addons-style-image-compare.php:42
 msgid "Image Compare"
 msgstr ""
 
-#: class-plugin.php:1066
+#: class-plugin.php:1067
 #: widgets/future-widgets/image-gallery/class-absolute-addons-style-image-gallery.php:54
 msgid "Image Gallery"
 msgstr ""
 
-#: class-plugin.php:1076
+#: class-plugin.php:1077
 #: widgets/image-grid/class-absolute-addons-style-image-grid.php:43
 msgid "Image Grid"
 msgstr ""
 
-#: class-plugin.php:1086
+#: class-plugin.php:1087
 #: widgets/future-widgets/image-heading/class-absolute-addons-style-image-heading.php:44
 msgid "Image Heading"
 msgstr ""
 
-#: class-plugin.php:1096
+#: class-plugin.php:1097
 #: widgets/info-box/class-absolute-addons-style-info-box.php:43
 msgid "Info Box"
 msgstr ""
 
-#: class-plugin.php:1106
-#: class-plugin.php:1564
+#: class-plugin.php:1107
+#: class-plugin.php:1555
 msgid "Instagram Feed"
 msgstr ""
 
-#: class-plugin.php:1116
+#: class-plugin.php:1117
 #: widgets/list/class-absolute-addons-style-list.php:47
 msgid "List"
 msgstr ""
 
-#: class-plugin.php:1126
+#: class-plugin.php:1127
 #: widgets/list-group/class-absolute-addons-style-list-group.php:43
 #: widgets/list-group/class-absolute-addons-style-list-group.php:240
 #: widgets/list-group/controller/template-list-group-item-fourteen-controller.php:115
@@ -473,72 +474,72 @@ msgstr ""
 msgid "List Group"
 msgstr ""
 
-#: class-plugin.php:1136
-#: class-plugin.php:1569
+#: class-plugin.php:1137
+#: class-plugin.php:1560
 msgid "Logo Carousel"
 msgstr ""
 
-#: class-plugin.php:1146
+#: class-plugin.php:1147
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:47
 msgid "Logo Grid"
 msgstr ""
 
-#: class-plugin.php:1156
+#: class-plugin.php:1157
 #: widgets/future-widgets/modal/class-absolute-addons-style-modal.php:42
 msgid "Modal"
 msgstr ""
 
-#: class-plugin.php:1166
+#: class-plugin.php:1167
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:40
 msgid "Multi Color Heading"
 msgstr ""
 
-#: class-plugin.php:1176
-#: class-plugin.php:1534
+#: class-plugin.php:1177
+#: class-plugin.php:1525
 msgid "News Post"
 msgstr ""
 
-#: class-plugin.php:1186
-#: class-plugin.php:1549
+#: class-plugin.php:1187
+#: class-plugin.php:1540
 msgid "News Ticker"
 msgstr ""
 
-#: class-plugin.php:1196
+#: class-plugin.php:1197
 #: widgets/future-widgets/notification/class-absolute-addons-style-notification.php:42
 msgid "Notification"
 msgstr ""
 
-#: class-plugin.php:1206
+#: class-plugin.php:1207
 #: widgets/future-widgets/popup-video/class-absolute-addons-style-popup-video.php:52
 msgid "Popup Video"
 msgstr ""
 
-#: class-plugin.php:1216
+#: class-plugin.php:1217
 #: includes/class-absp-post-types.php:107
 #: widgets/portfolio/class-absolute-addons-style-portfolio.php:52
 msgid "Portfolio"
 msgstr ""
 
-#: class-plugin.php:1226
-#: class-plugin.php:1584
+#: class-plugin.php:1227
+#: class-plugin.php:1575
 msgid "Post Carousel"
 msgstr ""
 
-#: class-plugin.php:1236
+#: class-plugin.php:1237
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:45
 msgid "Pricing Table"
 msgstr ""
 
-#: class-plugin.php:1246
-#: class-plugin.php:1589
+#: class-plugin.php:1247
+#: class-plugin.php:1580
 msgid "Product Carousel"
 msgstr ""
 
-#: class-plugin.php:1256
+#: class-plugin.php:1257
 msgid "Progressbar"
 msgstr ""
 
-#: class-plugin.php:1266
+#: class-plugin.php:1267
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:9
 #: widgets/content-card/class-absolute-addons-style-content-card.php:997
 #: widgets/countdown/controller/style-controller-count-down-item-separator.php:8
@@ -554,103 +555,98 @@ msgstr ""
 msgid "Separator"
 msgstr ""
 
-#: class-plugin.php:1276
+#: class-plugin.php:1277
 #: widgets/service/class-absolute-addons-style-service.php:50
 msgid "Service"
 msgstr ""
 
-#: class-plugin.php:1286
+#: class-plugin.php:1287
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:44
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:438
 msgid "Skill Bar"
 msgstr ""
 
-#: class-plugin.php:1296
-#: class-plugin.php:1599
+#: class-plugin.php:1297
+#: class-plugin.php:1590
 msgid "Source Code"
 msgstr ""
 
-#: class-plugin.php:1306
+#: class-plugin.php:1307
 #: widgets/team/class-absolute-addons-style-team.php:40
 msgid "Team"
 msgstr ""
 
-#: class-plugin.php:1316
+#: class-plugin.php:1317
 #: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:58
 msgid "Team Carousel"
 msgstr ""
 
-#: class-plugin.php:1326
+#: class-plugin.php:1327
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:53
 msgid "Testimonial"
 msgstr ""
 
-#: class-plugin.php:1336
-#: class-plugin.php:1579
+#: class-plugin.php:1337
+#: class-plugin.php:1570
 msgid "Testimonial Carousel"
 msgstr ""
 
-#: class-plugin.php:1346
+#: class-plugin.php:1347
 msgid "Timeline"
 msgstr ""
 
-#: class-plugin.php:1356
+#: class-plugin.php:1357
 #: widgets/future-widgets/toggle-button/class-absolute-addons-style-toggle-button.php:42
 msgid "Toggle Button"
 msgstr ""
 
-#: class-plugin.php:1366
-#: class-plugin.php:1554
+#: class-plugin.php:1367
+#: class-plugin.php:1545
 msgid "Tooltips"
 msgstr ""
 
-#: class-plugin.php:1376
-#: class-plugin.php:1574
+#: class-plugin.php:1377
+#: class-plugin.php:1565
 msgid "Twitter Feed Carousel"
 msgstr ""
 
-#: class-plugin.php:1386
+#: class-plugin.php:1387
 #: widgets/future-widgets/case-studies-slider/class-absolute-addons-style-case-studies-slider.php:52
 msgid "Case Studies Slider"
 msgstr ""
 
-#: class-plugin.php:1396
+#: class-plugin.php:1397
 #: widgets/future-widgets/case-studies/class-absolute-addons-style-case-studies.php:52
 msgid "Case Studies"
 msgstr ""
 
-#: class-plugin.php:1406
+#: class-plugin.php:1407
 #: widgets/future-widgets/beforeafter/class-absolute-addons-style-beforeafter.php:42
 msgid "Before After"
 msgstr ""
 
-#: class-plugin.php:1416
+#: class-plugin.php:1417
 #: widgets/future-widgets/typewriter-text/class-absolute-addons-style-typewriter-text.php:42
 msgid "Typewriter Text"
 msgstr ""
 
-#: class-plugin.php:1426
-#: widgets/countdown/class-absolute-addons-style-countdown.php:66
-msgid "Countdown"
-msgstr ""
-
-#: class-plugin.php:1436
+#: class-plugin.php:1427
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:55
 msgid "Product Grid"
 msgstr ""
 
-#: class-plugin.php:1446
+#: class-plugin.php:1437
 #: widgets/future-widgets/interactive-card/class-absolute-addons-style-interactive-card.php:39
 msgid "Interactive Card"
 msgstr ""
 
-#: class-plugin.php:1456
-#: class-plugin.php:1609
+#: class-plugin.php:1447
+#: class-plugin.php:1600
 msgid "Restaurant Menu"
 msgstr ""
 
-#: class-plugin.php:1704
-#: class-plugin.php:1715
+#: class-plugin.php:1695
+#: class-plugin.php:1706
 msgid "Something went wrong."
 msgstr ""
 

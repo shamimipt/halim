@@ -206,7 +206,6 @@ if ( ! defined( 'ABSPATH' ) ) {
                 ]
         );
 
-        
 		$this->add_control(
 			'heading_style',
 			[
@@ -331,7 +330,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 * @access protected
 	 */
 	protected function render() {
-
 		$settings = $this->get_settings_for_display();
 		$slides = $settings['slides'];
 		?>

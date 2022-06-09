@@ -5,7 +5,7 @@
  * Plugin Name: Absolute Addons
  * Description: Addon elements for Elementor Page Builder.
  * Plugin URI: https://absoluteplugins.com/absolute-addons
- * Version: 1.0.12
+ * Version: 1.0.13
  * Author: AbsolutePlugins
  * Author URI: https://absoluteplugins.com
  * Text Domain: absolute-addons
@@ -26,7 +26,7 @@
  *
  * [WC]
  * WC requires at least: 5.9
- * WC tested up to: 6.3
+ * WC tested up to: 6.5
  *
  * @package AbsoluteAqddons
  */
@@ -59,7 +59,7 @@ if ( ! defined( 'ABSOLUTE_ADDONS_VERSION' ) ) {
 	 *
 	 * @var string
 	 */
-	define( 'ABSOLUTE_ADDONS_VERSION', '1.0.11' );
+	define( 'ABSOLUTE_ADDONS_VERSION', '1.0.13' );
 }
 if ( ! defined( 'ABSOLUTE_ADDONS_FILE' ) ) {
 	/**
