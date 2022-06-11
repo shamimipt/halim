@@ -215,6 +215,61 @@ if ( ! defined( 'ABSPATH' ) ) {
 				'default' => 1,
 			]
 		);
+		$this->add_control(
+			'autoplay_condition',
+			[
+				'label' => esc_html__( 'Auto play ?', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
+				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
+				'return_value' => 'true',
+				'default' => 'true',
+			]
+		);
+		$this->add_control(
+			'loop_condition',
+			[
+				'label' => esc_html__( 'Loop ?', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
+				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
+				'return_value' => 'true',
+				'default' => 'true',
+			]
+		);
+		$this->add_control(
+			'nav_condition',
+			[
+				'label' => esc_html__( 'Nav ?', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
+				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
+				'return_value' => 'true',
+				'default' => 'false',
+			]
+		);
+		$this->add_control(
+			'dots_condition',
+			[
+				'label' => esc_html__( 'Dots ?', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
+				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
+				'return_value' => 'true',
+				'default' => 'true',
+			]
+		);
+        $this->add_control(
+			'smart_speed',
+			[
+				'label' => esc_html__( 'Speed Control', 'elementor-addon-halim' ),
+				'type' => \Elementor\Controls_Manager::NUMBER,
+				'min' => 200,
+				'max' => 1000,
+				'step' => 10,
+				'default' => 500,
+			]
+		);
 		$this->end_controls_section();
 
 		// Slider Style
@@ -353,6 +408,36 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$settings = $this->get_settings_for_display();
 		$slides = $settings['slides'];
 		$silde_show = $settings['silde_show'];
+		$autoplay_condition = $settings['autoplay_condition'];
+		$loop_condition = $settings['loop_condition'];
+		$nav_condition = $settings['nav_condition'];
+		$dots_condition = $settings['dots_condition'];
+		$smart_speed = $settings['smart_speed'];
+
+        // Autoplay Condition
+        if($autoplay_condition == 'true'){
+            $autoplay_condition = 'true';
+        }else{
+	        $autoplay_condition = 'false';
+        }
+        // Loop Condtition
+        if($loop_condition == 'true'){
+	        $loop_condition = 'true';
+        }else{
+	        $loop_condition = 'false';
+        }
+        // Nav Condition
+		if($nav_condition == 'true'){
+			$nav_condition = 'true';
+		}else{
+			$nav_condition = 'false';
+		}
+        // Dots Condition
+		if($dots_condition == 'true'){
+			$dots_condition = 'true';
+		}else{
+			$dots_condition = 'false';
+		}
 
 		?>
         <script>
@@ -361,19 +446,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 				============================*/
                 $(".slider").owlCarousel({
                     items: <?php echo $silde_show; ?>,
-                    autoplay: true,
-                    loop: true,
-                    nav: false,
-                    dots: true,
-                    smartSpeed: 500
+                    autoplay: <?php echo $autoplay_condition; ?>,
+                    loop: <?php echo $loop_condition; ?>,
+                    nav: <?php echo $nav_condition; ?>,
+                    dots: <?php echo $dots_condition; ?>,
+                    smartSpeed: <?php echo $smart_speed; ?>
                 });
             });
         </script>
 	<div class="slider owl-carousel">
-		<?php 
+		<?php
 			foreach($slides as $slide){
 				?>
-				<div class="single-slide" style="background-image:url("<?php echo $slide['image']['url']?>">
+				<div class="single-slide" style="background-image:url(<?php echo $slide['image']['url']?>)">
 					<div class="container">
 						<div class="row">
 							<div class="col-xl-12">
