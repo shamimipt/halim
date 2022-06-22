@@ -110,9 +110,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => esc_html__( 'FAQ', 'elementor-addon-halim' ),
-				'description' => esc_html__( 'Add heading text', 'elementor-addon-halim' ),
-				'placeholder' => esc_html__( 'Add heading text here', 'elementor-addon-halim' ),
+				'default' => esc_html__( 'FAQ', 'elementor-addon-halim' )
 			]
 		);
 
@@ -122,7 +120,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			'list_title', [
 				'label' => esc_html__( 'Title', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
-				'default' => esc_html__( 'List Title' , 'elementor-addon-halim' ),
+				'default' => esc_html__( 'Lorem Ipsum is simply' , 'elementor-addon-halim' ),
 				'label_block' => true,
 			]
 		);
@@ -139,17 +137,17 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 		$this->add_control(
 			'list',
 			[
-				'label' => esc_html__( 'Repeater List', 'plugin-name' ),
+				'label' => esc_html__( 'Accordion List', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 				'default' => [
 					[
-						'list_title' => esc_html__( 'Title #1', 'plugin-name' ),
-						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'plugin-name' ),
+						'list_title' => esc_html__( 'Lorem Ipsum is simply', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( ' Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.', 'elementor-addon-halim' ),
 					],
 					[
-						'list_title' => esc_html__( 'Title #2', 'plugin-name' ),
-						'list_content' => esc_html__( 'Item content. Click the edit button to change this text.', 'plugin-name' ),
+						'list_title' => esc_html__( 'Lorem Ipsum is simply', 'elementor-addon-halim' ),
+						'list_content' => esc_html__( ' Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.', 'elementor-addon-halim' ),
 					],
 				],
 				'title_field' => '{{{ list_title }}}',
@@ -243,7 +241,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 
 		$settings = $this->get_settings_for_display();
         $heading = $settings['heading'];
-        $desc = $settings['desc'];
+		$reapeter_list = $settings['list'];
 
 		?>
       <!-- Choose Area End -->
@@ -251,51 +249,25 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
                <div class="col-md-6">
                   <div class="faq">
                      <div class="page-title">
-                        <h4>faq</h4>
+                        <h4><?php echo $heading; ?></h4>
                      </div>
                      <div class="accordion" id="accordionExample">
+						 <?php foreach($reapeter_list as $list){?>
                         <div class="card">
                            <div class="card-header" id="headingOne">
                               <h5 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                 Lorem Ipsum is simply 
+                                 <?php echo $list['list_title']; ?> 
                                  </button>
                               </h5>
                            </div>
                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                               <div class="card-body">
-                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                 <?php echo $list['list_content'];?>
                               </div>
                            </div>
                         </div>
-                        <div class="card">
-                           <div class="card-header" id="headingTwo">
-                              <h5 class="mb-0">
-                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                 Lorem Ipsum is simply
-                                 </button>
-                              </h5>
-                           </div>
-                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                              <div class="card-body">
-                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card">
-                           <div class="card-header" id="headingThree">
-                              <h5 class="mb-0">
-                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                 Lorem Ipsum is simply
-                                 </button>
-                              </h5>
-                           </div>
-                           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                              <div class="card-body">
-                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                              </div>
-                           </div>
-                        </div>
+                        <?php }?>
                      </div>
                   </div>
                </div>
