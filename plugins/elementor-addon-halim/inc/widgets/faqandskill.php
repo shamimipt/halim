@@ -252,22 +252,26 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
                         <h4><?php echo $heading; ?></h4>
                      </div>
                      <div class="accordion" id="accordionExample">
-						 <?php foreach($reapeter_list as $list){?>
+						 <?php 
+						 	$i = 0;
+						 	foreach($reapeter_list as $list){
+						 	$i++;
+						 ?>
                         <div class="card">
-                           <div class="card-header" id="headingOne">
+                           <div class="card-header" id="heading-<?php echo $i; ?>">
                               <h5 class="mb-0">
-                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-<?php echo $i; ?>" aria-expanded="true" aria-controls="collapseOne">
                                  <?php echo $list['list_title']; ?> 
                                  </button>
                               </h5>
                            </div>
-                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                           <div id="collapse-<?php echo $i;?>" class="collapse <?php if($i==1){echo "show";} ?>" aria-labelledby="heading-<?php echo $i; ?>" data-parent="#accordionExample">
                               <div class="card-body">
                                  <?php echo $list['list_content'];?>
                               </div>
                            </div>
                         </div>
-                        <?php }?>
+                        <?php ; } ?>
                      </div>
                   </div>
                </div>

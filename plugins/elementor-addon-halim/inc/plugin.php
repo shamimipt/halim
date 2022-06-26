@@ -235,10 +235,12 @@ final class Plugin {
 		require_once( __DIR__ . '/widgets/heading.php' );
 		require_once( __DIR__ . '/widgets/slider.php' );
 		require_once( __DIR__ . '/widgets/faqandskill.php' );
+		require_once( __DIR__ . '/widgets/about.php' );
 
 		$widgets_manager->register( new \Elementor_Heading_Widget() );
 		$widgets_manager->register( new \Elementor_Slider_Widget() );
 		$widgets_manager->register( new \Elementor_faq_skill_Widget() );
+		$widgets_manager->register( new \Elementor_About_Widget() );
 
 	}
 
