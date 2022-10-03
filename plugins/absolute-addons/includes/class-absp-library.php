@@ -96,6 +96,24 @@ class Absp_Library {
 
 			return self::get_template_data( $data );
 		} );
+
+		$ajax->register_ajax_action( 'absp_toggle_favorite', function( $data ) {
+			if ( ! current_user_can( 'edit_posts' ) ) {
+				throw new Exception( 'Access Denied' );
+			}
+
+			if ( isset( $data['template_id'], $data['favorite'] ) ) {
+
+				$source = self::get_source();
+
+				$source->update_favorites( $data['template_id'], $data['favorite'] );
+
+				return [ 'success' => true ];
+			}
+
+
+			throw new Exception( 'Invalid Request' );
+		} );
 	}
 
 	public static function get_template_data( array $args ) {

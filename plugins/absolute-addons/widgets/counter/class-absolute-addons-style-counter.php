@@ -370,7 +370,7 @@ class Absoluteaddons_Style_Counter extends Absp_Widget {
 									<?php $this->render_template(); ?>
 								</div>
 							<?php } else { ?>
-								<div class="<?php echo ( 'three' === $style ) ? 'elementor-grid' : 'counter-grid-col'; ?>">g
+								<div class="<?php echo ( 'three' === $style ) ? 'elementor-grid' : 'counter-grid-col'; ?>">
 									<?php
 									foreach ( $settings[ 'counter_repeater_' . $style ] as $counter ) {
 										$this->add_render_attribute( [

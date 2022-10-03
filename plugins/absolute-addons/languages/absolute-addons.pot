@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Absolute Addons 1.0.13\n"
+"Project-Id-Version: Absolute Addons 1.0.14\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/absolute-addons\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-05-22T16:48:15+00:00\n"
+"POT-Creation-Date: 2022-07-09T05:34:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: absolute-addons\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: class-absolute-addons.php:278
 #: class-absolute-addons.php:302
 #: class-absolute-addons.php:323
-#: includes/class-absolute-addons-services.php:85
+#: includes/class-absolute-addons-services.php:87
 #: includes/settings/class-dashboard.php:210
 #: templates/admin/dashboard-tab-support.php:212
 #: templates/admin/dashboard.php:21
@@ -67,43 +67,43 @@ msgid "PHP"
 msgstr ""
 
 #: class-absolute-addons.php:331
-#: class-plugin.php:521
+#: class-plugin.php:526
 msgid "Absolute Addons Pro"
 msgstr ""
 
-#: class-plugin.php:304
+#: class-plugin.php:309
 msgid "Monthly"
 msgstr ""
 
-#: class-plugin.php:305
+#: class-plugin.php:310
 msgid "Annually"
 msgstr ""
 
-#: class-plugin.php:306
+#: class-plugin.php:311
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:405
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:1759
 msgid "Or"
 msgstr ""
 
-#: class-plugin.php:307
+#: class-plugin.php:312
 #: includes/settings/class-dashboard.php:326
 msgid "Okay"
 msgstr ""
 
-#: class-plugin.php:308
+#: class-plugin.php:313
 #: includes/absolute-plugins-services/class-insights.php:1148
 #: includes/absolute-plugins-services/class-insights.php:1185
 #: includes/settings/class-dashboard.php:327
 msgid "Cancel"
 msgstr ""
 
-#: class-plugin.php:309
+#: class-plugin.php:314
 #: includes/settings/class-dashboard.php:328
-#: widgets/countdown/class-absolute-addons-style-countdown.php:787
+#: widgets/countdown/class-absolute-addons-style-countdown.php:795
 msgid "Submit"
 msgstr ""
 
-#: class-plugin.php:310
+#: class-plugin.php:315
 #: includes/settings/class-dashboard.php:329
 #: widgets/button/class-absolute-addons-style-button.php:184
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:193
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-#: class-plugin.php:311
+#: class-plugin.php:316
 #: includes/settings/class-dashboard.php:330
 #: widgets/button/class-absolute-addons-style-button.php:185
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:194
@@ -119,153 +119,153 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-#: class-plugin.php:312
+#: class-plugin.php:317
 #: includes/settings/class-dashboard.php:331
 msgid "Error"
 msgstr ""
 
-#: class-plugin.php:313
+#: class-plugin.php:318
 #: includes/settings/class-dashboard.php:333
 msgid "Requested Resource Not Found!"
 msgstr ""
 
-#: class-plugin.php:314
+#: class-plugin.php:319
 #: includes/settings/class-dashboard.php:334
 msgid "Are You Sure?"
 msgstr ""
 
-#: class-plugin.php:487
+#: class-plugin.php:492
 msgid "Get Absolute Addons Pro"
 msgstr ""
 
-#: class-plugin.php:488
+#: class-plugin.php:493
 msgid "Browse Absolute Templates"
 msgstr ""
 
-#: class-plugin.php:489
+#: class-plugin.php:494
 msgid "Absolute Templates"
 msgstr ""
 
-#: class-plugin.php:490
+#: class-plugin.php:495
 msgid "Blocks"
 msgstr ""
 
-#: class-plugin.php:491
+#: class-plugin.php:496
 msgid "Filter"
 msgstr ""
 
-#: class-plugin.php:492
+#: class-plugin.php:497
 msgid "Something went wrong"
 msgstr ""
 
-#: class-plugin.php:493
+#: class-plugin.php:498
 msgid "Please click the sync template button above."
 msgstr ""
 
-#: class-plugin.php:494
+#: class-plugin.php:499
 msgid "No Results Found"
 msgstr ""
 
-#: class-plugin.php:495
+#: class-plugin.php:500
 msgid "Please make sure your search is spelled correctly or try a different words."
 msgstr ""
 
-#: class-plugin.php:496
+#: class-plugin.php:501
 msgid "No Favorite Templates"
 msgstr ""
 
-#: class-plugin.php:497
+#: class-plugin.php:502
 msgid "You can mark any pre-designed template as a favorite."
 msgstr ""
 
-#: class-plugin.php:498
+#: class-plugin.php:503
 msgid "An error occurred"
 msgstr ""
 
-#: class-plugin.php:499
+#: class-plugin.php:504
 msgid "Unknown Error"
 msgstr ""
 
 #. translators: 1. Error Details.
-#: class-plugin.php:501
+#: class-plugin.php:506
 msgid "The following error(s) occurred while processing your request: %s"
 msgstr ""
 
 #. translators: 1. Promo Widget Name
-#: class-plugin.php:523
+#: class-plugin.php:528
 msgid "%s Widget"
 msgstr ""
 
 #. translators: 1. Promo Widget Name
-#: class-plugin.php:525
+#: class-plugin.php:530
 msgid "Use %s widget and a lot more exciting features and widgets to make your sites faster and better."
 msgstr ""
 
-#: class-plugin.php:534
+#: class-plugin.php:539
 msgid "Custom Fonts"
 msgstr ""
 
-#: class-plugin.php:687
+#: class-plugin.php:692
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:56
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:139
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:237
 msgid "Accordion"
 msgstr ""
 
-#: class-plugin.php:697
+#: class-plugin.php:702
 #: templates/admin/dashboard-tab-support.php:30
 #: templates/admin/dashboard-tab-support.php:31
 msgid "Advance Accordion"
 msgstr ""
 
-#: class-plugin.php:707
+#: class-plugin.php:712
 msgid "Advance Google Maps"
 msgstr ""
 
-#: class-plugin.php:717
+#: class-plugin.php:722
 #: widgets/future-widgets/advance-heading/class-absolute-addons-style-advance-heading.php:44
 msgid "Advance Heading"
 msgstr ""
 
-#: class-plugin.php:727
+#: class-plugin.php:732
 #: templates/admin/dashboard-tab-support.php:36
 #: templates/admin/dashboard-tab-support.php:37
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:50
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:53
 msgid "Advance Tab"
 msgstr ""
 
-#: class-plugin.php:737
+#: class-plugin.php:742
 #: widgets/future-widgets/advance-toggle/class-absolute-addons-style-advance-toggle.php:44
 msgid "Advance Toggle"
 msgstr ""
 
-#: class-plugin.php:747
+#: class-plugin.php:752
 #: widgets/future-widgets/alert/class-absolute-addons-style-alert.php:44
 msgid "Alert"
 msgstr ""
 
-#: class-plugin.php:757
-#: class-plugin.php:1520
+#: class-plugin.php:762
+#: class-plugin.php:1525
 msgid "Animated Text"
 msgstr ""
 
-#: class-plugin.php:767
+#: class-plugin.php:772
 msgid "Blog Post"
 msgstr ""
 
-#: class-plugin.php:777
+#: class-plugin.php:782
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:60
 msgid "Blog Page"
 msgstr ""
 
-#: class-plugin.php:787
-#: class-plugin.php:1530
+#: class-plugin.php:792
+#: class-plugin.php:1535
 msgid "Business Hours"
 msgstr ""
 
-#: class-plugin.php:797
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1067
-#: widgets/blog-page/controller/template-blog-page-style.php:1193
+#: class-plugin.php:802
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1115
+#: widgets/blog-page/controller/template-blog-page-style.php:1214
 #: widgets/button/class-absolute-addons-style-button.php:42
 #: widgets/button/class-absolute-addons-style-button.php:172
 #: widgets/button/controller/template-button-style.php:12
@@ -283,68 +283,68 @@ msgstr ""
 #: widgets/icon-box/controller/style-controller-icon-box-button.php:13
 #: widgets/info-box/class-absolute-addons-style-info-box.php:459
 #: widgets/info-box/controller/style-controller-info-box-button.php:13
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:232
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:233
 #: widgets/service/controller/content-controller-service-style.php:887
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1213
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1216
 #: widgets/team/controller/style/team-item-style-nine-controller.php:528
 #: widgets/team/controller/team-item-controller.php:391
 msgid "Button"
 msgstr ""
 
-#: class-plugin.php:807
+#: class-plugin.php:812
 #: templates/admin/dashboard-tab-support.php:42
 #: templates/admin/dashboard-tab-support.php:43
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:43
 msgid "Call To Action"
 msgstr ""
 
-#: class-plugin.php:817
-#: class-plugin.php:1550
+#: class-plugin.php:822
+#: class-plugin.php:1555
 msgid "Chart"
 msgstr ""
 
-#: class-plugin.php:827
+#: class-plugin.php:832
 #: widgets/future-widgets/client/class-absolute-addons-style-client.php:39
 msgid "Client"
 msgstr ""
 
-#: class-plugin.php:837
+#: class-plugin.php:842
 msgid "Cf7"
 msgstr ""
 
-#: class-plugin.php:847
+#: class-plugin.php:852
 msgid "Contact Box"
 msgstr ""
 
-#: class-plugin.php:857
+#: class-plugin.php:862
 #: widgets/content-card/class-absolute-addons-style-content-card.php:41
 msgid "Content Card"
 msgstr ""
 
-#: class-plugin.php:867
+#: class-plugin.php:872
 #: templates/admin/dashboard-tab-support.php:48
 #: templates/admin/dashboard-tab-support.php:49
 #: widgets/counter/class-absolute-addons-style-counter.php:45
 msgid "Counter"
 msgstr ""
 
-#: class-plugin.php:877
+#: class-plugin.php:882
 #: widgets/countdown/class-absolute-addons-style-countdown.php:66
 msgid "Countdown"
 msgstr ""
 
-#: class-plugin.php:887
+#: class-plugin.php:892
 #: widgets/future-widgets/course/class-absolute-addons-style-course.php:52
 msgid "Course"
 msgstr ""
 
-#: class-plugin.php:897
+#: class-plugin.php:902
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:53
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:123
 msgid "Custom Button"
 msgstr ""
 
-#: class-plugin.php:907
+#: class-plugin.php:912
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:40
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:151
 #: widgets/future-widgets/divider/controller/style-controller-divider.php:8
@@ -352,121 +352,121 @@ msgstr ""
 msgid "Divider"
 msgstr ""
 
-#: class-plugin.php:917
-#: class-plugin.php:1535
+#: class-plugin.php:922
+#: class-plugin.php:1540
 msgid "Drop Cap"
 msgstr ""
 
-#: class-plugin.php:927
+#: class-plugin.php:932
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:42
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:172
 msgid "Dual Button"
 msgstr ""
 
-#: class-plugin.php:937
+#: class-plugin.php:942
 #: widgets/future-widgets/event/class-absolute-addons-style-event.php:52
 msgid "Event"
 msgstr ""
 
-#: class-plugin.php:947
+#: class-plugin.php:952
 #: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:54
 #: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:256
 msgid "Fancy Text Box"
 msgstr ""
 
-#: class-plugin.php:957
+#: class-plugin.php:962
 #: templates/admin/dashboard-tab-support.php:54
 #: templates/admin/dashboard-tab-support.php:55
 #: templates/admin/dashboard-tab-support.php:86
 msgid "FAQ"
 msgstr ""
 
-#: class-plugin.php:967
+#: class-plugin.php:972
 msgid "Flip Box"
 msgstr ""
 
-#: class-plugin.php:977
+#: class-plugin.php:982
 #: templates/admin/dashboard-tab-support.php:60
 #: templates/admin/dashboard-tab-support.php:61
 #: widgets/fun-fact/class-absolute-addons-style-fun-fact.php:45
 msgid "Fun Fact"
 msgstr ""
 
-#: class-plugin.php:987
-#: class-plugin.php:1595
+#: class-plugin.php:992
+#: class-plugin.php:1600
 msgid "Gradient Background"
 msgstr ""
 
-#: class-plugin.php:997
-#: class-plugin.php:1585
+#: class-plugin.php:1002
+#: class-plugin.php:1590
 msgid "Gradient Heading"
 msgstr ""
 
-#: class-plugin.php:1007
+#: class-plugin.php:1012
 #: widgets/future-widgets/highlight-box/class-absolute-addons-style-highlight-box.php:43
 msgid "Highlight Box"
 msgstr ""
 
-#: class-plugin.php:1017
+#: class-plugin.php:1022
 #: widgets/future-widgets/hotspot/class-absolute-addons-style-hotspot.php:44
 msgid "Hotspot"
 msgstr ""
 
-#: class-plugin.php:1027
+#: class-plugin.php:1032
 #: templates/admin/dashboard-tab-support.php:66
 #: templates/admin/dashboard-tab-support.php:67
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:42
 msgid "Icon Box"
 msgstr ""
 
-#: class-plugin.php:1037
+#: class-plugin.php:1042
 #: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:51
 msgid "Icon Box Carousel"
 msgstr ""
 
-#: class-plugin.php:1047
+#: class-plugin.php:1052
 #: templates/admin/dashboard-tab-support.php:72
 #: templates/admin/dashboard-tab-support.php:73
 #: widgets/image-carousel/class-absolute-addons-style-image-carousel.php:46
 msgid "Image Carousel"
 msgstr ""
 
-#: class-plugin.php:1057
+#: class-plugin.php:1062
 #: widgets/future-widgets/image-compare/class-absolute-addons-style-image-compare.php:42
 msgid "Image Compare"
 msgstr ""
 
-#: class-plugin.php:1067
+#: class-plugin.php:1072
 #: widgets/future-widgets/image-gallery/class-absolute-addons-style-image-gallery.php:54
 msgid "Image Gallery"
 msgstr ""
 
-#: class-plugin.php:1077
+#: class-plugin.php:1082
 #: widgets/image-grid/class-absolute-addons-style-image-grid.php:43
 msgid "Image Grid"
 msgstr ""
 
-#: class-plugin.php:1087
+#: class-plugin.php:1092
 #: widgets/future-widgets/image-heading/class-absolute-addons-style-image-heading.php:44
 msgid "Image Heading"
 msgstr ""
 
-#: class-plugin.php:1097
+#: class-plugin.php:1102
 #: widgets/info-box/class-absolute-addons-style-info-box.php:43
 msgid "Info Box"
 msgstr ""
 
-#: class-plugin.php:1107
-#: class-plugin.php:1555
+#: class-plugin.php:1112
+#: class-plugin.php:1560
 msgid "Instagram Feed"
 msgstr ""
 
-#: class-plugin.php:1117
+#: class-plugin.php:1122
 #: widgets/list/class-absolute-addons-style-list.php:47
 msgid "List"
 msgstr ""
 
-#: class-plugin.php:1127
+#: class-plugin.php:1132
 #: widgets/list-group/class-absolute-addons-style-list-group.php:43
 #: widgets/list-group/class-absolute-addons-style-list-group.php:240
 #: widgets/list-group/controller/template-list-group-item-fourteen-controller.php:115
@@ -474,72 +474,72 @@ msgstr ""
 msgid "List Group"
 msgstr ""
 
-#: class-plugin.php:1137
-#: class-plugin.php:1560
+#: class-plugin.php:1142
+#: class-plugin.php:1565
 msgid "Logo Carousel"
 msgstr ""
 
-#: class-plugin.php:1147
+#: class-plugin.php:1152
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:47
 msgid "Logo Grid"
 msgstr ""
 
-#: class-plugin.php:1157
+#: class-plugin.php:1162
 #: widgets/future-widgets/modal/class-absolute-addons-style-modal.php:42
 msgid "Modal"
 msgstr ""
 
-#: class-plugin.php:1167
+#: class-plugin.php:1172
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:40
 msgid "Multi Color Heading"
 msgstr ""
 
-#: class-plugin.php:1177
-#: class-plugin.php:1525
+#: class-plugin.php:1182
+#: class-plugin.php:1530
 msgid "News Post"
 msgstr ""
 
-#: class-plugin.php:1187
-#: class-plugin.php:1540
+#: class-plugin.php:1192
+#: class-plugin.php:1545
 msgid "News Ticker"
 msgstr ""
 
-#: class-plugin.php:1197
+#: class-plugin.php:1202
 #: widgets/future-widgets/notification/class-absolute-addons-style-notification.php:42
 msgid "Notification"
 msgstr ""
 
-#: class-plugin.php:1207
+#: class-plugin.php:1212
 #: widgets/future-widgets/popup-video/class-absolute-addons-style-popup-video.php:52
 msgid "Popup Video"
 msgstr ""
 
-#: class-plugin.php:1217
+#: class-plugin.php:1222
 #: includes/class-absp-post-types.php:107
 #: widgets/portfolio/class-absolute-addons-style-portfolio.php:52
 msgid "Portfolio"
 msgstr ""
 
-#: class-plugin.php:1227
-#: class-plugin.php:1575
+#: class-plugin.php:1232
+#: class-plugin.php:1580
 msgid "Post Carousel"
 msgstr ""
 
-#: class-plugin.php:1237
+#: class-plugin.php:1242
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:45
 msgid "Pricing Table"
 msgstr ""
 
-#: class-plugin.php:1247
-#: class-plugin.php:1580
+#: class-plugin.php:1252
+#: class-plugin.php:1585
 msgid "Product Carousel"
 msgstr ""
 
-#: class-plugin.php:1257
+#: class-plugin.php:1262
 msgid "Progressbar"
 msgstr ""
 
-#: class-plugin.php:1267
+#: class-plugin.php:1272
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:9
 #: widgets/content-card/class-absolute-addons-style-content-card.php:997
 #: widgets/countdown/controller/style-controller-count-down-item-separator.php:8
@@ -555,98 +555,98 @@ msgstr ""
 msgid "Separator"
 msgstr ""
 
-#: class-plugin.php:1277
-#: widgets/service/class-absolute-addons-style-service.php:50
+#: class-plugin.php:1282
+#: widgets/service/class-absolute-addons-style-service.php:53
 msgid "Service"
 msgstr ""
 
-#: class-plugin.php:1287
+#: class-plugin.php:1292
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:44
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:438
 msgid "Skill Bar"
 msgstr ""
 
-#: class-plugin.php:1297
-#: class-plugin.php:1590
+#: class-plugin.php:1302
+#: class-plugin.php:1595
 msgid "Source Code"
 msgstr ""
 
-#: class-plugin.php:1307
+#: class-plugin.php:1312
 #: widgets/team/class-absolute-addons-style-team.php:40
 msgid "Team"
 msgstr ""
 
-#: class-plugin.php:1317
+#: class-plugin.php:1322
 #: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:58
 msgid "Team Carousel"
 msgstr ""
 
-#: class-plugin.php:1327
+#: class-plugin.php:1332
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:53
 msgid "Testimonial"
 msgstr ""
 
-#: class-plugin.php:1337
-#: class-plugin.php:1570
+#: class-plugin.php:1342
+#: class-plugin.php:1575
 msgid "Testimonial Carousel"
 msgstr ""
 
-#: class-plugin.php:1347
+#: class-plugin.php:1352
 msgid "Timeline"
 msgstr ""
 
-#: class-plugin.php:1357
+#: class-plugin.php:1362
 #: widgets/future-widgets/toggle-button/class-absolute-addons-style-toggle-button.php:42
 msgid "Toggle Button"
 msgstr ""
 
-#: class-plugin.php:1367
-#: class-plugin.php:1545
+#: class-plugin.php:1372
+#: class-plugin.php:1550
 msgid "Tooltips"
 msgstr ""
 
-#: class-plugin.php:1377
-#: class-plugin.php:1565
+#: class-plugin.php:1382
+#: class-plugin.php:1570
 msgid "Twitter Feed Carousel"
 msgstr ""
 
-#: class-plugin.php:1387
+#: class-plugin.php:1392
 #: widgets/future-widgets/case-studies-slider/class-absolute-addons-style-case-studies-slider.php:52
 msgid "Case Studies Slider"
 msgstr ""
 
-#: class-plugin.php:1397
+#: class-plugin.php:1402
 #: widgets/future-widgets/case-studies/class-absolute-addons-style-case-studies.php:52
 msgid "Case Studies"
 msgstr ""
 
-#: class-plugin.php:1407
+#: class-plugin.php:1412
 #: widgets/future-widgets/beforeafter/class-absolute-addons-style-beforeafter.php:42
 msgid "Before After"
 msgstr ""
 
-#: class-plugin.php:1417
+#: class-plugin.php:1422
 #: widgets/future-widgets/typewriter-text/class-absolute-addons-style-typewriter-text.php:42
 msgid "Typewriter Text"
 msgstr ""
 
-#: class-plugin.php:1427
+#: class-plugin.php:1432
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:55
 msgid "Product Grid"
 msgstr ""
 
-#: class-plugin.php:1437
+#: class-plugin.php:1442
 #: widgets/future-widgets/interactive-card/class-absolute-addons-style-interactive-card.php:39
 msgid "Interactive Card"
 msgstr ""
 
-#: class-plugin.php:1447
-#: class-plugin.php:1600
+#: class-plugin.php:1452
+#: class-plugin.php:1605
 msgid "Restaurant Menu"
 msgstr ""
 
-#: class-plugin.php:1695
-#: class-plugin.php:1706
+#: class-plugin.php:1700
+#: class-plugin.php:1711
 msgid "Something went wrong."
 msgstr ""
 
@@ -987,7 +987,7 @@ msgstr ""
 
 #: controls/class-group-control-absp-background.php:692
 #: controls/class-group-control-absp-background.php:711
-#: widgets/advance-tab/controller/template-advance-tab-style.php:598
+#: widgets/advance-tab/controller/template-advance-tab-style.php:646
 #: widgets/button/class-absolute-addons-style-button.php:182
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:191
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:448
@@ -1001,12 +1001,12 @@ msgid "Auto"
 msgstr ""
 
 #: controls/class-group-control-absp-background.php:694
-#: widgets/advance-tab/controller/template-advance-tab-style.php:600
+#: widgets/advance-tab/controller/template-advance-tab-style.php:648
 msgid "Cover"
 msgstr ""
 
 #: controls/class-group-control-absp-background.php:695
-#: widgets/advance-tab/controller/template-advance-tab-style.php:601
+#: widgets/advance-tab/controller/template-advance-tab-style.php:649
 msgid "Contain"
 msgstr ""
 
@@ -1109,7 +1109,7 @@ msgid "what we collect"
 msgstr ""
 
 #: includes/absolute-plugins-services/class-insights.php:483
-#: includes/class-absolute-addons-services.php:286
+#: includes/class-absolute-addons-services.php:292
 #: templates/admin/dashboard-tab-support.php:189
 msgid "Privacy Policy"
 msgstr ""
@@ -1121,7 +1121,7 @@ msgstr ""
 
 #. translators: 1: Privacy Policy Link, 2: Terms Links
 #: includes/absolute-plugins-services/class-insights.php:494
-#: includes/class-absolute-addons-services.php:284
+#: includes/class-absolute-addons-services.php:290
 #: templates/admin/dashboard-tab-support.php:188
 msgid "Please read our %1$s and %2$s"
 msgstr ""
@@ -1220,7 +1220,7 @@ msgid "Please try again after sometime."
 msgstr ""
 
 #: includes/absolute-plugins-services/class-insights.php:1052
-#: includes/class-absolute-addons-services.php:289
+#: includes/class-absolute-addons-services.php:295
 msgid "Thank you -- Support Ticket Submitted."
 msgstr ""
 
@@ -1247,8 +1247,8 @@ msgid "Close"
 msgstr ""
 
 #: includes/absolute-plugins-services/class-insights.php:1111
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:214
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:735
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:217
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:738
 #: widgets/team/controller/style/team-item-style-five-controller.php:192
 #: widgets/team/controller/style/team-item-style-four-controller.php:193
 #: widgets/team/controller/style/team-item-style-nine-controller.php:192
@@ -1274,7 +1274,7 @@ msgid "Subject"
 msgstr ""
 
 #: includes/absolute-plugins-services/class-insights.php:1130
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:453
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:456
 msgid "Website"
 msgstr ""
 
@@ -1404,8 +1404,9 @@ msgstr ""
 
 #: includes/absolute-plugins-services/class-license.php:1002
 #: includes/trait-absp-slider-controller.php:832
-#: widgets/advance-tab/controller/template-advance-tab-style.php:351
-#: widgets/blog-page/controller/template-blog-page-style.php:180
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:621
+#: widgets/advance-tab/controller/template-advance-tab-style.php:384
+#: widgets/blog-page/controller/template-blog-page-style.php:182
 #: widgets/faq/controller/template-faq-style.php:279
 #: widgets/portfolio/controller/template-portfolio-style.php:163
 msgid "Active"
@@ -1532,81 +1533,81 @@ msgstr ""
 msgid "Email Is Required."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:140
+#: includes/class-absolute-addons-services.php:139
 #: templates/template-library/templates.php:76
 msgid "Get Pro"
 msgstr ""
 
 #. translators: 1. Plugin Name.
-#: includes/class-absolute-addons-services.php:178
+#: includes/class-absolute-addons-services.php:184
 msgid "And %s usage data."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:179
+#: includes/class-absolute-addons-services.php:185
 msgid "Absolute Addon"
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:272
+#: includes/class-absolute-addons-services.php:278
 msgid "Your ticket has been successfully submitted."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:273
+#: includes/class-absolute-addons-services.php:279
 msgid "24 hours"
 msgstr ""
 
 #. translators: 1. Support Response Time.
-#: includes/class-absolute-addons-services.php:276
+#: includes/class-absolute-addons-services.php:282
 msgid "You will receive an email notification from \"support@absoluteplugins.com\" in your inbox within %1$s."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:279
+#: includes/class-absolute-addons-services.php:285
 msgid "Please Follow the email and AbsolutePlugins Support Team will get back with you shortly."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:280
+#: includes/class-absolute-addons-services.php:286
 #: templates/admin/dashboard-tab-dashboard.php:33
 msgid "Documentation"
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:281
+#: includes/class-absolute-addons-services.php:287
 #: templates/admin/dashboard-tab-support.php:25
 msgid "Video Tutorials"
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:285
+#: includes/class-absolute-addons-services.php:291
 msgid "Terms & Conditions"
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:305
+#: includes/class-absolute-addons-services.php:311
 msgid "Something Went Wrong. Please Try The Support Ticket Form On Our Website."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:306
+#: includes/class-absolute-addons-services.php:312
 #: templates/admin/dashboard-tab-support.php:200
 msgid "Get Support"
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:307
+#: includes/class-absolute-addons-services.php:313
 msgid "Support Ticket form will open in new tab in 5 seconds."
 msgstr ""
 
-#: includes/class-absolute-addons-services.php:315
+#: includes/class-absolute-addons-services.php:321
 msgid "Cloning is forbidden."
 msgstr ""
 
-#: includes/class-absp-library-source.php:66
+#: includes/class-absp-library-source.php:70
 msgid "Absolute Library"
 msgstr ""
 
-#: includes/class-absp-library-source.php:148
+#: includes/class-absp-library-source.php:160
 msgid "Preview Placeholder"
 msgstr ""
 
-#: includes/class-absp-library-source.php:195
+#: includes/class-absp-library-source.php:214
 msgid "Template id is missing"
 msgstr ""
 
-#: includes/class-absp-library-source.php:312
+#: includes/class-absp-library-source.php:331
 msgid "Template does not have any content"
 msgstr ""
 
@@ -1825,18 +1826,18 @@ msgstr ""
 #: includes/settings/class-dashboard.php:652
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:36
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:73
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:454
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:457
 msgid "Facebook"
 msgstr ""
 
 #: includes/settings/class-dashboard.php:657
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:78
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:455
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:458
 msgid "Twitter"
 msgstr ""
 
 #: includes/settings/class-dashboard.php:662
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:456
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:459
 msgid "Instagram"
 msgstr ""
 
@@ -1876,7 +1877,7 @@ msgstr ""
 #: includes/trait-absp-slider-controller.php:280
 #: includes/trait-absp-slider-controller.php:293
 #: includes/trait-absp-slider-controller.php:306
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:344
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:348
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:254
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:369
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:397
@@ -1892,7 +1893,7 @@ msgstr ""
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:737
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:752
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:791
-#: widgets/blog-page/controller/template-blog-page-style.php:1093
+#: widgets/blog-page/controller/template-blog-page-style.php:1114
 #: widgets/button/class-absolute-addons-style-button.php:304
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:450
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:30
@@ -1944,16 +1945,16 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:626
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:461
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:677
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:235
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:353
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:367
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:236
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:354
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:368
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:17
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:390
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:411
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:434
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:445
-#: widgets/service/class-absolute-addons-style-service.php:881
-#: widgets/service/class-absolute-addons-style-service.php:952
+#: widgets/service/class-absolute-addons-style-service.php:891
+#: widgets/service/class-absolute-addons-style-service.php:962
 #: widgets/team/controller/style/team-item-style-five-controller.php:552
 #: widgets/team/controller/style/team-item-style-one-controller.php:477
 #: widgets/team/controller/style/team-item-style-two-controller.php:576
@@ -1966,7 +1967,7 @@ msgstr ""
 #: includes/trait-absp-slider-controller.php:281
 #: includes/trait-absp-slider-controller.php:294
 #: includes/trait-absp-slider-controller.php:307
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:345
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:349
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:255
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:370
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:398
@@ -1982,7 +1983,7 @@ msgstr ""
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:738
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:753
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:792
-#: widgets/blog-page/controller/template-blog-page-style.php:1094
+#: widgets/blog-page/controller/template-blog-page-style.php:1115
 #: widgets/button/class-absolute-addons-style-button.php:305
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:451
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:31
@@ -2034,14 +2035,14 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:627
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:462
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:678
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:354
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:368
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:355
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:369
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:391
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:412
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:435
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:446
-#: widgets/service/class-absolute-addons-style-service.php:882
-#: widgets/service/class-absolute-addons-style-service.php:953
+#: widgets/service/class-absolute-addons-style-service.php:892
+#: widgets/service/class-absolute-addons-style-service.php:963
 #: widgets/team/controller/style/team-item-style-five-controller.php:553
 #: widgets/team/controller/style/team-item-style-one-controller.php:478
 #: widgets/team/controller/style/team-item-style-two-controller.php:577
@@ -2060,7 +2061,7 @@ msgstr ""
 
 #: includes/trait-absp-accordion-controller.php:87
 #: includes/trait-absp-slider-controller.php:357
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:265
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:266
 msgid "Fade"
 msgstr ""
 
@@ -2112,9 +2113,9 @@ msgstr ""
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:463
 #: widgets/info-box/class-absolute-addons-style-info-box.php:346
 #: widgets/info-box/class-absolute-addons-style-info-box.php:535
-#: widgets/service/class-absolute-addons-style-service.php:398
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:257
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:336
+#: widgets/service/class-absolute-addons-style-service.php:407
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:260
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:339
 msgid "Show"
 msgstr ""
 
@@ -2137,9 +2138,9 @@ msgstr ""
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:464
 #: widgets/info-box/class-absolute-addons-style-info-box.php:347
 #: widgets/info-box/class-absolute-addons-style-info-box.php:536
-#: widgets/service/class-absolute-addons-style-service.php:399
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:258
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:337
+#: widgets/service/class-absolute-addons-style-service.php:408
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:261
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:340
 msgid "Hide"
 msgstr ""
 
@@ -2152,12 +2153,12 @@ msgid "Active Icon"
 msgstr ""
 
 #: includes/trait-absp-accordion-controller.php:222
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:202
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:232
-#: widgets/advance-tab/controller/template-advance-tab-style.php:668
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:206
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:236
+#: widgets/advance-tab/controller/template-advance-tab-style.php:716
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:828
-#: widgets/blog-page/controller/template-blog-page-style.php:352
-#: widgets/blog-page/controller/template-blog-page-style.php:1048
+#: widgets/blog-page/controller/template-blog-page-style.php:354
+#: widgets/blog-page/controller/template-blog-page-style.php:1069
 #: widgets/button/class-absolute-addons-style-button.php:343
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:638
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:171
@@ -2167,23 +2168,23 @@ msgstr ""
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:215
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:243
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:661
-#: widgets/service/class-absolute-addons-style-service.php:889
+#: widgets/service/class-absolute-addons-style-service.php:899
 #: widgets/service/controller/content-controller-service-style.php:609
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:515
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:518
 #: widgets/team/controller/style/team-item-style-five-controller.php:367
 #: widgets/team/controller/style/team-item-style-five-controller.php:468
 msgid "Alignment"
 msgstr ""
 
 #: includes/trait-absp-accordion-controller.php:226
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:206
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:236
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:210
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:240
 msgid "Start"
 msgstr ""
 
 #: includes/trait-absp-accordion-controller.php:230
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:214
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:244
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:218
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:248
 msgid "End"
 msgstr ""
 
@@ -2226,7 +2227,7 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-item-fourteen-controller.php:73
 #: widgets/list-group/controller/template-list-group-item-two-controller.php:46
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:61
-#: widgets/service/class-absolute-addons-style-service.php:933
+#: widgets/service/class-absolute-addons-style-service.php:943
 msgid "https://your-link.com"
 msgstr ""
 
@@ -2272,10 +2273,10 @@ msgid "Distance between slides in px"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:343
-#: widgets/advance-tab/controller/template-advance-tab-style.php:672
+#: widgets/advance-tab/controller/template-advance-tab-style.php:720
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:832
-#: widgets/blog-page/controller/template-blog-page-style.php:356
-#: widgets/blog-page/controller/template-blog-page-style.php:1052
+#: widgets/blog-page/controller/template-blog-page-style.php:358
+#: widgets/blog-page/controller/template-blog-page-style.php:1073
 #: widgets/button/class-absolute-addons-style-button.php:347
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:642
 #: widgets/fun-fact/class-absolute-addons-style-fun-fact.php:280
@@ -2302,10 +2303,10 @@ msgstr ""
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:219
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:247
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:665
-#: widgets/service/class-absolute-addons-style-service.php:343
-#: widgets/service/class-absolute-addons-style-service.php:439
-#: widgets/service/class-absolute-addons-style-service.php:893
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:519
+#: widgets/service/class-absolute-addons-style-service.php:352
+#: widgets/service/class-absolute-addons-style-service.php:448
+#: widgets/service/class-absolute-addons-style-service.php:903
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:522
 #: widgets/team/controller/style/team-item-style-five-controller.php:371
 #: widgets/team/controller/style/team-item-style-five-controller.php:472
 #: widgets/team/controller/style/team-item-style-twenty-one-controller.php:32
@@ -2316,10 +2317,10 @@ msgid "Left"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:344
-#: widgets/advance-tab/controller/template-advance-tab-style.php:680
+#: widgets/advance-tab/controller/template-advance-tab-style.php:728
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:840
-#: widgets/blog-page/controller/template-blog-page-style.php:364
-#: widgets/blog-page/controller/template-blog-page-style.php:1060
+#: widgets/blog-page/controller/template-blog-page-style.php:366
+#: widgets/blog-page/controller/template-blog-page-style.php:1081
 #: widgets/button/class-absolute-addons-style-button.php:355
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:650
 #: widgets/fun-fact/class-absolute-addons-style-fun-fact.php:288
@@ -2346,9 +2347,9 @@ msgstr ""
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:227
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:255
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:669
-#: widgets/service/class-absolute-addons-style-service.php:443
-#: widgets/service/class-absolute-addons-style-service.php:901
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:527
+#: widgets/service/class-absolute-addons-style-service.php:452
+#: widgets/service/class-absolute-addons-style-service.php:911
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:530
 #: widgets/team/controller/style/team-item-style-five-controller.php:375
 #: widgets/team/controller/style/team-item-style-five-controller.php:476
 #: widgets/team/controller/style/team-item-style-twenty-one-controller.php:37
@@ -2383,10 +2384,10 @@ msgid "Dots"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:373
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:399
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:403
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:1930
 #: widgets/image-grid/controller/template-image-grid-item-controller.php:52
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:223
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:224
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:184
 msgid "None"
 msgstr ""
@@ -2434,14 +2435,15 @@ msgstr ""
 
 #: includes/trait-absp-slider-controller.php:581
 #: includes/trait-absp-slider-controller.php:784
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:505
 #: widgets/advance-tab/controller/template-advance-tab-style.php:131
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1080
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1128
 #: widgets/blog-page/controller/template-blog-page-style.php:36
-#: widgets/blog-page/controller/template-blog-page-style.php:320
-#: widgets/blog-page/controller/template-blog-page-style.php:444
-#: widgets/blog-page/controller/template-blog-page-style.php:722
-#: widgets/blog-page/controller/template-blog-page-style.php:870
-#: widgets/blog-page/controller/template-blog-page-style.php:1207
+#: widgets/blog-page/controller/template-blog-page-style.php:322
+#: widgets/blog-page/controller/template-blog-page-style.php:453
+#: widgets/blog-page/controller/template-blog-page-style.php:743
+#: widgets/blog-page/controller/template-blog-page-style.php:891
+#: widgets/blog-page/controller/template-blog-page-style.php:1228
 #: widgets/button/controller/template-button-style.php:22
 #: widgets/button/controller/template-button-style.php:235
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:27
@@ -2504,8 +2506,9 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-style.php:384
 #: widgets/list-group/controller/template-list-group-style.php:531
 #: widgets/list-group/controller/template-list-group-style.php:684
+#: widgets/list/controller/template-list-style.php:505
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:358
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:398
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:399
 #: widgets/portfolio/controller/template-portfolio-style.php:25
 #: widgets/product-grid/controller/style-controller-product-grid-item-button.php:24
 #: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:27
@@ -2519,10 +2522,10 @@ msgstr ""
 #: widgets/service/controller/content-controller-service-style.php:638
 #: widgets/service/controller/content-controller-service-style.php:810
 #: widgets/service/controller/content-controller-service-style.php:901
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:748
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:893
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1005
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1223
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:751
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:896
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1008
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1226
 #: widgets/team/controller/style/team-item-style-five-controller.php:30
 #: widgets/team/controller/style/team-item-style-five-controller.php:206
 #: widgets/team/controller/style/team-item-style-five-controller.php:337
@@ -2601,14 +2604,15 @@ msgid "Navigation Button Margin"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:728
-#: widgets/advance-tab/controller/template-advance-tab-style.php:272
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1177
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:569
+#: widgets/advance-tab/controller/template-advance-tab-style.php:287
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1225
 #: widgets/blog-page/controller/template-blog-page-style.php:136
-#: widgets/blog-page/controller/template-blog-page-style.php:397
-#: widgets/blog-page/controller/template-blog-page-style.php:514
-#: widgets/blog-page/controller/template-blog-page-style.php:807
-#: widgets/blog-page/controller/template-blog-page-style.php:955
-#: widgets/blog-page/controller/template-blog-page-style.php:1343
+#: widgets/blog-page/controller/template-blog-page-style.php:399
+#: widgets/blog-page/controller/template-blog-page-style.php:523
+#: widgets/blog-page/controller/template-blog-page-style.php:828
+#: widgets/blog-page/controller/template-blog-page-style.php:976
+#: widgets/blog-page/controller/template-blog-page-style.php:1364
 #: widgets/button/controller/template-button-style.php:116
 #: widgets/button/controller/template-button-style.php:383
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:122
@@ -2669,6 +2673,7 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-style.php:484
 #: widgets/list-group/controller/template-list-group-style.php:640
 #: widgets/list-group/controller/template-list-group-style.php:784
+#: widgets/list/controller/template-list-style.php:617
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:574
 #: widgets/portfolio/controller/template-portfolio-style.php:119
 #: widgets/product-grid/controller/style-controller-product-grid-item-button.php:187
@@ -2683,9 +2688,9 @@ msgstr ""
 #: widgets/service/controller/content-controller-service-style.php:763
 #: widgets/service/controller/content-controller-service-style.php:860
 #: widgets/service/controller/content-controller-service-style.php:995
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:831
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:954
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1297
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:834
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:957
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1300
 #: widgets/team/controller/style/team-item-style-five-controller.php:110
 #: widgets/team/controller/style/team-item-style-five-controller.php:261
 #: widgets/team/controller/style/team-item-style-five-controller.php:434
@@ -2756,7 +2761,7 @@ msgid "Dots Active Color"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:871
-msgid "Dots Gap "
+msgid "Dots Gap"
 msgstr ""
 
 #: includes/trait-absp-slider-controller.php:895
@@ -3083,7 +3088,7 @@ msgstr ""
 
 #: templates/admin/dashboard-tab-widgets.php:34
 #: templates/admin/dashboard-tab-widgets.php:72
-#: templates/template-library/templates.php:115
+#: templates/template-library/templates.php:122
 msgid "Pro"
 msgstr ""
 
@@ -3146,28 +3151,40 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
-#: templates/template-library/templates.php:98
+#: templates/template-library/templates.php:100
+msgid "My Favorites"
+msgstr ""
+
+#: templates/template-library/templates.php:105
 msgid "Search Templates:"
 msgstr ""
 
-#: templates/template-library/templates.php:99
+#: templates/template-library/templates.php:106
 #: widgets/faq/class-absolute-addons-style-faq.php:382
 msgid "Search"
 msgstr ""
 
-#: templates/template-library/templates.php:123
-msgid "Preview"
-msgstr ""
-
-#: templates/template-library/templates.php:130
-msgid "No Result Found"
+#: templates/template-library/templates.php:133
+msgid "Add to favorites"
 msgstr ""
 
 #: templates/template-library/templates.php:135
+msgid "Remove from favorites"
+msgstr ""
+
+#: templates/template-library/templates.php:145
+msgid "Preview"
+msgstr ""
+
+#: templates/template-library/templates.php:152
+msgid "No Result Found"
+msgstr ""
+
+#: templates/template-library/templates.php:157
 msgid "Want to learn more about the Absolute Library?"
 msgstr ""
 
-#: templates/template-library/templates.php:136
+#: templates/template-library/templates.php:158
 #: widgets/button/class-absolute-addons-style-button.php:253
 #: widgets/button/class-absolute-addons-style-button.php:254
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:262
@@ -3177,7 +3194,7 @@ msgstr ""
 msgid "Click here"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:135
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:139
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:122
 #: widgets/content-card/class-absolute-addons-style-content-card.php:103
 #: widgets/countdown/class-absolute-addons-style-countdown.php:150
@@ -3189,7 +3206,7 @@ msgstr ""
 msgid "Template Style"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:140
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:144
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:148
 #: widgets/button/class-absolute-addons-style-button.php:127
 #: widgets/counter/class-absolute-addons-style-counter.php:140
@@ -3222,52 +3239,52 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:127
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:129
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:123
-#: widgets/service/class-absolute-addons-style-service.php:136
+#: widgets/service/class-absolute-addons-style-service.php:144
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:132
 #: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:131
 #: widgets/team/class-absolute-addons-style-team.php:129
 msgid "Style One"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:141
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:145
 msgid "Style Two (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:142
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:146
 msgid "Style Three(Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:143
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:147
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:151
 #: widgets/counter/class-absolute-addons-style-counter.php:143
 #: widgets/list/class-absolute-addons-style-list.php:130
 msgid "Style Four (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:144
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:148
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:152
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:177
 #: widgets/list/class-absolute-addons-style-list.php:131
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:133
-#: widgets/service/class-absolute-addons-style-service.php:140
+#: widgets/service/class-absolute-addons-style-service.php:148
 msgid "Style Five (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:145
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:149
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:153
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:178
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:134
-#: widgets/service/class-absolute-addons-style-service.php:141
+#: widgets/service/class-absolute-addons-style-service.php:149
 msgid "Style Six (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:146
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:150
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:154
 #: widgets/list/class-absolute-addons-style-list.php:133
 msgid "Style Seven (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:147
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:151
 #: widgets/future-widgets/advance-heading/class-absolute-addons-style-advance-heading.php:155
 #: widgets/future-widgets/advance-toggle/class-absolute-addons-style-advance-toggle.php:155
 #: widgets/future-widgets/alert/class-absolute-addons-style-alert.php:159
@@ -3281,34 +3298,34 @@ msgstr ""
 msgid "Style Eight"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:148
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:152
 #: widgets/counter/class-absolute-addons-style-counter.php:148
 #: widgets/future-widgets/advance-heading/class-absolute-addons-style-advance-heading.php:156
 #: widgets/future-widgets/advance-toggle/class-absolute-addons-style-advance-toggle.php:156
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:132
 #: widgets/future-widgets/notification/class-absolute-addons-style-notification.php:155
 #: widgets/image-grid/class-absolute-addons-style-image-grid.php:142
-#: widgets/service/class-absolute-addons-style-service.php:144
+#: widgets/service/class-absolute-addons-style-service.php:152
 #: widgets/team/class-absolute-addons-style-team.php:137
 msgid "Style Nine"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:149
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:153
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:138
 msgid "Style Ten (Pro)"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:165
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:169
 msgid "Advance Tab Style"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:178
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:182
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:207
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:251
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:252
 msgid "View"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:187
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:191
 #: widgets/future-widgets/divider/controller/style-controller-divider-two-type-icon.php:73
 #: widgets/future-widgets/divider/controller/style-controller-divider-two-type-image.php:48
 #: widgets/future-widgets/divider/controller/style-controller-divider-two-type-text.php:52
@@ -3319,20 +3336,20 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:191
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:195
 msgid "Horizontal"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:192
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:196
 msgid "Vertical"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:210
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:240
-#: widgets/advance-tab/controller/template-advance-tab-style.php:676
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:214
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:244
+#: widgets/advance-tab/controller/template-advance-tab-style.php:724
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:836
-#: widgets/blog-page/controller/template-blog-page-style.php:360
-#: widgets/blog-page/controller/template-blog-page-style.php:1056
+#: widgets/blog-page/controller/template-blog-page-style.php:362
+#: widgets/blog-page/controller/template-blog-page-style.php:1077
 #: widgets/button/class-absolute-addons-style-button.php:351
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:646
 #: widgets/fun-fact/class-absolute-addons-style-fun-fact.php:284
@@ -3355,74 +3372,74 @@ msgstr ""
 #: widgets/future-widgets/typewriter-text/class-absolute-addons-style-typewriter-text.php:158
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:223
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:251
-#: widgets/service/class-absolute-addons-style-service.php:897
+#: widgets/service/class-absolute-addons-style-service.php:907
 #: widgets/service/controller/content-controller-service-style.php:617
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:523
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:526
 msgid "Center"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:218
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:248
-#: widgets/advance-tab/controller/template-advance-tab-style.php:684
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:222
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:252
+#: widgets/advance-tab/controller/template-advance-tab-style.php:732
 msgid "Justified"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:262
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:266
 msgid "Content Title HTML Tag"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:316
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:320
 #: widgets/counter/class-absolute-addons-style-counter.php:173
 #: widgets/list/class-absolute-addons-style-list.php:212
-#: widgets/service/class-absolute-addons-style-service.php:267
+#: widgets/service/class-absolute-addons-style-service.php:276
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:192
 #: widgets/testimonial/controller/template-testimonial-item-nine-controller.php:16
 #: widgets/testimonial/controller/template-testimonial-item-ten-controller.php:14
 msgid "Content Section"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:328
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:330
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:331
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:332
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:334
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:335
 #: widgets/advance-tab/controller/template-advance-tab-style.php:121
 msgid "Tab Title"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:341
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:345
 msgid "Show Tab Icon"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:355
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:359
 msgid "Tab Icon"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:384
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:388
 msgid "Add Gallery"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:396
-#: widgets/advance-tab/controller/template-advance-tab-style.php:657
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:400
+#: widgets/advance-tab/controller/template-advance-tab-style.php:705
 msgid "Caption"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:400
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:404
 msgid "Attachment Caption"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:401
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:410
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:405
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:414
 msgid "Custom Caption"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:413
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:417
 msgid "Enter your image caption"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:428
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:432
 msgid "Columns"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:440
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:444
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:202
 #: widgets/content-card/class-absolute-addons-style-content-card.php:154
 #: widgets/future-widgets/alert/controller/alert-item-controller-eight.php:24
@@ -3440,23 +3457,23 @@ msgstr ""
 msgid "Add Image"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:454
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:456
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:457
-#: widgets/advance-tab/controller/template-advance-tab-style.php:937
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:458
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:460
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:461
+#: widgets/advance-tab/controller/template-advance-tab-style.php:985
 msgid "Content Sub Title"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:469
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:471
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:472
-#: widgets/advance-tab/controller/template-advance-tab-style.php:863
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:473
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:475
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:476
+#: widgets/advance-tab/controller/template-advance-tab-style.php:911
 msgid "Content Title"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:483
-#: widgets/advance-tab/controller/template-advance-tab-style.php:996
-#: widgets/blog-page/controller/template-blog-page-style.php:1004
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:487
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1044
+#: widgets/blog-page/controller/template-blog-page-style.php:1025
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:160
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:278
 #: widgets/call-to-action/controller/style-controller-call-to-action-content.php:10
@@ -3514,7 +3531,7 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-item-two-controller.php:9
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:165
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:112
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:993
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:996
 #: widgets/team/controller/style/team-item-style-five-controller.php:627
 #: widgets/team/controller/style/team-item-style-four-controller.php:471
 #: widgets/team/controller/style/team-item-style-nine-controller.php:469
@@ -3524,67 +3541,249 @@ msgstr ""
 msgid "Content"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:484
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:485
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:488
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:489
 msgid "Tab Content"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:497
-msgid "Tabs Items"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:515
+#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:54
+#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:57
+msgid "Title Background"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:502
-msgid "Tab #1"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:526
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:590
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:642
+#: widgets/advance-tab/controller/template-advance-tab-style.php:164
+#: widgets/advance-tab/controller/template-advance-tab-style.php:314
+#: widgets/advance-tab/controller/template-advance-tab-style.php:408
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1158
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1246
+#: widgets/call-to-action/controller/style-controller-call-to-action-title.php:27
+#: widgets/content-card/controller/style-controller-content-card-title.php:27
+#: widgets/countdown/controller/style-controller-count-down-item-title.php:41
+#: widgets/counter/controller/template-counter-style.php:393
+#: widgets/counter/controller/template-counter-style.php:453
+#: widgets/fun-fact/controller/style-controller-fun-fact-item-title.php:28
+#: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:288
+#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-title.php:37
+#: widgets/future-widgets/pricing-table/controller/controller-pricing-item-seventeen.php:117
+#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:42
+#: widgets/future-widgets/typewriter-text/class-absolute-addons-style-typewriter-text.php:303
+#: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:566
+#: widgets/icon-box/controller/style-controller-icon-box-title.php:28
+#: widgets/info-box/controller/style-controller-info-box-title.php:27
+#: widgets/list-group/controller/template-list-group-style.php:312
+#: widgets/list-group/controller/template-list-group-style.php:354
+#: widgets/list-group/controller/template-list-group-style.php:501
+#: widgets/list-group/controller/template-list-group-style.php:657
+#: widgets/list/class-absolute-addons-style-list.php:438
+#: widgets/list/controller/template-list-style.php:325
+#: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-title.php:27
+#: widgets/portfolio/controller/template-portfolio-style.php:246
+#: widgets/product-grid/controller/style-controller-product-grid-item-title.php:30
+#: widgets/service/controller/content-controller-service-style.php:446
+#: widgets/service/controller/content-controller-service-style.php:481
+#: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:363
+#: widgets/testimonial/controller/template-testimonial-style.php:507
+msgid "Title Color"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:503
-msgid "Tab #1 Content Title"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:538
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:602
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:656
+#: widgets/advance-tab/controller/template-advance-tab-style.php:41
+#: widgets/advance-tab/controller/template-advance-tab-style.php:223
+#: widgets/advance-tab/controller/template-advance-tab-style.php:344
+#: widgets/advance-tab/controller/template-advance-tab-style.php:469
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1191
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1258
+#: widgets/call-to-action/controller/style-controller-call-to-action-button.php:87
+#: widgets/call-to-action/controller/style-controller-call-to-action-button.php:174
+#: widgets/call-to-action/controller/style-controller-call-to-action-four-button.php:95
+#: widgets/call-to-action/controller/style-controller-call-to-action-four-button.php:182
+#: widgets/call-to-action/controller/style-controller-call-to-action-settings.php:68
+#: widgets/content-card/controller/style-controller-content-card-button.php:108
+#: widgets/content-card/controller/style-controller-content-card-button.php:198
+#: widgets/content-card/controller/style-controller-content-card-settings.php:68
+#: widgets/countdown/controller/style-controller-count-down-item-day-nine.php:58
+#: widgets/countdown/controller/style-controller-count-down-item-day.php:130
+#: widgets/countdown/controller/style-controller-count-down-item-hour-nine.php:58
+#: widgets/countdown/controller/style-controller-count-down-item-hour.php:131
+#: widgets/countdown/controller/style-controller-count-down-item-minute-nine.php:58
+#: widgets/countdown/controller/style-controller-count-down-item-minute.php:131
+#: widgets/countdown/controller/style-controller-count-down-item-second-nine.php:58
+#: widgets/countdown/controller/style-controller-count-down-item-second.php:131
+#: widgets/countdown/controller/style-controller-count-down-item-settings.php:58
+#: widgets/counter/controller/template-counter-style.php:71
+#: widgets/counter/controller/template-counter-style.php:250
+#: widgets/counter/controller/template-counter-style.php:755
+#: widgets/counter/controller/template-counter-style.php:845
+#: widgets/counter/controller/template-counter-style.php:992
+#: widgets/counter/controller/template-counter-style.php:1078
+#: widgets/faq/controller/template-faq-style.php:71
+#: widgets/faq/controller/template-faq-style.php:143
+#: widgets/fun-fact/controller/style-controller-fun-fact-item-button.php:208
+#: widgets/fun-fact/controller/style-controller-fun-fact-item-settings.php:68
+#: widgets/future-widgets/divider/controller/style-controller-divider-settings.php:58
+#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-button.php:191
+#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-settings.php:66
+#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:170
+#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:333
+#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:442
+#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:530
+#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:471
+#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:1026
+#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:1088
+#: widgets/future-widgets/pricing-table/controller/style-controller-spotlight.php:206
+#: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:394
+#: widgets/icon-box/controller/style-controller-icon-box-button.php:132
+#: widgets/icon-box/controller/style-controller-icon-box-button.php:233
+#: widgets/icon-box/controller/style-controller-icon-box-settings.php:68
+#: widgets/icon-box/controller/style-controller-icon-box-settings.php:157
+#: widgets/image-carousel/controller/style-controller-image-carousel-item-settings.php:68
+#: widgets/info-box/controller/style-controller-info-box-button.php:112
+#: widgets/info-box/controller/style-controller-info-box-button.php:218
+#: widgets/list-group/controller/template-list-group-style.php:60
+#: widgets/list-group/controller/template-list-group-style.php:167
+#: widgets/list-group/controller/template-list-group-style.php:241
+#: widgets/list/controller/template-list-style.php:37
+#: widgets/list/controller/template-list-style.php:112
+#: widgets/list/controller/template-list-style.php:295
+#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:528
+#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:744
+#: widgets/product-grid/controller/style-controller-product-grid-item-button.php:130
+#: widgets/product-grid/controller/style-controller-product-grid-item-button.php:279
+#: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:96
+#: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:183
+#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:72
+#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:152
+#: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:96
+#: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:183
+#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:66
+#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:130
+#: widgets/service/controller/content-controller-service-style.php:38
+#: widgets/service/controller/content-controller-service-style.php:138
+#: widgets/service/controller/content-controller-service-style.php:692
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1233
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1307
+#: widgets/team/controller/style/team-item-style-five-controller.php:76
+#: widgets/team/controller/style/team-item-style-five-controller.php:150
+#: widgets/team/controller/style/team-item-style-four-controller.php:77
+#: widgets/team/controller/style/team-item-style-four-controller.php:151
+#: widgets/team/controller/style/team-item-style-four-controller.php:551
+#: widgets/team/controller/style/team-item-style-four-controller.php:629
+#: widgets/team/controller/style/team-item-style-nine-controller.php:77
+#: widgets/team/controller/style/team-item-style-nine-controller.php:151
+#: widgets/team/controller/style/team-item-style-nine-controller.php:558
+#: widgets/team/controller/style/team-item-style-nine-controller.php:640
+#: widgets/team/controller/style/team-item-style-one-controller.php:73
+#: widgets/team/controller/style/team-item-style-one-controller.php:146
+#: widgets/team/controller/style/team-item-style-one-controller.php:698
+#: widgets/team/controller/style/team-item-style-one-controller.php:777
+#: widgets/team/controller/style/team-item-style-thirteen-controller.php:448
+#: widgets/team/controller/style/team-item-style-thirteen-controller.php:502
+#: widgets/team/controller/style/team-item-style-three-controller.php:82
+#: widgets/team/controller/style/team-item-style-three-controller.php:156
+#: widgets/team/controller/style/team-item-style-twenty-one-controller.php:452
+#: widgets/team/controller/style/team-item-style-twenty-one-controller.php:506
+#: widgets/team/controller/style/team-item-style-two-controller.php:94
+#: widgets/team/controller/style/team-item-style-two-controller.php:168
+#: widgets/testimonial/controller/template-testimonial-style.php:79
+#: widgets/testimonial/controller/template-testimonial-style.php:171
+#: widgets/testimonial/controller/template-testimonial-style.php:351
+msgid "Box Shadow"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:504
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:509
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:514
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:519
-msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:547
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:611
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:665
+#: widgets/advance-tab/controller/template-advance-tab-style.php:58
+#: widgets/advance-tab/controller/template-advance-tab-style.php:235
+#: widgets/advance-tab/controller/template-advance-tab-style.php:356
+#: widgets/advance-tab/controller/template-advance-tab-style.php:481
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1170
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1267
+#: widgets/blog-page/controller/template-blog-page-style.php:89
+#: widgets/blog-page/controller/template-blog-page-style.php:171
+#: widgets/blog-page/controller/template-blog-page-style.php:215
+#: widgets/blog-page/controller/template-blog-page-style.php:251
+#: widgets/blog-page/controller/template-blog-page-style.php:1268
+#: widgets/blog-page/controller/template-blog-page-style.php:1397
+#: widgets/button/controller/template-button-style.php:62
+#: widgets/button/controller/template-button-style.php:149
+#: widgets/button/controller/template-button-style.php:200
+#: widgets/button/controller/template-button-style.php:329
+#: widgets/button/controller/template-button-style.php:416
+#: widgets/button/controller/template-button-style.php:467
+#: widgets/counter/controller/template-counter-style.php:81
+#: widgets/counter/controller/template-counter-style.php:260
+#: widgets/counter/controller/template-counter-style.php:765
+#: widgets/counter/controller/template-counter-style.php:856
+#: widgets/counter/controller/template-counter-style.php:1002
+#: widgets/counter/controller/template-counter-style.php:1088
+#: widgets/dual-button/controller/template-dual-button-style.php:62
+#: widgets/dual-button/controller/template-dual-button-style.php:149
+#: widgets/dual-button/controller/template-dual-button-style.php:200
+#: widgets/dual-button/controller/template-dual-button-style.php:329
+#: widgets/dual-button/controller/template-dual-button-style.php:416
+#: widgets/dual-button/controller/template-dual-button-style.php:488
+#: widgets/dual-button/controller/template-dual-button-style.php:575
+#: widgets/dual-button/controller/template-dual-button-style.php:626
+#: widgets/dual-button/controller/template-dual-button-style.php:755
+#: widgets/dual-button/controller/template-dual-button-style.php:842
+#: widgets/dual-button/controller/template-dual-button-style.php:962
+#: widgets/future-widgets/cf7/class-absolute-addons-style-cf7.php:228
+#: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:368
+#: widgets/list-group/controller/template-list-group-style.php:69
+#: widgets/list-group/controller/template-list-group-style.php:176
+#: widgets/list-group/controller/template-list-group-style.php:250
+#: widgets/list/class-absolute-addons-style-list.php:563
+#: widgets/list/controller/template-list-style.php:46
+#: widgets/list/controller/template-list-style.php:121
+#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:413
+#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:628
+#: widgets/portfolio/controller/template-portfolio-style.php:59
+#: widgets/portfolio/controller/template-portfolio-style.php:152
+#: widgets/portfolio/controller/template-portfolio-style.php:214
+#: widgets/portfolio/controller/template-portfolio-style.php:302
+#: widgets/portfolio/controller/template-portfolio-style.php:396
+#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:51
+#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:131
+#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:54
+#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:118
+#: widgets/service/class-absolute-addons-style-service.php:701
+#: widgets/service/controller/content-controller-service-style.php:219
+#: widgets/service/controller/content-controller-service-style.php:259
+#: widgets/service/controller/content-controller-service-style.php:680
+#: widgets/service/controller/content-controller-service-style.php:838
+#: widgets/service/controller/content-controller-service-style.php:941
+#: widgets/service/controller/content-controller-service-style.php:1028
+#: widgets/testimonial/controller/template-testimonial-style.php:189
+msgid "Border"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:507
-msgid "Tab #2"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:555
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:673
+#: widgets/advance-tab/controller/template-advance-tab-style.php:66
+#: widgets/advance-tab/controller/template-advance-tab-style.php:246
+#: widgets/advance-tab/controller/template-advance-tab-style.php:367
+#: widgets/advance-tab/controller/template-advance-tab-style.php:492
+msgid "Advance Tab Border Radius"
 msgstr ""
 
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:508
-msgid "Tab #2 Content Title"
-msgstr ""
-
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:512
-msgid "Tab #3"
-msgstr ""
-
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:513
-msgid "Tab #3 Content Title"
-msgstr ""
-
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:517
-msgid "Tab #4"
-msgstr ""
-
-#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:518
-msgid "Tab #4 Content Title"
-msgstr ""
-
-#: widgets/advance-tab/controller/template-advance-tab-style.php:22
-msgid "General Advance Tab Style"
-msgstr ""
-
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:579
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:631
 #: widgets/advance-tab/controller/template-advance-tab-style.php:31
 #: widgets/advance-tab/controller/template-advance-tab-style.php:150
-#: widgets/advance-tab/controller/template-advance-tab-style.php:282
-#: widgets/advance-tab/controller/template-advance-tab-style.php:361
-#: widgets/advance-tab/controller/template-advance-tab-style.php:885
-#: widgets/advance-tab/controller/template-advance-tab-style.php:959
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1015
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1099
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1187
+#: widgets/advance-tab/controller/template-advance-tab-style.php:300
+#: widgets/advance-tab/controller/template-advance-tab-style.php:394
+#: widgets/advance-tab/controller/template-advance-tab-style.php:933
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1007
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1063
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1147
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1235
 #: widgets/counter/controller/template-counter-item-five-controller.php:134
 #: widgets/counter/controller/template-counter-item-nine-controller.php:133
 #: widgets/counter/controller/template-counter-item-seven-controller.php:133
@@ -3674,10 +3873,10 @@ msgstr ""
 #: widgets/service/controller/content-controller-service-style.php:572
 #: widgets/service/controller/content-controller-service-style.php:656
 #: widgets/service/controller/content-controller-service-style.php:771
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:756
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:839
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1256
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1331
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:759
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:842
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1259
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1334
 #: widgets/team/controller/style/team-item-style-five-controller.php:38
 #: widgets/team/controller/style/team-item-style-five-controller.php:118
 #: widgets/team/controller/style/team-item-style-four-controller.php:42
@@ -3698,184 +3897,56 @@ msgstr ""
 msgid "Background"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:41
-#: widgets/advance-tab/controller/template-advance-tab-style.php:217
-#: widgets/advance-tab/controller/template-advance-tab-style.php:320
-#: widgets/advance-tab/controller/template-advance-tab-style.php:430
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1143
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1210
-#: widgets/call-to-action/controller/style-controller-call-to-action-button.php:87
-#: widgets/call-to-action/controller/style-controller-call-to-action-button.php:174
-#: widgets/call-to-action/controller/style-controller-call-to-action-four-button.php:95
-#: widgets/call-to-action/controller/style-controller-call-to-action-four-button.php:182
-#: widgets/call-to-action/controller/style-controller-call-to-action-settings.php:68
-#: widgets/content-card/controller/style-controller-content-card-button.php:108
-#: widgets/content-card/controller/style-controller-content-card-button.php:198
-#: widgets/content-card/controller/style-controller-content-card-settings.php:68
-#: widgets/countdown/controller/style-controller-count-down-item-day-nine.php:58
-#: widgets/countdown/controller/style-controller-count-down-item-day.php:130
-#: widgets/countdown/controller/style-controller-count-down-item-hour-nine.php:58
-#: widgets/countdown/controller/style-controller-count-down-item-hour.php:131
-#: widgets/countdown/controller/style-controller-count-down-item-minute-nine.php:58
-#: widgets/countdown/controller/style-controller-count-down-item-minute.php:131
-#: widgets/countdown/controller/style-controller-count-down-item-second-nine.php:58
-#: widgets/countdown/controller/style-controller-count-down-item-second.php:131
-#: widgets/countdown/controller/style-controller-count-down-item-settings.php:58
-#: widgets/counter/controller/template-counter-style.php:71
-#: widgets/counter/controller/template-counter-style.php:250
-#: widgets/counter/controller/template-counter-style.php:755
-#: widgets/counter/controller/template-counter-style.php:845
-#: widgets/counter/controller/template-counter-style.php:992
-#: widgets/counter/controller/template-counter-style.php:1078
-#: widgets/faq/controller/template-faq-style.php:71
-#: widgets/faq/controller/template-faq-style.php:143
-#: widgets/fun-fact/controller/style-controller-fun-fact-item-button.php:208
-#: widgets/fun-fact/controller/style-controller-fun-fact-item-settings.php:68
-#: widgets/future-widgets/divider/controller/style-controller-divider-settings.php:58
-#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-button.php:191
-#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-settings.php:66
-#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:170
-#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:333
-#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:442
-#: widgets/future-widgets/pricing-table/controller/style-controller-button.php:530
-#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:471
-#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:1026
-#: widgets/future-widgets/pricing-table/controller/style-controller-settings.php:1088
-#: widgets/future-widgets/pricing-table/controller/style-controller-spotlight.php:206
-#: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:394
-#: widgets/icon-box/controller/style-controller-icon-box-button.php:132
-#: widgets/icon-box/controller/style-controller-icon-box-button.php:233
-#: widgets/icon-box/controller/style-controller-icon-box-settings.php:68
-#: widgets/icon-box/controller/style-controller-icon-box-settings.php:157
-#: widgets/image-carousel/controller/style-controller-image-carousel-item-settings.php:68
-#: widgets/info-box/controller/style-controller-info-box-button.php:112
-#: widgets/info-box/controller/style-controller-info-box-button.php:218
-#: widgets/list-group/controller/template-list-group-style.php:60
-#: widgets/list-group/controller/template-list-group-style.php:167
-#: widgets/list-group/controller/template-list-group-style.php:241
-#: widgets/list/controller/template-list-style.php:37
-#: widgets/list/controller/template-list-style.php:112
-#: widgets/list/controller/template-list-style.php:295
-#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:528
-#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:744
-#: widgets/product-grid/controller/style-controller-product-grid-item-button.php:130
-#: widgets/product-grid/controller/style-controller-product-grid-item-button.php:279
-#: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:96
-#: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:183
-#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:72
-#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:152
-#: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:96
-#: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:183
-#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:66
-#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:130
-#: widgets/service/controller/content-controller-service-style.php:38
-#: widgets/service/controller/content-controller-service-style.php:138
-#: widgets/service/controller/content-controller-service-style.php:692
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1230
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1304
-#: widgets/team/controller/style/team-item-style-five-controller.php:76
-#: widgets/team/controller/style/team-item-style-five-controller.php:150
-#: widgets/team/controller/style/team-item-style-four-controller.php:77
-#: widgets/team/controller/style/team-item-style-four-controller.php:151
-#: widgets/team/controller/style/team-item-style-four-controller.php:551
-#: widgets/team/controller/style/team-item-style-four-controller.php:629
-#: widgets/team/controller/style/team-item-style-nine-controller.php:77
-#: widgets/team/controller/style/team-item-style-nine-controller.php:151
-#: widgets/team/controller/style/team-item-style-nine-controller.php:558
-#: widgets/team/controller/style/team-item-style-nine-controller.php:640
-#: widgets/team/controller/style/team-item-style-one-controller.php:73
-#: widgets/team/controller/style/team-item-style-one-controller.php:146
-#: widgets/team/controller/style/team-item-style-one-controller.php:698
-#: widgets/team/controller/style/team-item-style-one-controller.php:777
-#: widgets/team/controller/style/team-item-style-thirteen-controller.php:448
-#: widgets/team/controller/style/team-item-style-thirteen-controller.php:502
-#: widgets/team/controller/style/team-item-style-three-controller.php:82
-#: widgets/team/controller/style/team-item-style-three-controller.php:156
-#: widgets/team/controller/style/team-item-style-twenty-one-controller.php:452
-#: widgets/team/controller/style/team-item-style-twenty-one-controller.php:506
-#: widgets/team/controller/style/team-item-style-two-controller.php:94
-#: widgets/team/controller/style/team-item-style-two-controller.php:168
-#: widgets/testimonial/controller/template-testimonial-style.php:79
-#: widgets/testimonial/controller/template-testimonial-style.php:171
-#: widgets/testimonial/controller/template-testimonial-style.php:351
-msgid "Box Shadow"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:692
+msgid "Tabs Items"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:58
-#: widgets/advance-tab/controller/template-advance-tab-style.php:226
-#: widgets/advance-tab/controller/template-advance-tab-style.php:329
-#: widgets/advance-tab/controller/template-advance-tab-style.php:439
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1122
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1219
-#: widgets/blog-page/controller/template-blog-page-style.php:89
-#: widgets/blog-page/controller/template-blog-page-style.php:169
-#: widgets/blog-page/controller/template-blog-page-style.php:213
-#: widgets/blog-page/controller/template-blog-page-style.php:249
-#: widgets/blog-page/controller/template-blog-page-style.php:1247
-#: widgets/blog-page/controller/template-blog-page-style.php:1376
-#: widgets/button/controller/template-button-style.php:62
-#: widgets/button/controller/template-button-style.php:149
-#: widgets/button/controller/template-button-style.php:200
-#: widgets/button/controller/template-button-style.php:329
-#: widgets/button/controller/template-button-style.php:416
-#: widgets/button/controller/template-button-style.php:467
-#: widgets/counter/controller/template-counter-style.php:81
-#: widgets/counter/controller/template-counter-style.php:260
-#: widgets/counter/controller/template-counter-style.php:765
-#: widgets/counter/controller/template-counter-style.php:856
-#: widgets/counter/controller/template-counter-style.php:1002
-#: widgets/counter/controller/template-counter-style.php:1088
-#: widgets/dual-button/controller/template-dual-button-style.php:62
-#: widgets/dual-button/controller/template-dual-button-style.php:149
-#: widgets/dual-button/controller/template-dual-button-style.php:200
-#: widgets/dual-button/controller/template-dual-button-style.php:329
-#: widgets/dual-button/controller/template-dual-button-style.php:416
-#: widgets/dual-button/controller/template-dual-button-style.php:488
-#: widgets/dual-button/controller/template-dual-button-style.php:575
-#: widgets/dual-button/controller/template-dual-button-style.php:626
-#: widgets/dual-button/controller/template-dual-button-style.php:755
-#: widgets/dual-button/controller/template-dual-button-style.php:842
-#: widgets/dual-button/controller/template-dual-button-style.php:962
-#: widgets/future-widgets/cf7/class-absolute-addons-style-cf7.php:228
-#: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:368
-#: widgets/list-group/controller/template-list-group-style.php:69
-#: widgets/list-group/controller/template-list-group-style.php:176
-#: widgets/list-group/controller/template-list-group-style.php:250
-#: widgets/list/class-absolute-addons-style-list.php:563
-#: widgets/list/controller/template-list-style.php:46
-#: widgets/list/controller/template-list-style.php:121
-#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:413
-#: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:628
-#: widgets/portfolio/controller/template-portfolio-style.php:59
-#: widgets/portfolio/controller/template-portfolio-style.php:152
-#: widgets/portfolio/controller/template-portfolio-style.php:214
-#: widgets/portfolio/controller/template-portfolio-style.php:302
-#: widgets/portfolio/controller/template-portfolio-style.php:396
-#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:51
-#: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:131
-#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:54
-#: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:118
-#: widgets/service/class-absolute-addons-style-service.php:692
-#: widgets/service/controller/content-controller-service-style.php:219
-#: widgets/service/controller/content-controller-service-style.php:259
-#: widgets/service/controller/content-controller-service-style.php:680
-#: widgets/service/controller/content-controller-service-style.php:838
-#: widgets/service/controller/content-controller-service-style.php:941
-#: widgets/service/controller/content-controller-service-style.php:1028
-#: widgets/testimonial/controller/template-testimonial-style.php:189
-msgid "Border"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:697
+msgid "Tab #1"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:66
-#: widgets/advance-tab/controller/template-advance-tab-style.php:234
-#: widgets/advance-tab/controller/template-advance-tab-style.php:337
-#: widgets/advance-tab/controller/template-advance-tab-style.php:447
-msgid "Advance Tab Border Radius"
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:698
+msgid "Tab #1 Content Title"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:699
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:704
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:709
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:714
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:702
+msgid "Tab #2"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:703
+msgid "Tab #2 Content Title"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:707
+msgid "Tab #3"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:708
+msgid "Tab #3 Content Title"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:712
+msgid "Tab #4"
+msgstr ""
+
+#: widgets/advance-tab/class-absolute-addons-style-advance-tab.php:713
+msgid "Tab #4 Content Title"
+msgstr ""
+
+#: widgets/advance-tab/controller/template-advance-tab-style.php:22
+msgid "General Advance Tab Style"
 msgstr ""
 
 #: widgets/advance-tab/controller/template-advance-tab-style.php:81
-#: widgets/advance-tab/controller/template-advance-tab-style.php:172
-#: widgets/advance-tab/controller/template-advance-tab-style.php:304
+#: widgets/advance-tab/controller/template-advance-tab-style.php:178
+#: widgets/advance-tab/controller/template-advance-tab-style.php:328
 msgid "Before Border Color"
 msgstr ""
 
@@ -3889,7 +3960,7 @@ msgid "Section Margin"
 msgstr ""
 
 #: widgets/advance-tab/controller/template-advance-tab-style.php:138
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1087
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1135
 #: widgets/blog-page/controller/template-blog-page-style.php:43
 #: widgets/content-card/controller/style-controller-content-card-three-time-duration.php:22
 #: widgets/counter/controller/template-counter-style.php:562
@@ -3923,50 +3994,15 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:161
-#: widgets/advance-tab/controller/template-advance-tab-style.php:293
-#: widgets/advance-tab/controller/template-advance-tab-style.php:372
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1110
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1198
-#: widgets/call-to-action/controller/style-controller-call-to-action-title.php:27
-#: widgets/content-card/controller/style-controller-content-card-title.php:27
-#: widgets/countdown/controller/style-controller-count-down-item-title.php:41
-#: widgets/counter/controller/template-counter-style.php:393
-#: widgets/counter/controller/template-counter-style.php:453
-#: widgets/fun-fact/controller/style-controller-fun-fact-item-title.php:28
-#: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:288
-#: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-title.php:37
-#: widgets/future-widgets/pricing-table/controller/controller-pricing-item-seventeen.php:117
-#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:42
-#: widgets/future-widgets/typewriter-text/class-absolute-addons-style-typewriter-text.php:303
-#: widgets/icon-box-carousel/class-absolute-addons-style-icon-box-carousel.php:566
-#: widgets/icon-box/controller/style-controller-icon-box-title.php:28
-#: widgets/info-box/controller/style-controller-info-box-title.php:27
-#: widgets/list-group/controller/template-list-group-style.php:312
-#: widgets/list-group/controller/template-list-group-style.php:354
-#: widgets/list-group/controller/template-list-group-style.php:501
-#: widgets/list-group/controller/template-list-group-style.php:657
-#: widgets/list/class-absolute-addons-style-list.php:438
-#: widgets/list/controller/template-list-style.php:325
-#: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-title.php:27
-#: widgets/portfolio/controller/template-portfolio-style.php:246
-#: widgets/product-grid/controller/style-controller-product-grid-item-title.php:30
-#: widgets/service/controller/content-controller-service-style.php:446
-#: widgets/service/controller/content-controller-service-style.php:481
-#: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:363
-#: widgets/testimonial/controller/template-testimonial-style.php:507
-msgid "Title Color"
-msgstr ""
-
-#: widgets/advance-tab/controller/template-advance-tab-style.php:187
+#: widgets/advance-tab/controller/template-advance-tab-style.php:193
 msgid "After Color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:202
-#: widgets/advance-tab/controller/template-advance-tab-style.php:398
-#: widgets/advance-tab/controller/template-advance-tab-style.php:908
-#: widgets/blog-page/controller/template-blog-page-style.php:1299
-#: widgets/blog-page/controller/template-blog-page-style.php:1392
+#: widgets/advance-tab/controller/template-advance-tab-style.php:208
+#: widgets/advance-tab/controller/template-advance-tab-style.php:437
+#: widgets/advance-tab/controller/template-advance-tab-style.php:956
+#: widgets/blog-page/controller/template-blog-page-style.php:1320
+#: widgets/blog-page/controller/template-blog-page-style.php:1413
 #: widgets/call-to-action/controller/style-controller-call-to-action-icon.php:115
 #: widgets/fun-fact/controller/style-controller-fun-fact-item-icon.php:123
 #: widgets/future-widgets/alert/controller/alert-item-controller-eight.php:194
@@ -3998,10 +4034,10 @@ msgstr ""
 msgid "Icon Color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:246
-#: widgets/advance-tab/controller/template-advance-tab-style.php:459
-#: widgets/advance-tab/controller/template-advance-tab-style.php:923
-#: widgets/advance-tab/controller/template-advance-tab-style.php:982
+#: widgets/advance-tab/controller/template-advance-tab-style.php:261
+#: widgets/advance-tab/controller/template-advance-tab-style.php:507
+#: widgets/advance-tab/controller/template-advance-tab-style.php:971
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1030
 #: widgets/list-group/controller/template-list-group-style.php:323
 #: widgets/service/controller/content-controller-service-style.php:460
 #: widgets/skill-bar/controller/template-style-control.php:28
@@ -4009,20 +4045,20 @@ msgstr ""
 msgid "Title Padding"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:258
+#: widgets/advance-tab/controller/template-advance-tab-style.php:273
 #: widgets/testimonial/controller/template-testimonial-style.php:540
 msgid "Title Margin"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:383
+#: widgets/advance-tab/controller/template-advance-tab-style.php:422
 msgid "Active Border Color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:415
+#: widgets/advance-tab/controller/template-advance-tab-style.php:454
 msgid "Before border color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:477
+#: widgets/advance-tab/controller/template-advance-tab-style.php:525
 #: widgets/call-to-action/controller/style-controller-call-to-action-seven-image.php:9
 #: widgets/counter/controller/template-counter-item-six-controller.php:140
 #: widgets/faq/class-absolute-addons-style-faq.php:203
@@ -4041,7 +4077,7 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:488
+#: widgets/advance-tab/controller/template-advance-tab-style.php:536
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:66
 #: widgets/dual-button/controller/template-dual-button-style.php:882
 #: widgets/faq/controller/template-faq-style.php:36
@@ -4052,44 +4088,44 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-style.php:26
 #: widgets/list/controller/template-list-style.php:228
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:188
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:623
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:626
 #: widgets/team/controller/style/team-item-style-five-controller.php:577
 #: widgets/team/controller/style/team-item-style-one-controller.php:515
 #: widgets/team/controller/style/team-item-style-two-controller.php:601
 msgid "Width"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:524
+#: widgets/advance-tab/controller/template-advance-tab-style.php:572
 msgid "Max Width"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:560
+#: widgets/advance-tab/controller/template-advance-tab-style.php:608
 #: widgets/call-to-action/controller/style-controller-call-to-action-separator.php:95
 #: widgets/dual-button/controller/template-dual-button-style.php:909
 #: widgets/future-widgets/interactive-card/controller/style-controller-interactive-card-item-separator.php:117
 #: widgets/icon-box/controller/style-controller-icon-box-separator.php:103
 #: widgets/info-box/controller/style-controller-info-box-separator.php:127
 #: widgets/list/controller/template-list-style.php:254
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:645
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:648
 msgid "Height"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:592
+#: widgets/advance-tab/controller/template-advance-tab-style.php:640
 msgid "Object Fit"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:599
+#: widgets/advance-tab/controller/template-advance-tab-style.php:647
 msgid "Fill"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:631
-#: widgets/advance-tab/controller/template-advance-tab-style.php:796
+#: widgets/advance-tab/controller/template-advance-tab-style.php:679
+#: widgets/advance-tab/controller/template-advance-tab-style.php:844
 #: widgets/blog-page/controller/template-blog-page-style.php:98
-#: widgets/blog-page/controller/template-blog-page-style.php:266
-#: widgets/blog-page/controller/template-blog-page-style.php:577
-#: widgets/blog-page/controller/template-blog-page-style.php:762
-#: widgets/blog-page/controller/template-blog-page-style.php:910
-#: widgets/blog-page/controller/template-blog-page-style.php:1256
+#: widgets/blog-page/controller/template-blog-page-style.php:268
+#: widgets/blog-page/controller/template-blog-page-style.php:586
+#: widgets/blog-page/controller/template-blog-page-style.php:783
+#: widgets/blog-page/controller/template-blog-page-style.php:931
+#: widgets/blog-page/controller/template-blog-page-style.php:1277
 #: widgets/button/controller/template-button-style.php:71
 #: widgets/button/controller/template-button-style.php:338
 #: widgets/counter/controller/template-counter-style.php:89
@@ -4114,10 +4150,10 @@ msgstr ""
 #: widgets/product-grid/controller/style-controller-product-grid-item-settings.php:139
 #: widgets/service/controller/content-controller-service-style.php:538
 #: widgets/service/controller/content-controller-service-style.php:950
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:579
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:701
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:793
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1194
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:582
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:704
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:796
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1197
 #: widgets/team/controller/style/team-item-style-four-controller.php:583
 #: widgets/team/controller/style/team-item-style-four-controller.php:662
 #: widgets/team/controller/style/team-item-style-one-controller.php:731
@@ -4133,29 +4169,29 @@ msgstr ""
 msgid "Border Radius"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:698
-#: widgets/advance-tab/controller/template-advance-tab-style.php:896
-#: widgets/advance-tab/controller/template-advance-tab-style.php:970
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1026
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:765
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:848
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:900
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:961
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1012
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1073
+#: widgets/advance-tab/controller/template-advance-tab-style.php:746
+#: widgets/advance-tab/controller/template-advance-tab-style.php:944
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1018
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1074
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:768
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:851
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:903
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:964
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1015
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1076
 msgid "Text Color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:710
-#: widgets/advance-tab/controller/template-advance-tab-style.php:776
-#: widgets/blog-page/controller/template-blog-page-style.php:562
-#: widgets/blog-page/controller/template-blog-page-style.php:739
-#: widgets/blog-page/controller/template-blog-page-style.php:817
-#: widgets/blog-page/controller/template-blog-page-style.php:887
-#: widgets/blog-page/controller/template-blog-page-style.php:965
-#: widgets/blog-page/controller/template-blog-page-style.php:1173
-#: widgets/blog-page/controller/template-blog-page-style.php:1224
-#: widgets/blog-page/controller/template-blog-page-style.php:1353
+#: widgets/advance-tab/controller/template-advance-tab-style.php:758
+#: widgets/advance-tab/controller/template-advance-tab-style.php:824
+#: widgets/blog-page/controller/template-blog-page-style.php:571
+#: widgets/blog-page/controller/template-blog-page-style.php:760
+#: widgets/blog-page/controller/template-blog-page-style.php:838
+#: widgets/blog-page/controller/template-blog-page-style.php:908
+#: widgets/blog-page/controller/template-blog-page-style.php:986
+#: widgets/blog-page/controller/template-blog-page-style.php:1194
+#: widgets/blog-page/controller/template-blog-page-style.php:1245
+#: widgets/blog-page/controller/template-blog-page-style.php:1374
 #: widgets/button/controller/template-button-style.php:39
 #: widgets/button/controller/template-button-style.php:126
 #: widgets/button/controller/template-button-style.php:177
@@ -4175,46 +4211,48 @@ msgstr ""
 #: widgets/dual-button/controller/template-dual-button-style.php:939
 #: widgets/future-widgets/custom-button/class-absolute-addons-style-custom-button.php:394
 #: widgets/future-widgets/progressbar/class-absolute-addons-style-progressbar.php:174
+#: widgets/list/controller/template-list-style.php:601
+#: widgets/list/controller/template-list-style.php:715
 #: widgets/portfolio/controller/template-portfolio-style.php:373
 #: widgets/service/controller/content-controller-service-style.php:918
 #: widgets/service/controller/content-controller-service-style.php:1005
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:403
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:406
 msgid "Background Color"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:746
+#: widgets/advance-tab/controller/template-advance-tab-style.php:794
 #: widgets/content-card/controller/style-controller-content-card-rating.php:40
 msgid "Spacing"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:765
+#: widgets/advance-tab/controller/template-advance-tab-style.php:813
 msgid "Content Box"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:819
-#: widgets/advance-tab/controller/template-advance-tab-style.php:834
+#: widgets/advance-tab/controller/template-advance-tab-style.php:867
+#: widgets/advance-tab/controller/template-advance-tab-style.php:882
 msgid "Content Box Padding"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:849
+#: widgets/advance-tab/controller/template-advance-tab-style.php:897
 msgid "Content Box Margin"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1038
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1053
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1086
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1101
 #: widgets/future-widgets/alert/controller/alert-item-controller-eight.php:287
 #: widgets/future-widgets/alert/controller/alert-item-controller-eight.php:415
 #: widgets/future-widgets/alert/controller/alert-item-controller-five.php:366
 #: widgets/future-widgets/alert/controller/alert-item-controller-five.php:494
 #: widgets/service/controller/content-controller-service-style.php:846
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:928
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1040
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:931
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1043
 #: widgets/testimonial/controller/template-testimonial-style.php:456
 msgid "Content Padding"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1130
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1227
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1178
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1275
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:74
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:161
 #: widgets/call-to-action/controller/style-controller-call-to-action-four-button.php:82
@@ -4244,11 +4282,11 @@ msgstr ""
 msgid "Button Border Radius"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1151
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1199
 msgid "Button Padding"
 msgstr ""
 
-#: widgets/advance-tab/controller/template-advance-tab-style.php:1163
+#: widgets/advance-tab/controller/template-advance-tab-style.php:1211
 msgid "Button Margin"
 msgstr ""
 
@@ -4262,8 +4300,8 @@ msgstr ""
 #: widgets/list-group/class-absolute-addons-style-list-group.php:124
 #: widgets/list/class-absolute-addons-style-list.php:124
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:124
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:139
-#: widgets/service/class-absolute-addons-style-service.php:131
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:140
+#: widgets/service/class-absolute-addons-style-service.php:139
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:129
 #: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:128
 #: widgets/team/class-absolute-addons-style-team.php:126
@@ -4301,7 +4339,7 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:128
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:130
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:124
-#: widgets/service/class-absolute-addons-style-service.php:137
+#: widgets/service/class-absolute-addons-style-service.php:145
 #: widgets/team/class-absolute-addons-style-team.php:130
 msgid "Style Two"
 msgstr ""
@@ -4335,7 +4373,7 @@ msgstr ""
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:182
 #: widgets/list-group/class-absolute-addons-style-list-group.php:138
 #: widgets/list/class-absolute-addons-style-list.php:136
-#: widgets/service/class-absolute-addons-style-service.php:145
+#: widgets/service/class-absolute-addons-style-service.php:153
 msgid "Style Ten"
 msgstr ""
 
@@ -4355,7 +4393,7 @@ msgstr ""
 #: widgets/image-grid/class-absolute-addons-style-image-grid.php:145
 #: widgets/list-group/class-absolute-addons-style-list-group.php:140
 #: widgets/list/class-absolute-addons-style-list.php:138
-#: widgets/service/class-absolute-addons-style-service.php:147
+#: widgets/service/class-absolute-addons-style-service.php:155
 msgid "Style Twelve"
 msgstr ""
 
@@ -4364,7 +4402,7 @@ msgstr ""
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:136
 #: widgets/list-group/class-absolute-addons-style-list-group.php:141
 #: widgets/list/class-absolute-addons-style-list.php:139
-#: widgets/service/class-absolute-addons-style-service.php:148
+#: widgets/service/class-absolute-addons-style-service.php:156
 #: widgets/team/class-absolute-addons-style-team.php:141
 msgid "Style Thirteen"
 msgstr ""
@@ -4376,22 +4414,22 @@ msgid "Style Fourteen (Pro)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:162
-#: widgets/service/class-absolute-addons-style-service.php:150
+#: widgets/service/class-absolute-addons-style-service.php:158
 msgid "Style Fifteen (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:163
-#: widgets/service/class-absolute-addons-style-service.php:151
+#: widgets/service/class-absolute-addons-style-service.php:159
 msgid "Style Sixteen (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:164
-#: widgets/service/class-absolute-addons-style-service.php:152
+#: widgets/service/class-absolute-addons-style-service.php:160
 msgid "Style Seventeen (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:165
-#: widgets/service/class-absolute-addons-style-service.php:153
+#: widgets/service/class-absolute-addons-style-service.php:161
 msgid "Style Eighteen (Upcoming)"
 msgstr ""
 
@@ -4400,27 +4438,27 @@ msgid "Style Nineteen (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:167
-#: widgets/service/class-absolute-addons-style-service.php:155
+#: widgets/service/class-absolute-addons-style-service.php:163
 msgid "Style Twenty (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:168
-#: widgets/service/class-absolute-addons-style-service.php:156
+#: widgets/service/class-absolute-addons-style-service.php:164
 msgid "Style Twenty One (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:169
-#: widgets/service/class-absolute-addons-style-service.php:157
+#: widgets/service/class-absolute-addons-style-service.php:165
 msgid "Style Twenty Two (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:170
-#: widgets/service/class-absolute-addons-style-service.php:158
+#: widgets/service/class-absolute-addons-style-service.php:166
 msgid "Style Twenty Three (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:171
-#: widgets/service/class-absolute-addons-style-service.php:159
+#: widgets/service/class-absolute-addons-style-service.php:167
 msgid "Style Twenty Four (Upcoming)"
 msgstr ""
 
@@ -4429,12 +4467,12 @@ msgid "Style Twenty Five (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:173
-#: widgets/service/class-absolute-addons-style-service.php:161
+#: widgets/service/class-absolute-addons-style-service.php:169
 msgid "Style Twenty Six (Upcoming)"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:174
-#: widgets/service/class-absolute-addons-style-service.php:162
+#: widgets/service/class-absolute-addons-style-service.php:170
 msgid "Style Twenty Seven (Upcoming)"
 msgstr ""
 
@@ -4462,8 +4500,8 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:27
 #: widgets/counter/controller/template-counter-item-six-controller.php:28
 #: widgets/list/class-absolute-addons-style-list.php:227
-#: widgets/service/class-absolute-addons-style-service.php:282
-#: widgets/service/class-absolute-addons-style-service.php:314
+#: widgets/service/class-absolute-addons-style-service.php:291
+#: widgets/service/class-absolute-addons-style-service.php:323
 msgid "1 Column"
 msgstr ""
 
@@ -4474,8 +4512,8 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:28
 #: widgets/counter/controller/template-counter-item-six-controller.php:29
 #: widgets/list/class-absolute-addons-style-list.php:228
-#: widgets/service/class-absolute-addons-style-service.php:283
-#: widgets/service/class-absolute-addons-style-service.php:315
+#: widgets/service/class-absolute-addons-style-service.php:292
+#: widgets/service/class-absolute-addons-style-service.php:324
 msgid "2 Column"
 msgstr ""
 
@@ -4486,7 +4524,7 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:29
 #: widgets/counter/controller/template-counter-item-six-controller.php:30
 #: widgets/list/class-absolute-addons-style-list.php:229
-#: widgets/service/class-absolute-addons-style-service.php:284
+#: widgets/service/class-absolute-addons-style-service.php:293
 msgid "3 Column"
 msgstr ""
 
@@ -4497,7 +4535,7 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:30
 #: widgets/counter/controller/template-counter-item-six-controller.php:31
 #: widgets/list/class-absolute-addons-style-list.php:230
-#: widgets/service/class-absolute-addons-style-service.php:285
+#: widgets/service/class-absolute-addons-style-service.php:294
 msgid "4 Column"
 msgstr ""
 
@@ -4508,7 +4546,7 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:31
 #: widgets/counter/controller/template-counter-item-six-controller.php:32
 #: widgets/list/class-absolute-addons-style-list.php:231
-#: widgets/service/class-absolute-addons-style-service.php:286
+#: widgets/service/class-absolute-addons-style-service.php:295
 msgid "5 Column"
 msgstr ""
 
@@ -4519,7 +4557,7 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-seven-controller.php:32
 #: widgets/counter/controller/template-counter-item-six-controller.php:33
 #: widgets/list/class-absolute-addons-style-list.php:232
-#: widgets/service/class-absolute-addons-style-service.php:287
+#: widgets/service/class-absolute-addons-style-service.php:296
 msgid "6 Column"
 msgstr ""
 
@@ -4534,7 +4572,7 @@ msgid "Show Featured Image"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:381
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:207
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:208
 msgid "Featured Image Size"
 msgstr ""
 
@@ -4547,7 +4585,7 @@ msgid "Crop title by word"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:418
-#: widgets/service/class-absolute-addons-style-service.php:395
+#: widgets/service/class-absolute-addons-style-service.php:404
 msgid "Show Content"
 msgstr ""
 
@@ -4564,51 +4602,51 @@ msgid "Filter Section"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:466
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:350
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:351
 msgid "Enable Filter Menu"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:473
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:357
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:358
 msgid "Enable to display filter menu."
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:480
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:364
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:365
 msgid "Show \"All\" Filter"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:487
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:371
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:372
 msgid "Enable to display \"All\" filter in filter menu."
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:497
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:381
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:382
 msgid "Filter Text"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:515
 #: widgets/faq/controller/faq-post-query-controller.php:13
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:444
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:445
 msgid "Query Section"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:522
 #: widgets/faq/controller/faq-post-query-controller.php:23
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:451
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:452
 msgid "Posts Count"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:528
 #: widgets/faq/controller/faq-post-query-controller.php:29
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:457
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:458
 msgid "If You need to show all post to input \"-1\""
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:535
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:589
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:517
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:519
 msgid "Select Post"
 msgstr ""
 
@@ -4618,33 +4656,33 @@ msgid "Recent Post"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:540
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:468
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:469
 msgid "Selected Post"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:541
 #: widgets/faq/controller/faq-post-query-controller.php:41
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:469
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:470
 msgid "Category Post"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:576
 #: widgets/faq/controller/faq-post-query-controller.php:36
 #: widgets/faq/controller/faq-post-query-controller.php:67
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:464
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:504
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:465
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:506
 msgid "Select Category"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:602
 #: widgets/faq/controller/faq-post-query-controller.php:80
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:530
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:532
 msgid "Offset"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:613
 #: widgets/faq/controller/faq-post-query-controller.php:91
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:541
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:543
 msgid "Order by"
 msgstr ""
 
@@ -4654,13 +4692,13 @@ msgstr ""
 #: widgets/future-widgets/case-studies/class-absolute-addons-style-case-studies.php:332
 #: widgets/future-widgets/client/class-absolute-addons-style-client.php:303
 #: widgets/future-widgets/course/class-absolute-addons-style-course.php:152
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:544
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:546
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:139
 msgid "Date"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:617
-#: widgets/blog-page/controller/template-blog-page-style.php:307
+#: widgets/blog-page/controller/template-blog-page-style.php:309
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:248
 #: widgets/call-to-action/controller/style-controller-call-to-action-title.php:10
 #: widgets/content-card/class-absolute-addons-style-content-card.php:199
@@ -4705,7 +4743,7 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:357
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:165
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-title.php:10
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:545
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:547
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:202
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:25
 #: widgets/testimonial/controller/template-testimonial-style.php:490
@@ -4714,7 +4752,7 @@ msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:618
 #: widgets/faq/controller/faq-post-query-controller.php:96
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:546
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:548
 msgid "Author"
 msgstr ""
 
@@ -4722,13 +4760,13 @@ msgstr ""
 #: widgets/faq/controller/faq-post-query-controller.php:97
 #: widgets/future-widgets/case-studies-slider/class-absolute-addons-style-case-studies-slider.php:269
 #: widgets/future-widgets/case-studies/class-absolute-addons-style-case-studies.php:335
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:547
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:549
 msgid "Modified"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:620
 #: widgets/faq/controller/faq-post-query-controller.php:98
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:548
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:550
 msgid "Comments"
 msgstr ""
 
@@ -4737,25 +4775,25 @@ msgstr ""
 #: widgets/future-widgets/client/class-absolute-addons-style-client.php:287
 #: widgets/future-widgets/course/class-absolute-addons-style-course.php:135
 #: widgets/future-widgets/event/class-absolute-addons-style-event.php:203
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:557
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:559
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:273
 msgid "Order"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:632
 #: widgets/faq/controller/faq-post-query-controller.php:110
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:560
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:562
 msgid "ASC"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:633
 #: widgets/faq/controller/faq-post-query-controller.php:111
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:561
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:563
 msgid "DESC"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:646
-#: widgets/blog-page/controller/template-blog-page-style.php:431
+#: widgets/blog-page/controller/template-blog-page-style.php:440
 msgid "Meta Data"
 msgstr ""
 
@@ -4792,7 +4830,7 @@ msgid "Show Comment?"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:768
-#: widgets/service/class-absolute-addons-style-service.php:998
+#: widgets/service/class-absolute-addons-style-service.php:1009
 msgid "Read More Button"
 msgstr ""
 
@@ -4817,16 +4855,16 @@ msgstr ""
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:433
 #: widgets/info-box/class-absolute-addons-style-info-box.php:502
 #: widgets/info-box/class-absolute-addons-style-info-box.php:504
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:249
-#: widgets/service/class-absolute-addons-style-service.php:918
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:250
+#: widgets/service/class-absolute-addons-style-service.php:928
 #: widgets/team/controller/team-item-controller.php:409
 msgid "Button Text"
 msgstr ""
 
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:780
 #: widgets/blog-page/class-absolute-addons-style-blog-page.php:781
-#: widgets/service/class-absolute-addons-style-service.php:920
-#: widgets/service/class-absolute-addons-style-service.php:921
+#: widgets/service/class-absolute-addons-style-service.php:930
+#: widgets/service/class-absolute-addons-style-service.php:931
 msgid "Read more "
 msgstr ""
 
@@ -4834,7 +4872,7 @@ msgstr ""
 #: widgets/button/class-absolute-addons-style-button.php:301
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:310
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:567
-#: widgets/service/class-absolute-addons-style-service.php:949
+#: widgets/service/class-absolute-addons-style-service.php:959
 msgid "Add icon? "
 msgstr ""
 
@@ -4864,9 +4902,9 @@ msgstr ""
 #: widgets/list/class-absolute-addons-style-list.php:260
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-icon.php:9
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:43
-#: widgets/service/class-absolute-addons-style-service.php:963
+#: widgets/service/class-absolute-addons-style-service.php:973
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:249
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:380
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:383
 msgid "Icon"
 msgstr ""
 
@@ -4874,7 +4912,7 @@ msgstr ""
 #: widgets/button/class-absolute-addons-style-button.php:327
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:336
 #: widgets/dual-button/class-absolute-addons-style-dual-button.php:593
-#: widgets/service/class-absolute-addons-style-service.php:979
+#: widgets/service/class-absolute-addons-style-service.php:989
 msgid "Icon Position"
 msgstr ""
 
@@ -4888,7 +4926,7 @@ msgstr ""
 #: widgets/future-widgets/interactive-card/class-absolute-addons-style-interactive-card.php:696
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:501
 #: widgets/info-box/class-absolute-addons-style-info-box.php:575
-#: widgets/service/class-absolute-addons-style-service.php:982
+#: widgets/service/class-absolute-addons-style-service.php:992
 msgid "Before"
 msgstr ""
 
@@ -4902,7 +4940,7 @@ msgstr ""
 #: widgets/future-widgets/interactive-card/class-absolute-addons-style-interactive-card.php:697
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:502
 #: widgets/info-box/class-absolute-addons-style-info-box.php:576
-#: widgets/service/class-absolute-addons-style-service.php:983
+#: widgets/service/class-absolute-addons-style-service.php:993
 msgid "After"
 msgstr ""
 
@@ -4912,8 +4950,8 @@ msgid "Filter Style"
 msgstr ""
 
 #: widgets/blog-page/controller/template-blog-page-style.php:55
-#: widgets/blog-page/controller/template-blog-page-style.php:146
-#: widgets/blog-page/controller/template-blog-page-style.php:190
+#: widgets/blog-page/controller/template-blog-page-style.php:148
+#: widgets/blog-page/controller/template-blog-page-style.php:192
 #: widgets/portfolio/controller/template-portfolio-style.php:35
 #: widgets/portfolio/controller/template-portfolio-style.php:129
 #: widgets/portfolio/controller/template-portfolio-style.php:173
@@ -4921,8 +4959,8 @@ msgid "Filter Background Color"
 msgstr ""
 
 #: widgets/blog-page/controller/template-blog-page-style.php:67
-#: widgets/blog-page/controller/template-blog-page-style.php:158
-#: widgets/blog-page/controller/template-blog-page-style.php:202
+#: widgets/blog-page/controller/template-blog-page-style.php:160
+#: widgets/blog-page/controller/template-blog-page-style.php:204
 #: widgets/portfolio/controller/template-portfolio-style.php:47
 #: widgets/portfolio/controller/template-portfolio-style.php:141
 #: widgets/portfolio/controller/template-portfolio-style.php:203
@@ -4941,32 +4979,32 @@ msgstr ""
 msgid "Filter Margin"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:231
+#: widgets/blog-page/controller/template-blog-page-style.php:233
 #: widgets/service/controller/content-controller-service-style.php:126
 msgid "Feature Image"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:278
+#: widgets/blog-page/controller/template-blog-page-style.php:280
 msgid "Feature Image Padding"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:290
+#: widgets/blog-page/controller/template-blog-page-style.php:292
 msgid "Feature Image Margin"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:334
-#: widgets/blog-page/controller/template-blog-page-style.php:404
-#: widgets/blog-page/controller/template-blog-page-style.php:458
-#: widgets/blog-page/controller/template-blog-page-style.php:521
-#: widgets/blog-page/controller/template-blog-page-style.php:609
-#: widgets/blog-page/controller/template-blog-page-style.php:661
-#: widgets/blog-page/controller/template-blog-page-style.php:751
-#: widgets/blog-page/controller/template-blog-page-style.php:829
-#: widgets/blog-page/controller/template-blog-page-style.php:899
-#: widgets/blog-page/controller/template-blog-page-style.php:977
-#: widgets/blog-page/controller/template-blog-page-style.php:1026
-#: widgets/blog-page/controller/template-blog-page-style.php:1236
-#: widgets/blog-page/controller/template-blog-page-style.php:1365
+#: widgets/blog-page/controller/template-blog-page-style.php:336
+#: widgets/blog-page/controller/template-blog-page-style.php:413
+#: widgets/blog-page/controller/template-blog-page-style.php:467
+#: widgets/blog-page/controller/template-blog-page-style.php:530
+#: widgets/blog-page/controller/template-blog-page-style.php:618
+#: widgets/blog-page/controller/template-blog-page-style.php:670
+#: widgets/blog-page/controller/template-blog-page-style.php:772
+#: widgets/blog-page/controller/template-blog-page-style.php:850
+#: widgets/blog-page/controller/template-blog-page-style.php:920
+#: widgets/blog-page/controller/template-blog-page-style.php:998
+#: widgets/blog-page/controller/template-blog-page-style.php:1047
+#: widgets/blog-page/controller/template-blog-page-style.php:1257
+#: widgets/blog-page/controller/template-blog-page-style.php:1386
 #: widgets/button/controller/template-button-style.php:51
 #: widgets/button/controller/template-button-style.php:138
 #: widgets/button/controller/template-button-style.php:189
@@ -5006,17 +5044,18 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:368
-#: widgets/blog-page/controller/template-blog-page-style.php:1064
+#: widgets/blog-page/controller/template-blog-page-style.php:370
+#: widgets/blog-page/controller/template-blog-page-style.php:1085
 msgid "justify"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:383
-#: widgets/blog-page/controller/template-blog-page-style.php:476
-#: widgets/blog-page/controller/template-blog-page-style.php:781
-#: widgets/blog-page/controller/template-blog-page-style.php:929
-#: widgets/blog-page/controller/template-blog-page-style.php:1079
-#: widgets/blog-page/controller/template-blog-page-style.php:1287
+#: widgets/blog-page/controller/template-blog-page-style.php:385
+#: widgets/blog-page/controller/template-blog-page-style.php:485
+#: widgets/blog-page/controller/template-blog-page-style.php:711
+#: widgets/blog-page/controller/template-blog-page-style.php:802
+#: widgets/blog-page/controller/template-blog-page-style.php:950
+#: widgets/blog-page/controller/template-blog-page-style.php:1100
+#: widgets/blog-page/controller/template-blog-page-style.php:1308
 #: widgets/button/controller/template-button-style.php:102
 #: widgets/button/controller/template-button-style.php:369
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:107
@@ -5218,9 +5257,9 @@ msgstr ""
 #: widgets/product-grid/controller/style-controller-product-grid-item-title.php:64
 #: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:106
 #: widgets/service/controller/content-controller-service-style.php:981
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:817
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1283
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1358
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:820
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1286
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1361
 #: widgets/team/controller/style/team-item-style-five-controller.php:96
 #: widgets/team/controller/style/team-item-style-five-controller.php:170
 #: widgets/team/controller/style/team-item-style-five-controller.php:247
@@ -5292,34 +5331,34 @@ msgstr ""
 msgid "Margin"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:490
+#: widgets/blog-page/controller/template-blog-page-style.php:499
 msgid "Author Label Typography"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:501
+#: widgets/blog-page/controller/template-blog-page-style.php:510
 msgid "Author Label Color"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:548
+#: widgets/blog-page/controller/template-blog-page-style.php:557
 msgid "Data & Time"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:630
+#: widgets/blog-page/controller/template-blog-page-style.php:639
 msgid "Date Typography"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:646
+#: widgets/blog-page/controller/template-blog-page-style.php:655
 msgid "Date Background Color"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:675
+#: widgets/blog-page/controller/template-blog-page-style.php:684
 msgid "Date Border Radius"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:690
-#: widgets/blog-page/controller/template-blog-page-style.php:793
-#: widgets/blog-page/controller/template-blog-page-style.php:941
-#: widgets/blog-page/controller/template-blog-page-style.php:1275
+#: widgets/blog-page/controller/template-blog-page-style.php:699
+#: widgets/blog-page/controller/template-blog-page-style.php:814
+#: widgets/blog-page/controller/template-blog-page-style.php:962
+#: widgets/blog-page/controller/template-blog-page-style.php:1296
 #: widgets/button/controller/template-button-style.php:90
 #: widgets/button/controller/template-button-style.php:357
 #: widgets/call-to-action/controller/style-controller-call-to-action-button.php:95
@@ -5525,12 +5564,12 @@ msgstr ""
 #: widgets/product-grid/controller/style-controller-product-grid-item-title.php:52
 #: widgets/product-grid/controller/style-controller-product-grid-item1-settings.php:76
 #: widgets/service/controller/content-controller-service-style.php:969
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:559
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:681
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:805
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1150
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1272
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1347
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:562
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:684
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:808
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1153
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1275
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1350
 #: widgets/team/controller/style/team-item-style-five-controller.php:84
 #: widgets/team/controller/style/team-item-style-five-controller.php:158
 #: widgets/team/controller/style/team-item-style-five-controller.php:235
@@ -5602,33 +5641,33 @@ msgstr ""
 msgid "Padding"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:707
+#: widgets/blog-page/controller/template-blog-page-style.php:728
 msgid "Category"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:855
+#: widgets/blog-page/controller/template-blog-page-style.php:876
 msgid "Comment"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:1037
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:417
+#: widgets/blog-page/controller/template-blog-page-style.php:1058
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:420
 msgid "Hover Color"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:1091
+#: widgets/blog-page/controller/template-blog-page-style.php:1112
 msgid "Show Highlight Border"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:1102
+#: widgets/blog-page/controller/template-blog-page-style.php:1123
 msgid "Highlight Border Width"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:1136
+#: widgets/blog-page/controller/template-blog-page-style.php:1157
 msgid "Highlight Border Height"
 msgstr ""
 
-#: widgets/blog-page/controller/template-blog-page-style.php:1314
-#: widgets/blog-page/controller/template-blog-page-style.php:1407
+#: widgets/blog-page/controller/template-blog-page-style.php:1335
+#: widgets/blog-page/controller/template-blog-page-style.php:1428
 msgid "Icon gap"
 msgstr ""
 
@@ -5697,10 +5736,10 @@ msgstr ""
 #: widgets/list-group/class-absolute-addons-style-list-group.php:209
 #: widgets/list-group/controller/template-list-group-item-fourteen-controller.php:71
 #: widgets/list-group/controller/template-list-group-item-two-controller.php:44
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:218
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:219
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:56
-#: widgets/service/class-absolute-addons-style-service.php:931
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:371
+#: widgets/service/class-absolute-addons-style-service.php:941
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:374
 msgid "Link"
 msgstr ""
 
@@ -5929,7 +5968,7 @@ msgstr ""
 #: widgets/call-to-action/class-absolute-addons-style-call-to-action.php:327
 #: widgets/future-widgets/divider/controller/style-controller-divider-two-type-image.php:31
 #: widgets/future-widgets/divider/controller/style-controller-divider-type-image.php:31
-#: widgets/service/class-absolute-addons-style-service.php:545
+#: widgets/service/class-absolute-addons-style-service.php:554
 msgid "Image Size"
 msgstr ""
 
@@ -6035,7 +6074,7 @@ msgstr ""
 #: widgets/product-grid/controller/style-controller-product-grid-item-button.php:31
 #: widgets/product-grid/controller/style-controller-product-grid-item-quick-view-button.php:34
 #: widgets/product-grid/controller/style-controller-product-grid-item-wishlist-button.php:34
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1237
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1240
 #: widgets/team/controller/style/team-item-style-nine-controller.php:566
 msgid "Button Typography"
 msgstr ""
@@ -6264,7 +6303,7 @@ msgstr ""
 #: widgets/icon-box/controller/style-controller-icon-box-icon.php:178
 #: widgets/info-box/controller/style-controller-info-box-icon.php:142
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-icon.php:39
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1174
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1177
 #: widgets/team/controller/style/team-item-style-five-controller.php:695
 #: widgets/team/controller/style/team-item-style-four-controller.php:559
 #: widgets/team/controller/style/team-item-style-four-controller.php:637
@@ -6482,8 +6521,8 @@ msgstr ""
 #: widgets/image-carousel/controller/style-controller-image-carousel-item-settings.php:47
 #: widgets/info-box/controller/style-controller-info-box-settings.php:46
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-settings.php:92
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1265
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1340
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1268
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1343
 #: widgets/team/controller/style/team-item-style-five-controller.php:53
 #: widgets/team/controller/style/team-item-style-five-controller.php:128
 #: widgets/team/controller/style/team-item-style-four-controller.php:53
@@ -7131,8 +7170,8 @@ msgstr ""
 msgid "Please configure Mailchimp API Key to use subscription form."
 msgstr ""
 
-#: widgets/countdown/class-absolute-addons-style-countdown.php:783
-#: widgets/countdown/class-absolute-addons-style-countdown.php:784
+#: widgets/countdown/class-absolute-addons-style-countdown.php:787
+#: widgets/countdown/class-absolute-addons-style-countdown.php:790
 msgid "Your email"
 msgstr ""
 
@@ -7446,7 +7485,8 @@ msgstr ""
 #: widgets/counter/controller/template-counter-item-six-controller.php:73
 #: widgets/list/class-absolute-addons-style-list.php:451
 #: widgets/list/class-absolute-addons-style-list.php:476
-#: widgets/list/controller/template-list-style.php:577
+#: widgets/list/controller/template-list-style.php:588
+#: widgets/list/controller/template-list-style.php:701
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-number.php:50
 #: widgets/service/controller/content-controller-service-style.php:302
 #: widgets/service/controller/content-controller-service-style.php:403
@@ -7650,7 +7690,7 @@ msgstr ""
 #: widgets/counter/controller/template-counter-style.php:202
 #: widgets/counter/controller/template-counter-style.php:940
 #: widgets/counter/controller/template-counter-style.php:1111
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:304
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:305
 msgid "Rotate"
 msgstr ""
 
@@ -7796,19 +7836,19 @@ msgid "Faq"
 msgstr ""
 
 #: widgets/faq/class-absolute-addons-style-faq.php:145
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:142
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:143
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:126
 msgid "Design Style One"
 msgstr ""
 
 #: widgets/faq/class-absolute-addons-style-faq.php:146
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:143
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:144
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:127
 msgid "Design Style Two"
 msgstr ""
 
 #: widgets/faq/class-absolute-addons-style-faq.php:147
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:144
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:145
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:128
 msgid "Design Style Three"
 msgstr ""
@@ -8107,7 +8147,7 @@ msgstr ""
 #: widgets/future-widgets/alert/controller/alert-item-controller-six.php:540
 #: widgets/future-widgets/alert/controller/alert-item-controller-three.php:620
 #: widgets/future-widgets/alert/controller/alert-item-controller-two.php:621
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1245
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1248
 #: widgets/team/controller/style/team-item-style-nine-controller.php:575
 msgid "Button Text Color"
 msgstr ""
@@ -8140,7 +8180,7 @@ msgstr ""
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:175
 #: widgets/future-widgets/toggle-button/class-absolute-addons-style-toggle-button.php:149
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:131
-#: widgets/service/class-absolute-addons-style-service.php:138
+#: widgets/service/class-absolute-addons-style-service.php:146
 #: widgets/team/class-absolute-addons-style-team.php:131
 msgid "Style Three"
 msgstr ""
@@ -8164,7 +8204,7 @@ msgstr ""
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:176
 #: widgets/image-grid/class-absolute-addons-style-image-grid.php:137
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:132
-#: widgets/service/class-absolute-addons-style-service.php:139
+#: widgets/service/class-absolute-addons-style-service.php:147
 #: widgets/team/class-absolute-addons-style-team.php:132
 msgid "Style Four"
 msgstr ""
@@ -8200,8 +8240,8 @@ msgstr ""
 
 #: widgets/future-widgets/accordion/class-absolute-addons-style-accordion.php:216
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:240
-#: widgets/service/class-absolute-addons-style-service.php:367
-#: widgets/service/class-absolute-addons-style-service.php:456
+#: widgets/service/class-absolute-addons-style-service.php:376
+#: widgets/service/class-absolute-addons-style-service.php:465
 #: widgets/skill-bar/class-absolute-addons-style-skill-bar.php:212
 msgid "Title HTML Tag"
 msgstr ""
@@ -8258,7 +8298,7 @@ msgstr ""
 #: widgets/future-widgets/advance-heading/class-absolute-addons-style-advance-heading.php:161
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:137
 #: widgets/list-group/class-absolute-addons-style-list-group.php:142
-#: widgets/service/class-absolute-addons-style-service.php:149
+#: widgets/service/class-absolute-addons-style-service.php:157
 #: widgets/team/class-absolute-addons-style-team.php:142
 msgid "Style Fourteen"
 msgstr ""
@@ -8367,8 +8407,8 @@ msgstr ""
 #: widgets/future-widgets/alert/controller/alert-item-controller-eight.php:403
 #: widgets/future-widgets/alert/controller/alert-item-controller-five.php:354
 #: widgets/future-widgets/alert/controller/alert-item-controller-five.php:482
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:940
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1052
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:943
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1055
 #: widgets/testimonial/controller/template-testimonial-style.php:472
 msgid "Content Margin"
 msgstr ""
@@ -8484,7 +8524,7 @@ msgid "Heading Text Color"
 msgstr ""
 
 #: widgets/future-widgets/alert/controller/alert-item-controller-six.php:204
-#: widgets/service/class-absolute-addons-style-service.php:716
+#: widgets/service/class-absolute-addons-style-service.php:725
 msgid "Icon Background Color"
 msgstr ""
 
@@ -8749,7 +8789,7 @@ msgstr ""
 #: widgets/future-widgets/case-studies/class-absolute-addons-style-case-studies.php:218
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:178
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:304
-#: widgets/service/class-absolute-addons-style-service.php:858
+#: widgets/service/class-absolute-addons-style-service.php:867
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:187
 msgid "3"
 msgstr ""
@@ -9113,8 +9153,8 @@ msgstr ""
 #: widgets/future-widgets/divider/class-absolute-addons-style-divider.php:345
 #: widgets/list/class-absolute-addons-style-list.php:280
 #: widgets/list/class-absolute-addons-style-list.php:344
-#: widgets/service/class-absolute-addons-style-service.php:408
-#: widgets/service/class-absolute-addons-style-service.php:517
+#: widgets/service/class-absolute-addons-style-service.php:417
+#: widgets/service/class-absolute-addons-style-service.php:526
 msgid "Choose a icon"
 msgstr ""
 
@@ -9321,7 +9361,7 @@ msgstr ""
 #: widgets/future-widgets/fancy-text-box/class-absolute-addons-style-fancy-text-box.php:309
 #: widgets/future-widgets/pricing-table/controller/controller-pricing-item-seventeen.php:138
 #: widgets/future-widgets/pricing-table/controller/style-controller-title.php:234
-#: widgets/service/class-absolute-addons-style-service.php:756
+#: widgets/service/class-absolute-addons-style-service.php:765
 msgid "Subtitle Color"
 msgstr ""
 
@@ -9695,7 +9735,7 @@ msgid "Style Thirteen (Pro)"
 msgstr ""
 
 #: widgets/future-widgets/pricing-table/class-absolute-addons-style-pricing-table.php:191
-#: widgets/service/class-absolute-addons-style-service.php:154
+#: widgets/service/class-absolute-addons-style-service.php:162
 msgid "Style Nineteen (Pro)"
 msgstr ""
 
@@ -10108,7 +10148,7 @@ msgid "Features Border Color"
 msgstr ""
 
 #: widgets/future-widgets/pricing-table/controller/style-controller-features.php:398
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:531
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:534
 msgid "Justify"
 msgstr ""
 
@@ -10303,11 +10343,6 @@ msgstr ""
 
 #: widgets/future-widgets/pricing-table/controller/style-controller-spotlight.php:178
 msgid "Spotlight Border Radius"
-msgstr ""
-
-#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:54
-#: widgets/future-widgets/pricing-table/controller/style-controller-title.php:57
-msgid "Title Background"
 msgstr ""
 
 #: widgets/future-widgets/pricing-table/controller/style-controller-title.php:116
@@ -10606,7 +10641,7 @@ msgid "Icon Box Sub Title"
 msgstr ""
 
 #: widgets/icon-box/class-absolute-addons-style-icon-box.php:311
-#: widgets/service/class-absolute-addons-style-service.php:486
+#: widgets/service/class-absolute-addons-style-service.php:495
 msgid "Sub Title HTML Tag"
 msgstr ""
 
@@ -11039,7 +11074,7 @@ msgstr ""
 #: widgets/list-group/controller/template-list-group-style.php:518
 #: widgets/list/class-absolute-addons-style-list.php:294
 #: widgets/list/class-absolute-addons-style-list.php:325
-#: widgets/list/controller/template-list-style.php:490
+#: widgets/list/controller/template-list-style.php:491
 msgid "List Number"
 msgstr ""
 
@@ -11098,7 +11133,7 @@ msgid "Border and Background Color"
 msgstr ""
 
 #: widgets/list/class-absolute-addons-style-list.php:487
-#: widgets/service/class-absolute-addons-style-service.php:627
+#: widgets/service/class-absolute-addons-style-service.php:636
 msgid "Number Hover Color"
 msgstr ""
 
@@ -11160,24 +11195,31 @@ msgstr ""
 msgid "Image Border Radius"
 msgstr ""
 
-#: widgets/list/controller/template-list-style.php:501
+#: widgets/list/controller/template-list-style.php:512
 #: widgets/multi-color-heading/controller/style-controller-multi-color-heading-item-number.php:20
 msgid "Number Typography"
 msgstr ""
 
-#: widgets/list/controller/template-list-style.php:510
+#: widgets/list/controller/template-list-style.php:521
+#: widgets/list/controller/template-list-style.php:634
 #: widgets/service/controller/content-controller-service-style.php:326
 msgid "Number Width"
 msgstr ""
 
-#: widgets/list/controller/template-list-style.php:536
+#: widgets/list/controller/template-list-style.php:547
+#: widgets/list/controller/template-list-style.php:660
 #: widgets/service/controller/content-controller-service-style.php:349
 msgid "Number Height"
 msgstr ""
 
-#: widgets/list/controller/template-list-style.php:562
+#: widgets/list/controller/template-list-style.php:573
+#: widgets/list/controller/template-list-style.php:686
 #: widgets/service/controller/content-controller-service-style.php:372
 msgid "Number Border Radius"
+msgstr ""
+
+#: widgets/list/controller/template-list-style.php:625
+msgid "Number Hover Typography"
 msgstr ""
 
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:144
@@ -11192,16 +11234,16 @@ msgstr ""
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:176
 #: widgets/multi-color-heading/class-absolute-addons-style-multi-color-heading.php:159
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:302
-#: widgets/service/class-absolute-addons-style-service.php:359
-#: widgets/service/class-absolute-addons-style-service.php:425
-#: widgets/service/class-absolute-addons-style-service.php:842
+#: widgets/service/class-absolute-addons-style-service.php:368
+#: widgets/service/class-absolute-addons-style-service.php:434
+#: widgets/service/class-absolute-addons-style-service.php:851
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:185
 msgid "1"
 msgstr ""
 
 #: widgets/logo-grid/class-absolute-addons-style-logo-grid.php:177
 #: widgets/product-grid/class-absolute-addons-style-product-grid.php:303
-#: widgets/service/class-absolute-addons-style-service.php:850
+#: widgets/service/class-absolute-addons-style-service.php:859
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:186
 msgid "2"
 msgstr ""
@@ -11354,252 +11396,252 @@ msgstr ""
 msgid "Body Box Shadow"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:145
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:146
 msgid "Design Style Four"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:146
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:147
 msgid "Design Style Five Pro"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:147
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:148
 msgid "Design Style Six"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:148
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:149
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:132
 msgid "Design Style Seven Pro"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:149
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:150
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:133
 msgid "Design Style Eight Pro"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:150
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:151
 msgid "Design Style Nine"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:151
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:152
 #: widgets/testimonial/class-absolute-addons-style-testimonial.php:135
 msgid "Design Style Ten"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:157
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:158
 msgid "Portfolio Style"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:197
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:198
 msgid "Portfolio Layout"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:221
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:222
 msgid "Image Popup"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:222
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:223
 msgid "Portfolio Page"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:236
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:237
 #: widgets/portfolio/controller/template-portfolio-item-three-controller.php:18
 msgid "none"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:261
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:262
 msgid "Hover Effect"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:264
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:303
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:265
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:304
 msgid "Simple"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:266
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:267
 msgid "Text Top Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:267
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:268
 msgid "Text Top Center"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:268
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:269
 msgid "Text Top Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:269
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:270
 msgid "Text Bottom Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:270
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:271
 msgid "Text Bottom Center"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:271
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:272
 msgid "Text Bottom Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:272
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:273
 msgid "Card Text Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:273
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:274
 msgid "Card Text Top Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:274
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:275
 msgid "Card Text Top Center"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:275
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:276
 msgid "Card Text Top Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:276
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:277
 msgid "Card Text Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:277
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:278
 msgid "Card Text Bottom Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:278
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:279
 msgid "Card Text Bottom Center"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:279
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:280
 msgid "Card Text Bottom Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:280
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:281
 msgid "Sweep To Top"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:281
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:282
 msgid "Sweep To Bottom"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:282
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:283
 msgid "Sweep To Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:283
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:284
 msgid "Sweep To Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:284
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:285
 msgid "Bounce To Top"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:285
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:286
 msgid "Bounce To Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:286
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:287
 msgid "Bounce To Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:287
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:288
 msgid "Bounce To Bottom"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:288
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:289
 msgid "Radial Out"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:289
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:290
 msgid "Rectangle Out"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:290
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:291
 msgid "Shutter Out Horizontal"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:291
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:292
 msgid "Shutter Out Vertical"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:300
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:301
 msgid "Image Hover Effect"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:305
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:306
 msgid "Zoom In"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:306
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:307
 msgid "Zoom In and Rotate"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:307
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:308
 msgid "Image Left"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:308
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:309
 msgid "Image Right"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:317
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:318
 msgid "Filter Layout"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:320
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:321
 msgid "Layout One"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:321
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:322
 msgid "Layout Two"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:322
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:323
 msgid "Layout Three"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:323
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:324
 msgid "Layout Four"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:324
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:325
 msgid "Layout Five"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:325
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:326
 msgid "Layout Six"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:343
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:344
 msgid "Portfolio Filter"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:395
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:396
 msgid "Layout"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:399
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:400
 msgid "Fixed Width"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:400
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:401
 msgid "Fixed Height"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:409
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:410
 msgid "Portfolio Animation"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:418
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:419
 msgid "Portfolio Delay"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:427
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:428
 msgid "Portfolio Delay Mode"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:430
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:431
 msgid "Progressive"
 msgstr ""
 
-#: widgets/portfolio/class-absolute-addons-style-portfolio.php:431
+#: widgets/portfolio/class-absolute-addons-style-portfolio.php:432
 msgid "Alternate"
 msgstr ""
 
@@ -12000,81 +12042,81 @@ msgstr ""
 msgid "Wishlist Button"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:142
+#: widgets/service/class-absolute-addons-style-service.php:150
 msgid "Style Seven (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:143
+#: widgets/service/class-absolute-addons-style-service.php:151
 msgid "Style Eight (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:146
+#: widgets/service/class-absolute-addons-style-service.php:154
 msgid "Style Eleven (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:160
+#: widgets/service/class-absolute-addons-style-service.php:168
 msgid "Style Twenty Five (Pro)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:163
+#: widgets/service/class-absolute-addons-style-service.php:171
 msgid "Style Twenty Eight (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:164
+#: widgets/service/class-absolute-addons-style-service.php:172
 msgid "Style Twenty Nine (Pro)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:165
+#: widgets/service/class-absolute-addons-style-service.php:173
 msgid "Style Thirty (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:166
+#: widgets/service/class-absolute-addons-style-service.php:174
 msgid "Style Thirty One (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:167
+#: widgets/service/class-absolute-addons-style-service.php:175
 msgid "Style Thirty Two (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:168
+#: widgets/service/class-absolute-addons-style-service.php:176
 msgid "Style Thirty Three (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:169
+#: widgets/service/class-absolute-addons-style-service.php:177
 msgid "Style Thirty Four (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:170
+#: widgets/service/class-absolute-addons-style-service.php:178
 msgid "Style Thirty Five (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:171
+#: widgets/service/class-absolute-addons-style-service.php:179
 msgid "Style Thirty Six (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:172
+#: widgets/service/class-absolute-addons-style-service.php:180
 msgid "Style Thirty Seven (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:173
+#: widgets/service/class-absolute-addons-style-service.php:181
 msgid "Style Thirty Eight (Upcoming)"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:189
+#: widgets/service/class-absolute-addons-style-service.php:197
 msgid "Service Style"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:279
-#: widgets/service/class-absolute-addons-style-service.php:311
+#: widgets/service/class-absolute-addons-style-service.php:288
+#: widgets/service/class-absolute-addons-style-service.php:320
 msgid "Service Column"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:339
-#: widgets/service/class-absolute-addons-style-service.php:435
+#: widgets/service/class-absolute-addons-style-service.php:348
+#: widgets/service/class-absolute-addons-style-service.php:444
 msgid "Item Alignment"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:347
+#: widgets/service/class-absolute-addons-style-service.php:356
 #: widgets/service/controller/content-controller-service-style.php:613
 #: widgets/team/controller/style/team-item-style-five-controller.php:388
 #: widgets/team/controller/style/team-item-style-five-controller.php:489
@@ -12084,122 +12126,122 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:357
-#: widgets/service/class-absolute-addons-style-service.php:423
+#: widgets/service/class-absolute-addons-style-service.php:366
+#: widgets/service/class-absolute-addons-style-service.php:432
 #: widgets/service/controller/content-controller-service-style.php:273
 msgid "Service Number"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:385
-#: widgets/service/class-absolute-addons-style-service.php:474
+#: widgets/service/class-absolute-addons-style-service.php:394
+#: widgets/service/class-absolute-addons-style-service.php:483
 #: widgets/service/controller/content-controller-service-style.php:420
 msgid "Service Title"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:387
-#: widgets/service/class-absolute-addons-style-service.php:476
+#: widgets/service/class-absolute-addons-style-service.php:396
+#: widgets/service/class-absolute-addons-style-service.php:485
 msgid "Service Title #1"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:410
-#: widgets/service/class-absolute-addons-style-service.php:560
+#: widgets/service/class-absolute-addons-style-service.php:419
+#: widgets/service/class-absolute-addons-style-service.php:569
 msgid "Your content Here"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:505
+#: widgets/service/class-absolute-addons-style-service.php:514
 msgid "Service Sub Title"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:507
+#: widgets/service/class-absolute-addons-style-service.php:516
 msgid "Sub Title #1"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:531
+#: widgets/service/class-absolute-addons-style-service.php:540
 #: widgets/testimonial/controller/template-testimonial-item-one-controller.php:80
 msgid "Item Image"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:558
+#: widgets/service/class-absolute-addons-style-service.php:567
 #: widgets/service/controller/content-controller-service-style.php:800
 msgid "Service Content"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:572
+#: widgets/service/class-absolute-addons-style-service.php:581
 msgid "Item Background"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:586
+#: widgets/service/class-absolute-addons-style-service.php:595
 msgid "Item Background Hover"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:602
-#: widgets/service/class-absolute-addons-style-service.php:666
+#: widgets/service/class-absolute-addons-style-service.php:611
+#: widgets/service/class-absolute-addons-style-service.php:675
 msgid "Number Background Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:616
-#: widgets/service/class-absolute-addons-style-service.php:680
+#: widgets/service/class-absolute-addons-style-service.php:625
+#: widgets/service/class-absolute-addons-style-service.php:689
 msgid "Number BG Hover Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:638
+#: widgets/service/class-absolute-addons-style-service.php:647
 msgid "Service Icon Hover Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:650
-#: widgets/service/class-absolute-addons-style-service.php:700
-#: widgets/service/class-absolute-addons-style-service.php:806
+#: widgets/service/class-absolute-addons-style-service.php:659
+#: widgets/service/class-absolute-addons-style-service.php:709
+#: widgets/service/class-absolute-addons-style-service.php:815
 msgid "Service Title Hover Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:729
+#: widgets/service/class-absolute-addons-style-service.php:738
 msgid "Service Icon Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:745
+#: widgets/service/class-absolute-addons-style-service.php:754
 msgid "Subtitle Background Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:767
+#: widgets/service/class-absolute-addons-style-service.php:776
 msgid "Subtitle Border Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:780
+#: widgets/service/class-absolute-addons-style-service.php:789
 msgid "Service Number Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:793
+#: widgets/service/class-absolute-addons-style-service.php:802
 msgid "Service Number Hover Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:819
+#: widgets/service/class-absolute-addons-style-service.php:828
 msgid "Service Title Color"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:837
+#: widgets/service/class-absolute-addons-style-service.php:846
 #: widgets/service/controller/content-controller-service-style.php:19
 msgid "Service Item"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:843
+#: widgets/service/class-absolute-addons-style-service.php:852
 msgid "Creative </br> Design"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:847
-#: widgets/service/class-absolute-addons-style-service.php:855
-#: widgets/service/class-absolute-addons-style-service.php:863
+#: widgets/service/class-absolute-addons-style-service.php:856
+#: widgets/service/class-absolute-addons-style-service.php:864
+#: widgets/service/class-absolute-addons-style-service.php:872
 msgid "At Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, "
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:851
+#: widgets/service/class-absolute-addons-style-service.php:860
 msgid "Illustration</br> & Artwork"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:859
+#: widgets/service/class-absolute-addons-style-service.php:868
 msgid "UI/UX</br> Design"
 msgstr ""
 
-#: widgets/service/class-absolute-addons-style-service.php:878
+#: widgets/service/class-absolute-addons-style-service.php:888
 msgid "Show Button"
 msgstr ""
 
@@ -12339,87 +12381,87 @@ msgstr ""
 msgid "Team Carousel Style"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:182
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:193
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:185
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:196
 msgid "Information"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:200
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:615
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:203
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:618
 msgid "Photo"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:217
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:220
 msgid "Member Name"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:218
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:221
 msgid "Type Member Name"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:228
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:231
 msgid "designation"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:231
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:234
 msgid "CEO"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:232
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:235
 msgid "Type Member designation"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:242
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:245
 msgid "Short Bio"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:244
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:247
 msgid "Write something amazing about the happy member"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:255
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:258
 msgid "Show Contact"
 msgstr ""
 
 #. translators: %d Website Index (will display in this order)
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:275
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:278
 msgid "Contact Icon #%d"
 msgstr ""
 
 #. translators: %d Website Index (will display in this order)
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:292
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:295
 msgid "Contact #%d"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:294
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:311
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:358
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:297
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:314
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:361
 msgid "Add your website name"
 msgstr ""
 
 #. translators: %d Website Index (will display in this order)
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:309
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:312
 msgid "Contact Link Text #%d"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:327
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:330
 msgid "Links"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:334
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:337
 msgid "Show Links"
 msgstr ""
 
 #. translators: %d Website Index (will display in this order)
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:356
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:359
 msgid "Website #%d"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:372
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:375
 msgid "Add your website link"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:389
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:392
 #: widgets/team/controller/team-item-controller.php:265
 #: widgets/team/controller/team-item-five-controller.php:131
 #: widgets/team/controller/team-item-four-controller.php:110
@@ -12429,59 +12471,59 @@ msgstr ""
 msgid "Select Icon Color"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:432
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:435
 msgid "Hover Background Color"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:457
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:460
 msgid "GitHub"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:483
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:486
 msgid "Eleanor Fant"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:484
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:487
 msgid "Co Founder/CEO"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:487
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:490
 msgid "Brian Cumin"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:488
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:491
 msgid "System Engineer"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:491
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:494
 msgid "Parsley Montana"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:492
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:495
 msgid "UI/UX Designer"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:495
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:498
 msgid "Fig Nelson"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:496
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:499
 msgid "Web Developer"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:551
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:554
 msgid "Carousel Item"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:663
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:666
 msgid "Bottom Spacing"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:726
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:729
 msgid "Name, Designation & Bio"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:881
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:884
 #: widgets/team/controller/style/team-item-style-five-controller.php:324
 #: widgets/team/controller/style/team-item-style-four-controller.php:325
 #: widgets/team/controller/style/team-item-style-nine-controller.php:323
@@ -12495,32 +12537,32 @@ msgstr ""
 msgid "Designation"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1066
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1069
 msgid "hover"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1111
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1114
 msgid "Social Icons"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1119
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1122
 msgid "Social Icon Rotation"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1138
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1141
 msgid "Right Spacing"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1162
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1165
 msgid "Area Padding"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1311
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1314
 #: widgets/team/controller/style/team-item-style-nine-controller.php:648
 msgid "Button  Typography"
 msgstr ""
 
-#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1319
+#: widgets/team-carousel/class-absolute-addons-style-team-carousel.php:1322
 msgid "Button Hover Color"
 msgstr ""
 

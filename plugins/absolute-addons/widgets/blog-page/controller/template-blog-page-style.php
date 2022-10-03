@@ -137,6 +137,8 @@ $this->start_controls_tab(
 	]
 );
 
+
+
 $this->add_group_control(
 	Group_Control_Background::get_type(),
 	[
@@ -395,6 +397,13 @@ $this->start_controls_tab(
 	'absp_blog_page_title_hover',
 	[
 		'label' => __( 'Hover', 'absolute-addons' ),
+	]
+);
+
+$this->add_group_control(
+	Group_Control_Typography::get_type(), [
+		'name'     => 'absp_blog_page_title_typography_hover',
+		'selector' => '{{WRAPPER}} .absp-blog-page:hover .absp-blog-page-title a',
 	]
 );
 
@@ -692,6 +701,18 @@ $this->add_responsive_control(
 		'size_units' => [ 'px', 'em', 'rem' ],
 		'selectors'  => [
 			'{{WRAPPER}} .absp-blog-page .absp-blog-page-meta-date' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+		],
+	]
+);
+
+$this->add_responsive_control(
+	'blog_page_meta_date_time_margin',
+	[
+		'label'      => __( 'Margin', 'absolute-addons' ),
+		'type'       => Controls_Manager::DIMENSIONS,
+		'size_units' => [ 'px', 'em', 'rem' ],
+		'selectors'  => [
+			'{{WRAPPER}} .absp-blog-page .absp-blog-page-meta-date' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 		],
 	]
 );

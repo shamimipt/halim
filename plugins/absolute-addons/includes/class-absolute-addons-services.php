@@ -8,6 +8,8 @@
 
 namespace AbsoluteAddons\AbsolutePluginsServices;
 
+use AbsoluteAddons\Absp_Library_Source;
+
 if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
@@ -111,11 +113,10 @@ class Absolute_Addons_Services {
 	 */
 	private function init_hooks() {
 
-		//$this->insights->add_extra( [] );
-
 		$slug = $this->client->getSlug();
 
 		add_action( 'admin_init', [ $this, 'admin_init' ] );
+		add_filter( $slug . '_tracker_data', [ $this, 'track_extra_data' ] );
 		add_filter( $slug . '_terms_url', [ $this, 'terms_url' ] );
 		add_filter( $slug . '_privacy_policy_url', [ $this, 'privacy_policy_url' ] );
 		add_filter( $slug . '_what_tracked', [ $this, 'data_we_collect' ] );
@@ -124,8 +125,6 @@ class Absolute_Addons_Services {
 		add_filter( "absp_service_api_{$slug}_Support_Request_Ajax_Success_Response", [ $this, 'support_response' ], 10 );
 		add_filter( "absp_service_api_{$slug}_Support_Request_Ajax_Error_Response", [ $this, 'support_error_response' ], 10 );
 		add_filter( "absp_service_api_{$slug}_Support_Page_URL", [ $this, 'support_url' ] );
-
-
 	}
 
 	public function admin_init() {
@@ -141,6 +140,13 @@ class Absolute_Addons_Services {
 				]
 			);
 		}
+	}
+
+	public function track_extra_data( $data ) {
+
+		$data['extra']['favourite'] = get_option( Absp_Library_Source::LIBRARY_FAVORITE_KEY );
+
+		return $data;
 	}
 
 	protected function enable_debug_mode() {

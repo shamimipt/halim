@@ -38,6 +38,10 @@ class Absp_Library_Source extends Source_Base {
 	const LIBRARY_CACHE_KEY = 'absp_library_cache';
 	const LIBRARY_CACHE_TTL = 604800; // 7 Days = 7*24*60*60
 
+	protected static $favorites;
+
+	const LIBRARY_FAVORITE_KEY = 'absp_library_favorites';
+
 	const LIBRARY_CATS_KEY = 'absp_library_categories_cache';
 	const LIBRARY_TAGS_KEY = 'absp_library_tags_cache';
 
@@ -108,47 +112,62 @@ class Absp_Library_Source extends Source_Base {
 		return new WP_Error( 'invalid_request', 'Cannot export template from library' );
 	}
 
+	public function get_favorites() {
+		if ( null === self::$favorites ) {
+			self::$favorites = get_option( self::LIBRARY_FAVORITE_KEY, [] );
+			if ( ! empty( self::$favorites ) ) {
+				self::$favorites = array_map( 'absint', self::$favorites );
+			}
+		}
+
+		return self::$favorites;
+	}
+
+	public function update_favorites( $template_id, $status ) {
+
+		$template_id = absint( $template_id );
+		$favorites   = $this->get_favorites();
+
+		if ( $status ) {
+			$favorites[] = $template_id;
+		}
+
+		if ( ! $status ) {
+			$favorites = array_flip( $favorites );
+
+			if ( isset( $favorites[ $template_id ] ) ) {
+				unset( $favorites[ $template_id ] );
+			}
+
+			$favorites = array_flip( $favorites );
+		}
+
+		self::$favorites = array_unique( $favorites );
+
+		update_option( self::LIBRARY_FAVORITE_KEY, self::$favorites, false );
+
+		return self::$favorites;
+	}
+
 	public function get_items( $args = [], $force_update = false ) {
 
 		$library_data = self::get_library_data( $force_update );
+		$favorites    = $this->get_favorites();
 
-		$templates = [];
-		foreach ( $library_data as $data ) {
-			$templates[] = $this->prepare_template( $data );
+		foreach ( $library_data as &$data ) {
+			$data['favorite'] = in_array( (int) $data['template_id'], $favorites );
+			if ( ! $data['thumbnail'] ) {
+				$data['thumbnail'] = '<img src="' . esc_url( ELEMENTOR_ASSETS_URL . 'images/placeholder.png' ) . '" alt="' . esc_attr__( 'Preview Placeholder', 'absolute-addons'  ) . '">';
+			}
 		}
 
-		return $templates;
+		return $library_data;
 	}
 
 	public function get_tags() {
 		$library_data = self::get_library_data();
 
 		return ( ! empty( $library_data['tags'] ) ? $library_data['tags'] : [] );
-	}
-
-	private function get_placeholder( $alt = '' ) {
-		return sprintf(
-			'<img width="400" height="207" src="%s" class="attachment-library-thumb size-library-thumb wp-post-image" alt="%s" loading="lazy">',
-			esc_url( ELEMENTOR_ASSETS_URL . 'images/placeholder.png' ),
-			esc_attr( $alt )
-		);
-	}
-
-	/**
-	 * Prepare template items to match model
-	 *
-	 * @param array $data
-	 *
-	 * @return array
-	 */
-	private function prepare_template( $data ) {
-
-		$data['favorite'] = false;
-		if ( ! $data['thumbnail'] ) {
-			$data['thumbnail'] = '<img src="' . esc_url( $this->get_placeholder( $data['name'] ) ) . '" alt="' . esc_attr__( 'Preview Placeholder', 'absolute-addons'  ) . '">';
-		}
-
-		return $data;
 	}
 
 	/**

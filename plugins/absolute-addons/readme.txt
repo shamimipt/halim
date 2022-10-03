@@ -2,8 +2,8 @@
 Contributors: absoluteplugins, niamul, mhamudul_hk
 Tags: elementor, elementor addons, elementor widget, essential elementor widgets, elements
 Requires at least: 5.2
-Tested up to: 5.9
-Stable tag: 1.0.13
+Tested up to: 6.0
+Stable tag: 1.0.14
 Requires PHP: 7.1
 License: GPL-3.0-or-later
 
@@ -270,6 +270,28 @@ Absolute Addons For Elementor Fully compatible with the latest version of WooCom
 4. Template Library
 
 == Changelog ==
+
+= 1.0.14 - 2022-07-06 =
+ * **Added:** Template Favourite Feature.
+ * **Fixed:** Advance Tab Style 7,8,9 responsive on tab and mobile issue.
+ * **Fixed:** Portfolio Gallery4C responsive on tab and mobile issue.
+ * **Fixed:** Portfolio Pro Grid content hidden and column gap on tab and mobile issue.
+ * **Fixed:** All services widget has empty align-items css issue.
+ * **Fixed:** Blog style 11 responsive, space issue, hover issue.
+ * **Fixed:** All Blog style filter broken issue on tab and mobile device.
+ * **Fixed:** Content card style 2: image size issue on smaller devices.
+ * **Fixed:** All content card icon font issue.
+ * **Fixed:** Team style 1, 2, 13 hover, image width issue on mobile, space issue on tablet device.
+ * **Fixed:** Team Carousel 6: image width issue on mobile devices.
+ * **Fixed:** FAQ Three Classic: mobile tab nav tab multiline issue.
+ * **Fixed:** WC Product Grid Style 1: Product overflowing another product on hover.
+ * **Fixed:** All type of slider: dots gap not working.
+ * **Fixed:** All portfolio menu on mobile device is broken.
+ * **Tested:** WordPress version 6.0
+ * **Fixed:** Fixed Compatibility Issues (wp_readonly) .
+ * **Fixed:** Controller missing issue for fun fact.
+ * **Fixed:** List item css issue fixed.
+ * **Fixed:** FAQ design four style issue fixed.
 
 = 1.0.13 - 2022-05-22 =
  * **Update:** Removed elementor's deprecated namespaces, class methods & hooks as per elementor's requirements.

@@ -1,5 +1,27 @@
 == Changelog ==
 
+= 1.0.14 - 2022-07-13 =
+ * **Added:** Template Favourite Feature.
+ * **Fixed:** Advance Tab Style 7,8,9 responsive on tab and mobile.
+ * **Fixed:** Portfolio Gallery4C responsive on tab and mobile issue.
+ * **Fixed:** Portfolio Pro Grid content hidden and column gap on tab and mobile issue.
+ * **Fixed:** All services widget has empty align-items css issue.
+ * **Fixed:** Blog style 11 responsive, space, hover issue.
+ * **Fixed:** All Blog style filter broken on tab and mobile device.
+ * **Fixed:** Content card style 2: image size  on smaller devices.
+ * **Fixed:** All content card icon font issue.
+ * **Fixed:** Team style 1, 2, 13 hover, image width issue on mobile, space on tablet device.
+ * **Fixed:** Team Carousel 6: image width issue on mobile devices.
+ * **Fixed:** FAQ Three Classic: mobile tab nav tab multiline issue.
+ * **Fixed:** WC Product Grid Style 1: Product overflowing another product on hover.
+ * **Fixed:** All type of slider: dots gap not working.
+ * **Fixed:** All portfolio menu on mobile device is broken.
+ * **Tested:** WordPress version 6.0
+ * **Fixed:** Fixed Compatibility Issues (wp_readonly) .
+ * **Fixed:** Controller missing issue for fun fact.
+ * **Fixed:** List item css.
+ * **Fixed:** FAQ design four style broken.
+
 = 1.0.13 - 2022-05-22 =
  * **Update:** Removed elementor's deprecated namespaces, class methods & hooks as per elementor's requirements.
  * **Fixed:** Pro Widget (Category) goes missing after activating pro version.

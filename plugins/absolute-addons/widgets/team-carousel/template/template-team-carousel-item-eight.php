@@ -32,5 +32,6 @@
 		<?php $this->render_member_contact( $member ) ?>
 		<?php $this->render_short_bio( $member ) ?>
 		<?php $this->render_button( $member ) ?>
+		<?php $this->render_button( $member ) ?>
 	</div>
 </div>

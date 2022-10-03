@@ -484,6 +484,7 @@ $this->add_responsive_control(
 
 $this->end_controls_section();
 
+// Start lis number style.
 $this->start_controls_section(
 	'list_number',
 	[
@@ -495,94 +496,235 @@ $this->start_controls_section(
 	]
 );
 
-$this->add_group_control(
-	Group_Control_Typography::get_type(),
-	[
-		'label'    => __( 'Number Typography', 'absolute-addons' ),
-		'name'     => 'list_number_typography',
-		'selector' => '{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg, {{WRAPPER}} .absp-list .absp-list-widget .absp-list-number',
-	]
-);
+	$this->start_controls_tabs( 'list_number_tabs' );
 
-$this->add_responsive_control(
-	'list_number_width',
-	[
-		'label'      => __( 'Number Width', 'absolute-addons' ),
-		'type'       => Controls_Manager::SLIDER,
-		'size_units' => [ 'px', '%' ],
-		'range'      => [
-			'px' => [
-				'min'  => 0,
-				'max'  => 300,
-				'step' => 1,
-			],
-			'%'  => [
-				'min' => 0,
-				'max' => 100,
-			],
-		],
-		'selectors'  => [
-			'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'width: {{SIZE}}{{UNIT}};',
-		],
-		'condition'  => [
-			'absolute_list' => 'three',
-		],
-	]
-);
+	// List number normal style
+	$this->start_controls_tab(
+		'list_number_normal',
+		[
+			'label' => __( 'Normal', 'absolute-addons' ),
+		]
+	);
+		// List control style.
+		$this->add_group_control(
+			Group_Control_Typography::get_type(),
+			[
+				'label'    => __( 'Number Typography', 'absolute-addons' ),
+				'name'     => 'list_number_typography',
+				'selector' => '{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg, {{WRAPPER}} .absp-list .absp-list-widget .absp-list-number',
+			]
+		);
 
-$this->add_responsive_control(
-	'list_number_height',
-	[
-		'label'      => __( 'Number Height', 'absolute-addons' ),
-		'type'       => Controls_Manager::SLIDER,
-		'size_units' => [ 'px', '%' ],
-		'range'      => [
-			'px' => [
-				'min'  => 0,
-				'max'  => 300,
-				'step' => 1,
-			],
-			'%'  => [
-				'min' => 0,
-				'max' => 100,
-			],
-		],
-		'selectors'  => [
-			'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'height: {{SIZE}}{{UNIT}}; line-height: {{SIZE}}{{UNIT}};',
-		],
-		'condition'  => [
-			'absolute_list' => 'three',
-		],
-	]
-);
+		$this->add_responsive_control(
+			'list_number_width',
+			[
+				'label'      => __( 'Number Width', 'absolute-addons' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => [ 'px', '%' ],
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 300,
+						'step' => 1,
+					],
+					'%'  => [
+						'min' => 0,
+						'max' => 100,
+					],
+				],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'width: {{SIZE}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
 
-$this->add_responsive_control(
-	'list_number_border_radius',
-	[
-		'label'      => __( 'Number Border Radius', 'absolute-addons' ),
-		'type'       => Controls_Manager::DIMENSIONS,
-		'size_units' => [ 'px', 'em', '%' ],
-		'selectors'  => [
-			'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-		],
-		'condition'  => [
-			'absolute_list' => 'three',
-		],
-	]
-);
+		$this->add_responsive_control(
+			'list_number_height',
+			[
+				'label'      => __( 'Number Height', 'absolute-addons' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => [ 'px', '%' ],
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 300,
+						'step' => 1,
+					],
+					'%'  => [
+						'min' => 0,
+						'max' => 100,
+					],
+				],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'height: {{SIZE}}{{UNIT}}; line-height: {{SIZE}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
 
-$this->add_control(
-	'absp_list_number_color',
-	[
-		'label'     => __( 'Number Color', 'absolute-addons' ),
-		'type'      => Controls_Manager::COLOR,
-		'selectors' => [
-			'{{WRAPPER}} .absp-list-widget ul li .absp-list-number ' => 'color: {{VALUE}}',
-		],
-		'condition' => [
-			'absolute_list!' => [ 'three', 'six' ],
-		],
-	]
-);
+		$this->add_responsive_control(
+			'list_number_border_radius',
+			[
+				'label'      => __( 'Number Border Radius', 'absolute-addons' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', 'em', '%' ],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
 
-$this->end_controls_section();
+		$this->add_control(
+			'absp_list_number_color',
+			[
+				'label'     => __( 'Number Color', 'absolute-addons' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .absp-list-widget ul li .absp-list-number ' => 'color: {{VALUE}}',
+				],
+				'condition' => [
+					'absolute_list!' => [ 'three', 'six' ],
+				],
+			]
+		);
+		$this->add_control(
+			'absp_list_number_background_color',
+			[
+				'label'     => __( 'Background Color', 'absolute-addons' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .absp-list-widget ul li .absp-list-number ' => 'background-color: {{VALUE}};',
+				],
+				'condition' => [
+					'absolute_list!' => [ 'three', 'six' ],
+				],
+			]
+		);
+
+	$this->end_controls_tab();// End normal tab.
+
+	$this->start_controls_tab(
+		'list_number_hover',
+		[
+			'label' => __( 'Hover', 'absolute-addons' ),
+		]
+	);
+
+		// List control style
+		$this->add_group_control(
+			Group_Control_Typography::get_type(),
+			[
+				'label'    => __( 'Number Hover Typography', 'absolute-addons' ),
+				'name'     => 'list_number_typography_hover',
+				'selector' => '{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg:hover, {{WRAPPER}} .absp-list .absp-list-widget .absp-list-number:hover',
+			]
+		);
+
+		$this->add_responsive_control(
+			'list_number_width_hover',
+			[
+				'label'      => __( 'Number Width', 'absolute-addons' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => [ 'px', '%' ],
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 300,
+						'step' => 1,
+					],
+					'%'  => [
+						'min' => 0,
+						'max' => 100,
+					],
+				],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg:hover' => 'width: {{SIZE}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
+
+		$this->add_responsive_control(
+			'list_number_height_hover',
+			[
+				'label'      => __( 'Number Height', 'absolute-addons' ),
+				'type'       => Controls_Manager::SLIDER,
+				'size_units' => [ 'px', '%' ],
+				'range'      => [
+					'px' => [
+						'min'  => 0,
+						'max'  => 300,
+						'step' => 1,
+					],
+					'%'  => [
+						'min' => 0,
+						'max' => 100,
+					],
+				],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg:hover' => 'height: {{SIZE}}{{UNIT}}; line-height: {{SIZE}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
+
+		$this->add_responsive_control(
+			'list_number_border_radius_hover',
+			[
+				'label'      => __( 'Number Border Radius', 'absolute-addons' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', 'em', '%' ],
+				'selectors'  => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-wrapper-bg:hover' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+				'condition'  => [
+					'absolute_list' => 'three',
+				],
+			]
+		);
+
+		$this->add_control(
+			'absp_list_number_color_hover',
+			[
+				'label'     => __( 'Number Color', 'absolute-addons' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-widget-item:hover .absp-list-number' => 'color: {{VALUE}}',
+				],
+				'condition' => [
+					'absolute_list!' => [ 'three', 'six' ],
+				],
+			]
+		);
+
+		$this->add_control(
+			'absp_list_number_background_color_hover',
+			[
+				'label'     => __( 'Background Color', 'absolute-addons' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .absp-list .absp-list-widget .absp-list-widget-item:hover .absp-list-number' => 'background-color: {{VALUE}}',
+				],
+				'condition' => [
+					'absolute_list!' => [ 'three', 'six' ],
+				],
+			]
+		);
+
+
+	$this->end_controls_tab();// End hover tab.
+	$this->end_controls_tabs();
+
+$this->end_controls_section();// End list number section

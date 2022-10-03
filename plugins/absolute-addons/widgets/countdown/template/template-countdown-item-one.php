@@ -11,6 +11,6 @@ defined( 'ABSPATH' ) || exit;
  */
 ?>
 <div class="absp-countdown-flex-wrapper">
-	<?php $this->render_digits( $settings, false ); ?>
+	<?php $this->render_digits( $settings, false , $this->get_id() ); ?>
 </div>
 

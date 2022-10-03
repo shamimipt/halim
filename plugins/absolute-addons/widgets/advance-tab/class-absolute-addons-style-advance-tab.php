@@ -6,6 +6,9 @@ use AbsoluteAddons\Absp_Read_More_Button;
 use AbsoluteAddons\Absp_Widget;
 use AbsoluteAddons\Controls\Absp_Control_Styles;
 use Elementor\Controls_Manager;
+use Elementor\Group_Control_Background;
+use Elementor\Group_Control_Border;
+use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Image_Size;
 use Elementor\Icons_Manager;
 use Elementor\Repeater;
@@ -87,6 +90,7 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 		return [
 			'absolute-addons-advance-tab',
 			'jquery.beefup',
+			'responsive-menu',
 			'absp-advance-tab',
 		];
 	}
@@ -491,6 +495,197 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 			$this->render_read_more_control( $repeater );
 		}
 
+		if ( $style === 'nine' ){
+
+			$repeater->start_controls_tabs( 'tab_normal_style' );
+
+			$repeater->start_controls_tab(
+				'advance_tab_normal',
+				[
+					'label' => esc_html__( 'Normal', 'absolute-addons' ),
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Background::get_type(),
+				[
+					'name'           => 'advance_tab_title_background',
+					'fields_options' => [
+						'background' => [
+							'label' => esc_html__( 'Title Background', 'absolute-addons' ),
+						],
+					],
+					'types'          => [ 'classic', 'gradient' ],
+					'selector'       => '{{WRAPPER}}  .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a',
+				]
+			);
+
+			$repeater->add_control(
+				'advance_tab_title_color',
+				[
+					'label'     => esc_html__( 'Title Color', 'absolute-addons' ),
+					'type'      => Controls_Manager::COLOR,
+					'selectors' => [
+						'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a' => 'color: {{VALUE}}',
+					],
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Box_Shadow::get_type(),
+				[
+					'name'     => 'advance_tab_title_box_shadow',
+					'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a',
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Border::get_type(),
+				[
+					'name'     => 'advance_tab_title_border',
+					'label'    => esc_html__( 'Border', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a',
+				]
+			);
+
+			$repeater->add_responsive_control(
+				'advance_tab_title_border_radius',
+				[
+					'label'      => esc_html__( 'Advance Tab Border Radius', 'absolute-addons' ),
+					'type'       => Controls_Manager::DIMENSIONS,
+					'size_units' => [ 'px', 'em', '%' ],
+					'selectors'  => [
+						'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					],
+				]
+			);
+
+			$repeater->end_controls_tab();
+
+			$repeater->start_controls_tab(
+				'advance_tab_hover',
+				[
+					'label' => esc_html__( 'Hover', 'absolute-addons' ),
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Background::get_type(),
+				[
+					'name'           => 'advance_tab_title_background_hover',
+					'fields_options' => [
+						'background' => [
+							'label' => esc_html__( 'Background', 'absolute-addons' ),
+						],
+					],
+					'types'          => [ 'classic', 'gradient' ],
+					'selector'       => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a:hover',
+				]
+			);
+
+			$repeater->add_control(
+				'advance_tab_title_color_hover',
+				[
+					'label'     => esc_html__( 'Title Color', 'absolute-addons' ),
+					'type'      => Controls_Manager::COLOR,
+					'selectors' => [
+						'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a:hover' => 'color: {{VALUE}}',
+					],
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Box_Shadow::get_type(),
+				[
+					'name'     => 'advance_tab_title_box_shadow_hover',
+					'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a:hover',
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Border::get_type(),
+				[
+					'name'     => 'advance_tab_title_border_hover_hover',
+					'label'    => esc_html__( 'Border', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}} a:hover',
+				]
+			);
+
+			$repeater->end_controls_tab();
+
+			$repeater->start_controls_tab(
+				'advance_tab_active',
+				[
+					'label' => esc_html__( 'Active', 'absolute-addons' ),
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Background::get_type(),
+				[
+					'name'           => 'advance_tab_title_background_active',
+					'fields_options' => [
+						'background' => [
+							'label' => esc_html__( 'Background', 'absolute-addons' ),
+						],
+					],
+					'types'          => [ 'classic', 'gradient' ],
+					'selector'       => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}}.is-open a, {{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li-{{CURRENT_ITEM}}.is-open a::before, {{WRAPPER}} .advance-tab-item-five .absp-nav-tab li-{{CURRENT_ITEM}}.is-open::before',
+				]
+			);
+
+			$repeater->add_control(
+				'advance_tab_title_color_active',
+				[
+					'label'     => esc_html__( 'Title Color', 'absolute-addons' ),
+					'type'      => Controls_Manager::COLOR,
+					'selectors' => [
+						'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}}.is-open a' => 'color: {{VALUE}}',
+					],
+				]
+			);
+
+
+
+			$repeater->add_group_control(
+				Group_Control_Box_Shadow::get_type(),
+				[
+					'name'     => 'advance_tab_title_box_shadow_active',
+					'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}}.is-open a',
+				]
+			);
+
+			$repeater->add_group_control(
+				Group_Control_Border::get_type(),
+				[
+					'name'     => 'advance_tab_title_border_active',
+					'label'    => esc_html__( 'Border', 'absolute-addons' ),
+					'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}}.is-open a',
+				]
+			);
+
+			$repeater->add_responsive_control(
+				'advance_tab_title_border_radius_active',
+				[
+					'label'      => esc_html__( 'Advance Tab Border Radius', 'absolute-addons' ),
+					'type'       => Controls_Manager::DIMENSIONS,
+					'size_units' => [ 'px', 'em', '%' ],
+					'selectors'  => [
+						'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li{{CURRENT_ITEM}}.is-open a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					],
+				]
+			);
+
+			$repeater->end_controls_tab();
+
+			$repeater->end_controls_tabs();
+
+
+		}
+
 		$this->add_control(
 			'absp_tabs_' . $style,
 			[
@@ -538,7 +733,9 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 
 		$id_int = substr( $this->get_id_int(), 0, 3 );
 
-		$this->add_render_attribute( 'tab-content-title', 'class', 'content-title' )
+		$this->add_render_attribute( 'tab-content-title', 'class', 'content-title' );
+
+
 
 		?>
 		<div class="absp-wrapper absp-widget">
@@ -552,9 +749,11 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 								if ( isset( $settings[ 'absp_tabs_' . $style ] ) ) {
 									foreach ( $settings[ 'absp_tabs_' . $style ] as $index => $tab ) {
 										$is_open   = 0 == $index ? 'is-open' : '';
-										$this->render_tab_title( $tab, $is_open, $id_int . ( $index + 1 ) );
+										$this->render_tab_title( $tab, $is_open, $id_int . ( $index + 1 ), $tab['_id'] );
 									}
 								}
+
+
 								?>
 							</ul>
 							<div class="absp-tab-content">
@@ -593,7 +792,7 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 		<?php
 	}
 
-	protected function render_tab_title( $tab, $is_open, $tab_id ) {
+	protected function render_tab_title( $tab, $is_open, $tab_id, $current_element_id ) {
 		if ( in_array( $this->current_style, [ 'five', 'six', 'seven', 'eight', 'ten' ] ) ) {
 			?>
 			<li class="<?php echo esc_attr( $is_open ); ?>">
@@ -609,7 +808,7 @@ class Absoluteaddons_Style_Advance_Tab extends Absp_Widget {
 			<?php
 		} else {
 			?>
-			<li class="<?php echo esc_attr( $is_open ); ?>">
+			<li class="<?php echo esc_attr( $is_open ); ?> elementor-repeater-item-<?php echo $current_element_id ?> ">
 				<a href="#absp-tab-<?php echo esc_attr( $tab_id ); ?>">
 					<span><?php absp_render_title( $tab['absp_tab_title'] ); ?></span>
 				</a>

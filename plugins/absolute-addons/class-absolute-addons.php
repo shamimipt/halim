@@ -44,7 +44,7 @@ final class Absolute_Addons {
 	 * @since 1.0.0
 	 * @var string Minimum Elementor version required to run the plugin.
 	 */
-	const MINIMUM_ELEMENTOR_VERSION = '2.0.0';
+	const MINIMUM_ELEMENTOR_VERSION = '3.2.5';
 
 	/**
 	 * Minimum PHP Version

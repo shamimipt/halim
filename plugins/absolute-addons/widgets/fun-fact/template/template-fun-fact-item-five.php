@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
  */
 ?>
 <div class="fun-fact-item">
-	<div class="fun-fact-flex-wrapper <?php if ( 'yes' === $settings['content_rtl'] ) { ?> fun-fact-flex-wrapper-right-rtl<?php } ?>">
+	<div class="fun-fact-flex-wrapper <?php if ( 'yes' === $settings['content_align'] ) { ?> fun-fact-flex-wrapper-right-rtl<?php } ?>">
 		<div class="fun-fact-flex-inner">
 			<?php $this->render_fact_icon( $settings ); ?>
 		</div>

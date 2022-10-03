@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 <div class="absp-team-item">
 	<div class="holder">
 		<div class="pic">
-			<div class="placeholder">
+			<div class="placeholder-img">
 				<img class="member_image" src="<?php echo esc_url( $settings['team_member_image']['url'] ); ?>" alt="<?php echo esc_html( $settings['team_member_name'] ) ?>">
 			</div>
 		</div>

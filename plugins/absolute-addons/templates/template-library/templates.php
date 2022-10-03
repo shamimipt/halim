@@ -92,8 +92,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 </script>
 
 <script type="text/template" id="tmpl-absp-templates-modal__templates">
-	<div id="absp-templates-modal__toolbar">
-		<div id="absp-templates-modal__toolbar-filter" class="absp-templates-modal__toolbar-filter"></div>
+	<div id="absp-templates-modal__toolbar" class="absp-templates-modal__toolbar">
+		<div id="absp-templates-modal__toolbar-filter" class="absp-templates-modal__toolbar-filter">
+			<div id="absp-templates-modal__toolbar-my-favorites" class="absp-templates-modal__toolbar-my-favorites">
+				<a href="javascript:void(0)" id="absp-template-library-filter-my-favorites">
+					<i class="eicon-heart-o" aria-hidden="true"></i>
+					<?php esc_html_e( 'My Favorites', 'absolute-addons' ); ?>
+				</a>
+			</div>
+		</div>
 		<div class="absp-templates-modal__toolbar-search">
 			<label for="absp-templates-modal__search" class="elementor-screen-only"><?php esc_html_e( 'Search Templates:', 'absolute-addons' ); ?></label>
 			<input type="text" id="absp-templates-modal__search" placeholder="<?php esc_attr_e( 'Search', 'absolute-addons' ); ?>">
@@ -114,6 +121,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<# if ( obj.isPro ) { #>
 		<span class="absp-templates-modal__template-badge"><?php esc_html_e( 'Pro', 'absolute-addons' ); ?></span>
 		<# } #>
+		<div class="absp-templates-modal__template-badge favorite">
+			<# if ( favorite ) { #>
+			<input id="absp-template-library-template-{{ template_id }}-favorite-input" class="absp-template-library-template-favorite-input" type="checkbox" checked>
+			<# } else { #>
+			<input id="absp-template-library-template-{{ template_id }}-favorite-input" class="absp-template-library-template-favorite-input" type="checkbox">
+			<# } #>
+			<label for="absp-template-library-template-{{ template_id }}-favorite-input" class="absp-template-library-template-favorite-label">
+				<i class="eicon-heart-o" aria-hidden="true"></i>
+				<# if ( favorite ) { #>
+				<span class="elementor-screen-only"><?php esc_html_e( 'Add to favorites', 'absolute-addons' ); ?></span>
+				<# } else { #>
+				<span class="elementor-screen-only"><?php esc_html_e( 'Remove from favorites', 'absolute-addons' ); ?></span>
+				<# } #>
+			</label>
+		</div>
 	</div>
 	<div class="absp-templates-modal__template-footer">
 		<div class="elementor-template-library-template-name">{{{ title }}}</div>

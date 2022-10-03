@@ -94,6 +94,7 @@ class Absoluteaddons_Style_Portfolio extends Absp_Widget {
 			'jquery.fancybox',
 			'absolute-addons-core',
 			'absp-portfolio',
+			'jquery.isotope'
 		);
 	}
 
@@ -480,7 +481,7 @@ class Absoluteaddons_Style_Portfolio extends Absp_Widget {
 		$args = [
 			'post_type'      => 'portfolio',
 			'post_status'    => 'publish',
-			'posts_per_page' => - 1,
+			'posts_per_page' => -1,
 		];
 
 // we get an array of posts objects
@@ -497,6 +498,7 @@ class Absoluteaddons_Style_Portfolio extends Absp_Widget {
 		foreach ( (array) $posts as $single_post ) {
 			$portfolio_post[ $single_post->ID . '|' . $single_post->post_title ] = $single_post->post_title;
 		}
+
 
 		$this->add_control(
 			'portfolio_category_post',
@@ -650,7 +652,7 @@ class Absoluteaddons_Style_Portfolio extends Absp_Widget {
 										'portfolio_terms' => $portfolio_terms,
 									];
 									?>
-									<div class="filtr-item portfolio-wrapper <?php echo esc_attr( $effect_classes ); ?>" data-category="<?php echo esc_attr( $portfolio_terms ); ?>">
+									<div class="filtr-item portfolio-wrapper <?php echo esc_attr( $effect_classes. ' '. $portfolio_terms ); ?>" data-category="<?php echo esc_attr( $portfolio_terms ); ?>">
 										<?php $this->render_template( $style, $args ); ?>
 									</div>
 									<?php

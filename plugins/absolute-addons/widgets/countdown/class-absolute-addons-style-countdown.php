@@ -31,7 +31,7 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 
 		$this->mailchimp_options = Dashboard::get_tab_section_option( 'integrations', 'mailchimp' );
 		if ( isset( $this->mailchimp_options['api_key'] ) && $this->mailchimp_options['api_key'] ) {
-			$this->mailchimp_client  = new MailChimp( $this->mailchimp_options['api_key'] );
+			$this->mailchimp_client = new MailChimp( $this->mailchimp_options['api_key'] );
 			try {
 				$this->mailchimp_client->load();
 			} catch ( \InvalidArgumentException $e ) {
@@ -317,7 +317,7 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 		$this->add_control(
 			'countdown_separator',
 			[
-				'label'        => esc_html__('Display Separator', 'absolute-addons'),
+				'label'        => esc_html__( 'Display Separator', 'absolute-addons' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'return_value' => 'yes',
 				'default'      => '',
@@ -328,7 +328,7 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 		$this->add_control(
 			'countdown_separator_input',
 			[
-				'label'     => esc_html__('Separator Input', 'absolute-addons'),
+				'label'     => esc_html__( 'Separator Input', 'absolute-addons' ),
 				'type'      => Controls_Manager::TEXT,
 				'default'   => ':',
 				'condition' => [
@@ -777,14 +777,22 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 				<?php } ?>
 				<div class="absp-countdown-email-subscribe-flex-inner">
 					<div class="absp-countdown-subscribe-form">
-						<form action="#" method="post" data-list-id="<?php echo esc_attr( $settings['list_id'] ); ?>" data-invalid="<?php echo esc_attr( $settings['form_invalid'] ); ?>" data-success-message="<?php echo esc_attr( $settings['form_success'] ); ?>">
+						<form action="#" method="post" data-list-id="<?php echo esc_attr( $settings['list_id'] ); ?>"
+							  data-invalid="<?php echo esc_attr( $settings['form_invalid'] ); ?>"
+							  data-success-message="<?php echo esc_attr( $settings['form_success'] ); ?>">
 							<div class="absp-countdown-subscribe-inline-form">
-								<div class="absp-countdown-subscribe-email-input-field-inner absp-countdown-input-wrapper">
-									<label class="sr-only" for="<?php echo esc_attr( $uid ); ?>_email"><?php esc_html_e( 'Your email', 'absolute-addons' ); ?></label>
-									<input type="email" name="email" id="<?php echo esc_attr( $uid ); ?>_email" class="absp-countdown-subscribe-email-input-field" placeholder="<?php esc_attr_e( 'Your email', 'absolute-addons' ); ?>" required>
+								<div
+									class="absp-countdown-subscribe-email-input-field-inner absp-countdown-input-wrapper">
+									<label class="sr-only"
+										   for="<?php echo esc_attr( $uid ); ?>_email"><?php esc_html_e( 'Your email', 'absolute-addons' ); ?></label>
+									<input type="email" name="email" id="<?php echo esc_attr( $uid ); ?>_email"
+										   class="absp-countdown-subscribe-email-input-field"
+										   placeholder="<?php esc_attr_e( 'Your email', 'absolute-addons' ); ?>"
+										   required>
 								</div>
 								<div class="absp-countdown-subscribe-submit-btn-inner absp-countdown-input-wrapper">
-									<input type="submit" class="absp-countdown-subscribe-submit-btn" name="subscribe" value="<?php esc_attr_e( 'Submit', 'absolute-addons' ); ?>">
+									<input type="submit" class="absp-countdown-subscribe-submit-btn" name="subscribe"
+										   value="<?php esc_attr_e( 'Submit', 'absolute-addons' ); ?>">
 								</div>
 							</div>
 						</form>
@@ -806,15 +814,17 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 				$class .= ' countdown-show-separator countdown-separator-' . $settings['absolute_countdown'];
 			}
 		}
+
 		return $class;
 	}
 
-	protected function render_days( $settings, $separator = true ) {
+	protected function render_days( $settings, $separator = true, $id = '' ) {
 		?>
 		<div class="<?php echo esc_attr( $this->get_digit_classes( 'days', $settings, $separator ) ); ?>">
 			<div class="absp-countdown-inner">
 				<div class="absp-item">
-					<span class="absp-countdown-digits-day days" aria-labelledby="day-countdown">00</span>
+					<span class="absp-countdown-digits-day days"
+						  aria-labelledby="day-countdown-<?php echo esc_html( $id ); ?>">00</span>
 					<?php if ( ! empty( $settings['countdown_label_days'] ) ) { ?>
 						<span <?php $this->print_render_attribute_string( 'countdown_label_days' ); ?>><?php absp_render_title( $settings['countdown_label_days'] ); ?></span>
 					<?php } ?>
@@ -822,17 +832,19 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 			</div>
 		</div>
 		<?php if ( 'yes' === $settings['countdown_separator'] ) { ?>
-			<div class="absp-countdown-separator"><?php echo esc_html($settings['countdown_separator_input']); ?></div>
+			<div
+				class="absp-countdown-separator"><?php echo esc_html( $settings['countdown_separator_input'] ); ?></div>
 			<?php
 		}
 	}
 
-	protected function render_hours( $settings, $separator = true ) {
+	protected function render_hours( $settings, $separator = true, $id = '' ) {
 		?>
 		<div class="<?php echo esc_attr( $this->get_digit_classes( 'hours', $settings, $separator ) ); ?>">
 			<div class="absp-countdown-inner">
 				<div class="absp-item">
-					<span class="absp-countdown-digits-hour hours" aria-labelledby="hour-countdown">00</span>
+					<span class="absp-countdown-digits-hour hours"
+						  aria-labelledby="hour-countdown-<?php echo esc_html( $id ); ?>">00</span>
 					<?php if ( ! empty( $settings['countdown_label_hours'] ) ) { ?>
 						<span <?php $this->print_render_attribute_string( 'countdown_label_hours' ); ?>><?php absp_render_title( $settings['countdown_label_hours'] ); ?></span>
 					<?php } ?>
@@ -840,17 +852,19 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 			</div>
 		</div>
 		<?php if ( 'yes' === $settings['countdown_separator'] ) { ?>
-			<div class="absp-countdown-separator"><?php echo esc_html($settings['countdown_separator_input']); ?></div>
+			<div
+				class="absp-countdown-separator"><?php echo esc_html( $settings['countdown_separator_input'] ); ?></div>
 			<?php
 		}
 	}
 
-	protected function render_minutes( $settings, $separator = true ) {
+	protected function render_minutes( $settings, $separator = true, $id = '' ) {
 		?>
 		<div class="<?php echo esc_attr( $this->get_digit_classes( 'minutes', $settings, $separator ) ); ?>">
 			<div class="absp-countdown-inner">
 				<div class="absp-item">
-					<span class="absp-countdown-digits-minute minutes" aria-labelledby="minute-countdown">00</span>
+					<span class="absp-countdown-digits-minute minutes"
+						  aria-labelledby="minute-countdown-<?php echo esc_html( $id ); ?>">00</span>
 					<?php if ( ! empty( $settings['countdown_label_minutes'] ) ) { ?>
 						<span <?php $this->print_render_attribute_string( 'countdown_label_minutes' ); ?>><?php absp_render_title( $settings['countdown_label_minutes'] ); ?></span>
 					<?php } ?>
@@ -858,17 +872,19 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 			</div>
 		</div>
 		<?php if ( 'yes' === $settings['countdown_separator'] ) { ?>
-			<div class="absp-countdown-separator"><?php echo esc_html($settings['countdown_separator_input']); ?></div>
+			<div
+				class="absp-countdown-separator"><?php echo esc_html( $settings['countdown_separator_input'] ); ?></div>
 			<?php
 		}
 	}
 
-	protected function render_seconds( $settings, $separator = true ) {
+	protected function render_seconds( $settings, $separator = true, $id = '' ) {
 		?>
 		<div class="<?php echo esc_attr( $this->get_digit_classes( 'seconds', $settings, $separator ) ); ?>">
 			<div class="absp-countdown-inner">
 				<div class="absp-item">
-					<span class="absp-countdown-digits-second seconds" aria-labelledby="second-countdown">00</span>
+					<span class="absp-countdown-digits-second seconds"
+						  aria-labelledby="second-countdown-<?php echo esc_html( $id ); ?>">00</span>
 					<?php if ( ! empty( $settings['countdown_label_seconds'] ) ) { ?>
 						<span <?php $this->print_render_attribute_string( 'countdown_label_seconds' ); ?>><?php absp_render_title( $settings['countdown_label_seconds'] ); ?></span>
 					<?php } ?>
@@ -876,15 +892,16 @@ class Absoluteaddons_Style_Countdown extends Absp_Widget {
 			</div>
 		</div>
 		<?php if ( 'yes' === $settings['countdown_separator'] ) { ?>
-			<div class="absp-countdown-separator"><?php echo esc_html($settings['countdown_separator_input']); ?></div>
+			<div
+				class="absp-countdown-separator"><?php echo esc_html( $settings['countdown_separator_input'] ); ?></div>
 			<?php
 		}
 	}
 
-	protected function render_digits( $settings, $separator = true ) {
-		$this->render_days( $settings, $separator );
-		$this->render_hours( $settings, $separator );
-		$this->render_minutes( $settings, $separator );
-		$this->render_seconds( $settings, $separator );
+	protected function render_digits( $settings, $separator = true, $id = '' ) {
+		$this->render_days( $settings, $separator, $id );
+		$this->render_hours( $settings, $separator, $id );
+		$this->render_minutes( $settings, $separator, $id );
+		$this->render_seconds( $settings, $separator, $id );
 	}
 }

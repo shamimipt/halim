@@ -868,7 +868,7 @@
 			$this->add_control(
 				'dot_gaps',
 				[
-					'label'      => esc_html__( 'Dots Gap ', 'absolute-addons' ),
+					'label'      => esc_html__( 'Dots Gap', 'absolute-addons' ),
 					'type'       => Controls_Manager::SLIDER,
 					'size_units' => [ 'px' ],
 					'separator'  => 'before',
@@ -884,7 +884,7 @@
 						'size' => 5,
 					],
 					'selectors'  => [
-						'{{WRAPPER}} .swiper-pagination .swiper-pagination-bullet' => 'margin: 0 {{SIZE}} px !important; ',
+						'{{WRAPPER}} .swiper-pagination .swiper-pagination-bullet' => 'margin: 0 {{SIZE}}px !important;',
 					],
 				]
 			);
@@ -911,7 +911,7 @@
 						'size' => 0,
 					],
 					'selectors'  => [
-						'{{WRAPPER}} .swiper-pagination' => 'left: {{SIZE}}{{UNIT}} !important;transform: translateX(-{{SIZE}}{{UNIT}})',
+						'{{WRAPPER}} .swiper-pagination' => 'left: {{SIZE}}{{UNIT}} !important;',
 					],
 				]
 			);
@@ -921,7 +921,7 @@
 				[
 					'label'      => esc_html__( 'Dot Position Vertically ', 'absolute-addons' ),
 					'type'       => Controls_Manager::SLIDER,
-					'size_units' => [ 'px', '%' ],
+					'size_units' => [ '%' ],
 					'range'      => [
 						'px' => [
 							'min'  => -100,

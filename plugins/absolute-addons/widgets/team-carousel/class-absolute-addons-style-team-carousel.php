@@ -168,7 +168,10 @@ class Absoluteaddons_Style_Team_Carousel extends Absp_Widget {
 		$this->photo_style_controls();
 		$this->name_title_bio_style_controls();
 		$this->social_style_controls();
-		$this->button();
+		if ( absp_has_pro() ) {
+			$this->button();
+		}
+
 	}
 
 	/**
@@ -1371,6 +1374,8 @@ class Absoluteaddons_Style_Team_Carousel extends Absp_Widget {
 
 	protected function render() {
 		$settings = $this->get_settings_for_display();
+//
+
 
 		if ( ! is_array( $settings['team_members'] ) ) {
 			return;

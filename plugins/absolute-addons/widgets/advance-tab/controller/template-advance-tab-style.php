@@ -152,6 +152,9 @@ $this->add_group_control(
 		],
 		'types'          => [ 'classic', 'gradient' ],
 		'selector'       => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a, {{WRAPPER}} .advance-tab-item-five .absp-nav-tab li.is-open::before',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -162,6 +165,9 @@ $this->add_control(
 		'type'      => Controls_Manager::COLOR,
 		'selectors' => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a' => 'color: {{VALUE}}',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );
@@ -216,6 +222,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_box_shadow',
 		'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -225,6 +234,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_border',
 		'label'    => esc_html__( 'Border', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -236,6 +248,9 @@ $this->add_responsive_control(
 		'size_units' => [ 'px', 'em', '%' ],
 		'selectors'  => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );
@@ -270,6 +285,9 @@ $this->start_controls_tab(
 	'advance_tab_hover',
 	[
 		'label' => esc_html__( 'Hover', 'absolute-addons' ),
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -284,6 +302,9 @@ $this->add_group_control(
 		],
 		'types'          => [ 'classic', 'gradient' ],
 		'selector'       => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a:hover',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -294,6 +315,9 @@ $this->add_control(
 		'type'      => Controls_Manager::COLOR,
 		'selectors' => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a:hover' => 'color: {{VALUE}}',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );
@@ -319,6 +343,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_box_shadow_hover',
 		'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a:hover',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -328,6 +355,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_border_hover_hover',
 		'label'    => esc_html__( 'Border', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a:hover',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -339,6 +369,9 @@ $this->add_responsive_control(
 		'size_units' => [ 'px', 'em', '%' ],
 		'selectors'  => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li a:hover' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );
@@ -363,6 +396,9 @@ $this->add_group_control(
 		],
 		'types'          => [ 'classic', 'gradient' ],
 		'selector'       => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a, {{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a::before, {{WRAPPER}} .advance-tab-item-five .absp-nav-tab li.is-open::before',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -373,6 +409,9 @@ $this->add_control(
 		'type'      => Controls_Manager::COLOR,
 		'selectors' => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a' => 'color: {{VALUE}}',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );
@@ -429,6 +468,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_box_shadow_active',
 		'label'    => esc_html__( 'Box Shadow', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -438,6 +480,9 @@ $this->add_group_control(
 		'name'     => 'advance_tab_title_border_active',
 		'label'    => esc_html__( 'Border', 'absolute-addons' ),
 		'selector' => '{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a',
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
+		],
 	]
 );
 
@@ -449,6 +494,9 @@ $this->add_responsive_control(
 		'size_units' => [ 'px', 'em', '%' ],
 		'selectors'  => [
 			'{{WRAPPER}} .absp-advance-tab .absp-tab-container .absp-nav-tab li.is-open a' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+		],
+		'condition' => [
+			'advance_tab!' => [ 'nine' ],
 		],
 	]
 );

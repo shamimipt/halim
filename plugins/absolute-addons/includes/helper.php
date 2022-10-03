@@ -821,6 +821,12 @@ function absp_is_elementor_version( $operator = '<', $version = '3.2.5' ) {
 	return defined('ELEMENTOR_VERSION') && version_compare(ELEMENTOR_VERSION, $version, $operator);
 }
 
+if ( ! function_exists( 'wp_readonly' ) ) {
+	function wp_readonly( $readonly, $current = true, $echo = true ) {
+		return __checked_selected_helper( $readonly, $current, $echo, 'readonly' );
+	}
+}
+
 /**
  *
  */

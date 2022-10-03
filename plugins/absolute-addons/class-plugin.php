@@ -290,6 +290,11 @@ class Plugin {
 				'deps'    => [ 'jquery', 'wp-util', 'swiper-slider' ],
 				'version' => ABSOLUTE_ADDONS_VERSION,
 			],
+			'responsive-menu' => [
+				'src'     => '/assets/dist/js/libraries/responsive-menu',
+				'deps'    => [ 'jquery'],
+				'version' => ABSOLUTE_ADDONS_VERSION,
+			],
 		];
 
 		foreach ( $scripts as $name => $props ) {
