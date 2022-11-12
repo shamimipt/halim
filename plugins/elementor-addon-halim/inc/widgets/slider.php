@@ -200,7 +200,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$this->start_controls_section(
 			'halim_settings',
 			[
-				'label' => esc_html__( 'Slider Settings', 'plugin-name' ),
+				'label' => esc_html__( 'Slider Settings', 'elementor-addon-halim' ),
 				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);

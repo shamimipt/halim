@@ -84,7 +84,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 	 * @return array Widget keywords.
 	 */
 	public function get_keywords() {
-		return [ 'heading', 'head', 'title' ];
+		return [ 'skill', 'faq', 'title' ];
 	}
 
 	/**
@@ -117,7 +117,8 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 		$repeater = new \Elementor\Repeater();
 
 		$repeater->add_control(
-			'list_title', [
+			'list_title',
+            [
 				'label' => esc_html__( 'Title', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
 				'default' => esc_html__( 'Lorem Ipsum is simply' , 'elementor-addon-halim' ),
@@ -126,7 +127,8 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 		);
 
 		$repeater->add_control(
-			'list_content', [
+			'list_content',
+            [
 				'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::WYSIWYG,
 				'default' => esc_html__( 'List Content' , 'elementor-addon-halim' ),
@@ -149,8 +151,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 						'list_title' => esc_html__( 'Lorem Ipsum is simply', 'elementor-addon-halim' ),
 						'list_content' => esc_html__( ' Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.', 'elementor-addon-halim' ),
 					],
-				],
-				'title_field' => '{{{ list_title }}}',
+				]
 			]
 		);
 

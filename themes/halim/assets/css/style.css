@@ -409,6 +409,10 @@ a.box-btn:hover i.fa {
   background-attachment: fixed;
 }
 
+.single-slide, .single-slide .continer, .single-slide .row {
+  height: 100vh;
+}
+
 .slider-area {
   height: 100%;
 }

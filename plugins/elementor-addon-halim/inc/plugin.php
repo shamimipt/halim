@@ -201,7 +201,7 @@ final class Plugin {
 		add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'frontend_styles' ] );
 		add_action( 'elementor/frontend/after_register_scripts', [ $this, 'frontend_scripts' ] );
 		add_action( 'elementor/widgets/register', [ $this, 'register_widgets' ] );
-		add_action( 'elementor/controls/register', [ $this, 'register_controls' ] );
+		//add_action( 'elementor/controls/register', [ $this, 'register_controls' ] );
 		add_action( 'elementor/elements/categories_registered', [$this, 'add_elementor_widget_categories'] );
 
 	}
