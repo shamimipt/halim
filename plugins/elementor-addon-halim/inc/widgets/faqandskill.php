@@ -32,7 +32,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 	 * @return string Widget title.
 	 */
 	public function get_title() {
-		return esc_html__( 'Faq and Skill', 'elementor-oembed-widget' );
+		return esc_html__( 'Faq and Skill', 'elementor-addon-halim' );
 	}
 
 	/**
