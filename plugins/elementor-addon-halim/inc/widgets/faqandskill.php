@@ -97,16 +97,17 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 	 */
 	protected function register_controls() {
 
+        // FAQ Section
 		$this->start_controls_section(
-			'content_section',
+			'faq_section',
 			[
-				'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
+				'label' => esc_html__( 'FAQ Section', 'elementor-addon-halim' ),
 				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
 			]
 		);
 
 		$this->add_control(
-			'heading',
+			'heading_faq',
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
@@ -151,80 +152,137 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 						'list_title' => esc_html__( 'Lorem Ipsum is simply', 'elementor-addon-halim' ),
 						'list_content' => esc_html__( ' Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.', 'elementor-addon-halim' ),
 					],
-				]
+				],
+                'title_field' => '{{{ list_title }}}',
 			]
 		);
 
 		$this->end_controls_section();
 
+        // faq_skill Style
         $this->start_controls_section(
-                'style_section',
-                [
-                    'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
-                    'tab' => \Elementor\Controls_Manager::TAB_STYLE,
-                ]
+            'style_section',
+            [
+                'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
+                'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+            ]
         );
 
-        // faq_skill Style
-		$this->add_control(
-			'heading_style',
-			[
-				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
-				'separator' => 'before',
-			]
-		);
+        $this->add_control(
+            'heading_style',
+            [
+                'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::HEADING,
+                'separator' => 'before',
+            ]
+        );
 
-		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
-			[
-				'name' => 'heading_typography',
-				'selector' => '{{WRAPPER}} .section-title h3',
-			]
-		);
+        $this->add_group_control(
+            \Elementor\Group_Control_Typography::get_type(),
+            [
+                'name' => 'heading_typography',
+                'selector' => '{{WRAPPER}} .section-title h3',
+            ]
+        );
 
-		$this->add_control(
-			'heading_color',
-			[
-				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
-				'selectors' => [
-					'{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
-				],
-				'default' => '#333'
-			]
-		);
-
+        $this->add_control(
+            'heading_color',
+            [
+                'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
+                ],
+                'default' => '#333'
+            ]
+        );
 
         //Description Style
-		$this->add_control(
-			'desc_style',
-			[
-				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
-				'separator' => 'before',
-			]
-		);
+        $this->add_control(
+            'desc_style',
+            [
+                'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::HEADING,
+                'separator' => 'before',
+            ]
+        );
 
-		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
-			[
-				'name' => 'section_desc_typography',
-				'selector' => '{{WRAPPER}} .section-title p',
-			]
-		);
+        $this->add_group_control(
+            \Elementor\Group_Control_Typography::get_type(),
+            [
+                'name' => 'section_desc_typography',
+                'selector' => '{{WRAPPER}} .section-title p',
+            ]
+        );
 
-		$this->add_control(
-			'section_desc_color',
-			[
-				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
-				'selectors' => [
-					'{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
-				],
-				'default' => '#333'
-			]
-		);
+        $this->add_control(
+            'section_desc_color',
+            [
+                'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
+                ],
+                'default' => '#333'
+            ]
+        );
+
+        $this->end_controls_section();
+
+        // Skill Section
+        $this->start_controls_section(
+            'skill_section',
+            [
+                'label' => esc_html__( 'Skill Section', 'elementor-addon-halim' ),
+                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+            ]
+        );
+
+        $this->add_control(
+            'heading_skill',
+            [
+                'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__( 'Our Skills', 'elementor-addon-halim' )
+            ]
+        );
+
+        $repeater = new \Elementor\Repeater();
+
+        $repeater->add_control(
+            'skill_title',
+            [
+                'label' => esc_html__( 'Skill Title', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__( 'HTML5' , 'elementor-addon-halim' ),
+                'label_block' => true,
+            ]
+        );
+
+        $repeater->add_control(
+            'skill_percent',
+            [
+                'label' => esc_html__( 'Skill Percent', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::NUMBER,
+                'default' => 80,
+            ]
+        );
+
+        $this->add_control(
+            'skill_list',
+            [
+                'label' => esc_html__( 'Skills', 'elementor-addon-halim' ),
+                'type' => \Elementor\Controls_Manager::REPEATER,
+                'fields' => $repeater->get_controls(),
+                'default' => [
+                    [
+                        'skill_title' => esc_html__( 'HTML5', 'elementor-addon-halim' ),
+                        'skill_percent' => 80,
+                    ]
+                ],
+                'title_field' => '{{{ skill_title }}}',
+            ]
+        );
 
         $this->end_controls_section();
 
@@ -241,8 +299,11 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 	protected function render() {
 
 		$settings = $this->get_settings_for_display();
-        $heading = $settings['heading'];
+        $heading = $settings['heading_faq'];
 		$reapeter_list = $settings['list'];
+
+        $heading_skill = $settings['heading_skill'];
+        $skill_list = $settings['skill_list'];
 
 		?>
       <!-- Choose Area End -->
@@ -279,24 +340,14 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
                <div class="col-md-6">
                   <div class="skills">
                      <div class="page-title">
-                        <h4>our skills</h4>
+                        <h4><?php echo $heading_skill;?></h4>
                      </div>
+                      <?php foreach ($skill_list as $skill){?>
                      <div class="single-skill">
-                        <h4>html</h4>
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        <h4><?php echo $skill['skill_title']?></h4>
+                        <div class="progress-bar" role="progressbar" style="width: <?php echo $skill['skill_percent'];?>%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><?php echo $skill['skill_percent'];?>%</div>
                      </div>
-                     <div class="single-skill">
-                        <h4>css</h4>
-                        <div class="progress-bar" role="progressbar" style="width: 74%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">74%</div>
-                     </div>
-                     <div class="single-skill">
-                        <h4>photoshop</h4>
-                        <div class="progress-bar" role="progressbar" style="width: 94%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">94%</div>
-                     </div>
-                     <div class="single-skill">
-                        <h4>wordpress</h4>
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                     </div>
+                      <?php } ?>
                   </div>
                </div>
             </div>
