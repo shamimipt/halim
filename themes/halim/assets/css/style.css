@@ -756,7 +756,7 @@ a.box-btn:hover i.fa {
   transition: 0.5s;
   border-bottom: 3px solid transparent;
 }
-.single-service i.fa {
+.single-service i {
   font-size: 30px;
   width: 80px;
   height: 80px;
