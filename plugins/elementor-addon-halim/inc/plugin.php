@@ -237,12 +237,14 @@ final class Plugin {
 		require_once( __DIR__ . '/widgets/faqandskill.php' );
 		require_once( __DIR__ . '/widgets/about.php' );
 		require_once( __DIR__ . '/widgets/services.php' );
+		require_once( __DIR__ . '/widgets/counter.php' );
 
 		$widgets_manager->register( new \Elementor_Heading_Widget() );
 		$widgets_manager->register( new \Elementor_Slider_Widget() );
 		$widgets_manager->register( new \Elementor_faq_skill_Widget() );
 		$widgets_manager->register( new \Elementor_About_Widget() );
 		$widgets_manager->register( new \Elementor_services_Widget() );
+		$widgets_manager->register( new \Elementor_counter_Widget() );
 
 	}
 

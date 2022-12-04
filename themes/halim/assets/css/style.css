@@ -1046,7 +1046,10 @@ a.box-btn:hover i.fa {
   color: #fff;
 }
 /* Counter Area */
-.counter-area .col-md-3 {
+.row.no-space{
+  margin: 0;
+}
+.row.no-space [class*="col-"]{
   padding: 0;
 }
 
