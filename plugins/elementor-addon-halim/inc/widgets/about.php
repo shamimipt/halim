@@ -1,13 +1,18 @@
 <?php
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Typography;
+use Elementor\Widget_Base;
 
 /**
  * Elementor About Widget.
  * @since 1.0.0
  */
-class Elementor_About_Widget extends \Elementor\Widget_Base {
+class Elementor_About_Widget extends Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -101,7 +106,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'content_section',
 			[
 				'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
-				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+				'tab' => Controls_Manager::TAB_CONTENT,
 			]
 		);
 
@@ -109,7 +114,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'heading',
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
 				'default' => esc_html__( 'ABOUT US', 'elementor-addon-halim' ),
 				'description' => esc_html__( 'Add heading text', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add heading text here', 'elementor-addon-halim' ),
@@ -120,7 +125,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'subheading',
 			[
 				'label' => esc_html__( 'who we are?', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'who we are?', 'elementor-addon-halim' ),
                 'description' => esc_html__( 'Add sub heading text here' , 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add sub heading text here', 'elementor-addon-halim' ),
@@ -131,7 +136,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'desc',
 			[
 				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXTAREA,
+				'type' => Controls_Manager::TEXTAREA,
                 'default' => esc_html__( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry.d', 'elementor-addon-halim' ),
                 'description' => esc_html__( 'Add description text here', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add description text here', 'elementor-addon-halim' ),
@@ -144,7 +149,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
                 'style_section',
                 [
                     'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
-                    'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+                    'tab' => Controls_Manager::TAB_STYLE,
                 ]
         );
 
@@ -153,13 +158,13 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'heading_style',
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'heading_typography',
 				'selector' => '{{WRAPPER}} .section-title h3',
@@ -170,7 +175,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'heading_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
 				],
@@ -183,13 +188,13 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'subheading_style',
 			[
 				'label' => esc_html__( 'Sub Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'subheading_typography',
 				'selector' => '{{WRAPPER}} .section-title h3 span',
@@ -200,7 +205,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'subheading_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title h3 span' => 'color: {{VALUE}}',
 				],
@@ -213,13 +218,13 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'desc_style',
 			[
 				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'section_desc_typography',
 				'selector' => '{{WRAPPER}} .section-title p',
@@ -230,7 +235,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'section_desc_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
 				],
@@ -243,7 +248,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'border_style',
 			[
 				'label' => esc_html__( 'Border', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
@@ -252,7 +257,7 @@ class Elementor_About_Widget extends \Elementor\Widget_Base {
 			'section_border_color',
 			[
 				'label' => esc_html__( 'Border Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title::before, .section-title::after' => 'background-color: {{VALUE}}',
 				],

@@ -1,13 +1,19 @@
 <?php
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Typography;
+use Elementor\Repeater;
+use Elementor\Widget_Base;
 
 /**
  * Elementor faq_skill Widget.
  * @since 1.0.0
  */
-class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
+class Elementor_faq_skill_Widget extends Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -102,7 +108,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			'faq_section',
 			[
 				'label' => esc_html__( 'FAQ Section', 'elementor-addon-halim' ),
-				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+				'tab' => Controls_Manager::TAB_CONTENT,
 			]
 		);
 
@@ -110,18 +116,18 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			'heading_faq',
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
 				'default' => esc_html__( 'FAQ', 'elementor-addon-halim' )
 			]
 		);
 
-		$repeater = new \Elementor\Repeater();
+		$repeater = new Repeater();
 
 		$repeater->add_control(
 			'list_title',
             [
 				'label' => esc_html__( 'Title', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
 				'default' => esc_html__( 'Lorem Ipsum is simply' , 'elementor-addon-halim' ),
 				'label_block' => true,
 			]
@@ -131,7 +137,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			'list_content',
             [
 				'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::WYSIWYG,
+				'type' => Controls_Manager::WYSIWYG,
 				'default' => esc_html__( 'List Content' , 'elementor-addon-halim' ),
 				'show_label' => false,
 			]
@@ -141,7 +147,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
 			'list',
 			[
 				'label' => esc_html__( 'Accordion List', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::REPEATER,
+				'type' => Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 				'default' => [
 					[
@@ -164,7 +170,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'style_section',
             [
                 'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
-                'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+                'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
 
@@ -172,13 +178,13 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'heading_style',
             [
                 'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::HEADING,
+                'type' => Controls_Manager::HEADING,
                 'separator' => 'before',
             ]
         );
 
         $this->add_group_control(
-            \Elementor\Group_Control_Typography::get_type(),
+            Group_Control_Typography::get_type(),
             [
                 'name' => 'heading_typography',
                 'selector' => '{{WRAPPER}} .section-title h3',
@@ -189,7 +195,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'heading_color',
             [
                 'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::COLOR,
+                'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
                 ],
@@ -202,13 +208,13 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'desc_style',
             [
                 'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::HEADING,
+                'type' => Controls_Manager::HEADING,
                 'separator' => 'before',
             ]
         );
 
         $this->add_group_control(
-            \Elementor\Group_Control_Typography::get_type(),
+            Group_Control_Typography::get_type(),
             [
                 'name' => 'section_desc_typography',
                 'selector' => '{{WRAPPER}} .section-title p',
@@ -219,7 +225,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'section_desc_color',
             [
                 'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::COLOR,
+                'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
                 ],
@@ -234,7 +240,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'skill_section',
             [
                 'label' => esc_html__( 'Skill Section', 'elementor-addon-halim' ),
-                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+                'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
 
@@ -242,18 +248,18 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'heading_skill',
             [
                 'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::TEXT,
+                'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'Our Skills', 'elementor-addon-halim' )
             ]
         );
 
-        $repeater = new \Elementor\Repeater();
+        $repeater = new Repeater();
 
         $repeater->add_control(
             'skill_title',
             [
                 'label' => esc_html__( 'Skill Title', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::TEXT,
+                'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'HTML5' , 'elementor-addon-halim' ),
                 'label_block' => true,
             ]
@@ -263,7 +269,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'skill_percent',
             [
                 'label' => esc_html__( 'Skill Percent', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::NUMBER,
+                'type' => Controls_Manager::NUMBER,
                 'default' => 80,
             ]
         );
@@ -272,7 +278,7 @@ class Elementor_faq_skill_Widget extends \Elementor\Widget_Base {
             'skill_list',
             [
                 'label' => esc_html__( 'Skills', 'elementor-addon-halim' ),
-                'type' => \Elementor\Controls_Manager::REPEATER,
+                'type' => Controls_Manager::REPEATER,
                 'fields' => $repeater->get_controls(),
                 'default' => [
                     [

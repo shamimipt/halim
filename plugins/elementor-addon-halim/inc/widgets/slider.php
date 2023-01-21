@@ -1,13 +1,19 @@
 <?php
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Typography;
+use Elementor\Utils;
+use Elementor\Widget_Base;
 
 /**
  * Elementor Slider Widget.
  * @since 1.0.0
  */
-	class Elementor_Slider_Widget extends \Elementor\Widget_Base {
+	class Elementor_Slider_Widget extends Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -101,7 +107,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'content_section',
 			[
 				'label' => esc_html__( 'Content', 'elementor-addon-halim' ),
-				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+				'tab' => Controls_Manager::TAB_CONTENT,
 			]
 		);
 
@@ -111,9 +117,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'image',
 			[
 				'label' => esc_html__( 'Choose Image', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::MEDIA,
+				'type' => Controls_Manager::MEDIA,
 				'default' => [
-					'url' => \Elementor\Utils::get_placeholder_image_src(),
+					'url' => Utils::get_placeholder_image_src(),
 				],
 			]
 		);
@@ -122,7 +128,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'title',
 			[
 				'label' => esc_html__( 'Title', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
 				'default' => esc_html__( 'Digital Agency', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add heading text here', 'elementor-addon-halim' ),
 			]
@@ -132,7 +138,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'subtitle',
 			[
 				'label' => esc_html__( 'Sub Title', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'We are advanced batch', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add sub heading text here', 'elementor-addon-halim' ),
 			]
@@ -142,7 +148,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'desc',
 			[
 				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXTAREA,
+				'type' => Controls_Manager::TEXTAREA,
                 'default' => esc_html__( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry.d', 'elementor-addon-halim' ),
 				'placeholder' => esc_html__( 'Add description text here', 'elementor-addon-halim' ),
 			]
@@ -152,7 +158,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'btn_text',
 			[
 				'label' => esc_html__( 'Button Text', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => Controls_Manager::TEXT,
                 'default' => esc_html__( 'Our Projects' ),
 				'placeholder' => esc_html__( 'Add button text here', 'elementor-addon-halim' ),
 			]
@@ -162,7 +168,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'btn_text_link',
 			[
 				'label' => esc_html__( 'Button URL', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::URL,
+				'type' => Controls_Manager::URL,
                 'default' => esc_html__( '#' ),
 				'placeholder' => esc_html__( 'https://example.com', 'elementor-addon-halim' ),
 			]
@@ -172,7 +178,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'slides',
 			[
 				'label' => esc_html__( 'Slides', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::REPEATER,
+				'type' => Controls_Manager::REPEATER,
 				'fields' => $repeater->get_controls(),
 				'default' => [
 					[
@@ -201,14 +207,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'halim_settings',
 			[
 				'label' => esc_html__( 'Slider Settings', 'elementor-addon-halim' ),
-				'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+				'tab' => Controls_Manager::TAB_CONTENT,
 			]
 		);
 		$this->add_control(
 			'silde_show',
 			[
 				'label' => esc_html__( 'Slide to show', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::NUMBER,
+				'type' => Controls_Manager::NUMBER,
 				'min' => 1,
 				'max' => 3,
 				'step' => 1,
@@ -219,7 +225,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'autoplay_condition',
 			[
 				'label' => esc_html__( 'Auto play ?', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'type' => Controls_Manager::SWITCHER,
 				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
 				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
 				'return_value' => 'true',
@@ -230,7 +236,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'loop_condition',
 			[
 				'label' => esc_html__( 'Loop ?', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'type' => Controls_Manager::SWITCHER,
 				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
 				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
 				'return_value' => 'true',
@@ -241,7 +247,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'nav_condition',
 			[
 				'label' => esc_html__( 'Nav ?', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'type' => Controls_Manager::SWITCHER,
 				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
 				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
 				'return_value' => 'true',
@@ -252,7 +258,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'dots_condition',
 			[
 				'label' => esc_html__( 'Dots ?', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::SWITCHER,
+				'type' => Controls_Manager::SWITCHER,
 				'label_on' => esc_html__( 'True', 'elementor-addon-halim' ),
 				'label_off' => esc_html__( 'False', 'elementor-addon-halim' ),
 				'return_value' => 'true',
@@ -263,7 +269,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'smart_speed',
 			[
 				'label' => esc_html__( 'Speed Control', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::NUMBER,
+				'type' => Controls_Manager::NUMBER,
 				'min' => 200,
 				'max' => 1000,
 				'step' => 10,
@@ -277,7 +283,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 'style_section',
                 [
                     'label' => esc_html__( 'Style', 'elementor-addon-halim' ),
-                    'tab' => \Elementor\Controls_Manager::TAB_STYLE,
+                    'tab' => Controls_Manager::TAB_STYLE,
                 ]
         );
 
@@ -285,13 +291,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'heading_style',
 			[
 				'label' => esc_html__( 'Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'heading_typography',
 				'selector' => '{{WRAPPER}} .section-title h3',
@@ -302,7 +308,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'heading_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title h3' => 'color: {{VALUE}}',
 				],
@@ -315,13 +321,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'subheading_style',
 			[
 				'label' => esc_html__( 'Sub Heading', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'subheading_typography',
 				'selector' => '{{WRAPPER}} .section-title h3 span',
@@ -332,7 +338,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'subheading_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title h3 span' => 'color: {{VALUE}}',
 				],
@@ -345,13 +351,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'desc_style',
 			[
 				'label' => esc_html__( 'Description', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
 
 		$this->add_group_control(
-			\Elementor\Group_Control_Typography::get_type(),
+			Group_Control_Typography::get_type(),
 			[
 				'name' => 'section_desc_typography',
 				'selector' => '{{WRAPPER}} .section-title p',
@@ -362,7 +368,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'section_desc_color',
 			[
 				'label' => esc_html__( 'Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title p' => 'color: {{VALUE}}',
 				],
@@ -375,7 +381,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'border_style',
 			[
 				'label' => esc_html__( 'Border', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
+				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
 		);
@@ -384,7 +390,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'section_border_color',
 			[
 				'label' => esc_html__( 'Border Color', 'elementor-addon-halim' ),
-				'type' => \Elementor\Controls_Manager::COLOR,
+				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .section-title::before, .section-title::after' => 'background-color: {{VALUE}}',
 				],
