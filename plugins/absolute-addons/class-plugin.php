@@ -1,5 +1,5 @@
 <?php
-/**
+/**ri
  * Include files for Elementor widgets
  *
  * @package AbsoluteAddons
